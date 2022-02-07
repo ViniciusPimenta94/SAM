@@ -1,0 +1,1228 @@
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:8080
+INFO:root:[Errno 2] No such file or directory: 'C:\\Users\\Victor Magal\\Desktop\\SAM\\topology_files\\2bad18145a2f702371d0f826decebb26.raven-topology'
+DEBUG:root:('Failed to retrieve database topology from all known nodes', [('http://localhost:8080', ConnectionError(MaxRetryError("HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: /topology?name=PyRavenDB (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000014415F48C40>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente'))")))])
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:8080
+INFO:root:[Errno 2] No such file or directory: 'C:\\Users\\Victor Magal\\Desktop\\SAM\\topology_files\\2bad18145a2f702371d0f826decebb26.raven-topology'
+DEBUG:root:('Failed to retrieve database topology from all known nodes', [('http://localhost:8080', ConnectionError(MaxRetryError("HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: /topology?name=PyRavenDB (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000014416264370>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente'))")))])
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:8080
+INFO:root:[Errno 2] No such file or directory: 'C:\\Users\\Victor Magal\\Desktop\\SAM\\topology_files\\2bad18145a2f702371d0f826decebb26.raven-topology'
+DEBUG:root:('Failed to retrieve database topology from all known nodes', [('http://localhost:8080', ConnectionError(MaxRetryError("HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: /topology?name=PyRavenDB (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001441626E6D0>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente'))")))])
+INFO:root:[Errno 2] No such file or directory: 'C:\\Users\\Victor Magal\\Desktop\\SAM\\topology_files\\d73913106307a03113fa0490d5b19d25.raven-topology'
+INFO:root:[Errno 2] No such file or directory: 'C:\\Users\\Victor Magal\\Desktop\\SAM\\topology_files\\1c2acefe19e03a18ba2a99cb7aba3147.raven-topology'
+INFO:root:[Errno 2] No such file or directory: 'C:\\Users\\Victor Magal\\Desktop\\SAM\\topology_files\\a143ae7e9b045549f1b11a77d4a16614.raven-topology'
+DEBUG:root:('Failed to retrieve database topology from all known nodes', [('https://a.prod.roll.ravendb.cloud', OSError('Could not find the TLS key file, invalid path: C:/Users\\Victor Magal/Downloads/Raven/victormagalhaes.client.certificate.key')), ('https://b.prod.roll.ravendb.cloud', OSError('Could not find the TLS key file, invalid path: C:/Users\\Victor Magal/Downloads/Raven/victormagalhaes.client.certificate.key')), ('https://c.prod.roll.ravendb.cloud', OSError('Could not find the TLS key file, invalid path: C:/Users\\Victor Magal/Downloads/Raven/victormagalhaes.client.certificate.key'))])
+INFO:root:[Errno 2] No such file or directory: 'C:\\Users\\Victor Magal\\Desktop\\SAM\\topology_files\\d73913106307a03113fa0490d5b19d25.raven-topology'
+INFO:root:[Errno 2] No such file or directory: 'C:\\Users\\Victor Magal\\Desktop\\SAM\\topology_files\\1c2acefe19e03a18ba2a99cb7aba3147.raven-topology'
+INFO:root:[Errno 2] No such file or directory: 'C:\\Users\\Victor Magal\\Desktop\\SAM\\topology_files\\a143ae7e9b045549f1b11a77d4a16614.raven-topology'
+DEBUG:root:('Failed to retrieve database topology from all known nodes', [('https://a.prod.roll.ravendb.cloud', OSError('Could not find the TLS key file, invalid path: C:/Users/Victor Magal/Downloads/Raven/victormagalhaes.client.certificate.key')), ('https://b.prod.roll.ravendb.cloud', OSError('Could not find the TLS key file, invalid path: C:/Users/Victor Magal/Downloads/Raven/victormagalhaes.client.certificate.key')), ('https://c.prod.roll.ravendb.cloud', OSError('Could not find the TLS key file, invalid path: C:/Users/Victor Magal/Downloads/Raven/victormagalhaes.client.certificate.key'))])
+INFO:root:[Errno 2] No such file or directory: 'C:\\Users\\Victor Magal\\Desktop\\SAM\\topology_files\\d73913106307a03113fa0490d5b19d25.raven-topology'
+INFO:root:[Errno 2] No such file or directory: 'C:\\Users\\Victor Magal\\Desktop\\SAM\\topology_files\\1c2acefe19e03a18ba2a99cb7aba3147.raven-topology'
+INFO:root:[Errno 2] No such file or directory: 'C:\\Users\\Victor Magal\\Desktop\\SAM\\topology_files\\a143ae7e9b045549f1b11a77d4a16614.raven-topology'
+DEBUG:root:('Failed to retrieve database topology from all known nodes', [('https://a.prod.roll.ravendb.cloud', OSError('Could not find the TLS certificate file, invalid path: C:/Users/Victor Magal/Downloads/Raven/victormagalhaes.client.certificate.crt')), ('https://b.prod.roll.ravendb.cloud', OSError('Could not find the TLS certificate file, invalid path: C:/Users/Victor Magal/Downloads/Raven/victormagalhaes.client.certificate.crt')), ('https://c.prod.roll.ravendb.cloud', OSError('Could not find the TLS certificate file, invalid path: C:/Users/Victor Magal/Downloads/Raven/victormagalhaes.client.certificate.crt'))])
+INFO:root:[Errno 2] No such file or directory: 'C:\\Users\\Victor Magal\\Desktop\\SAM\\topology_files\\92a8c46802110c0b721c52be6a053c5c.raven-topology'
+DEBUG:root:('Failed to retrieve database topology from all known nodes', [('https://a.rdbguiando.ravendb.community/studio/index.html', OSError('Could not find the TLS certificate file, invalid path: C:/Users/Victor Magal/Downloads/Raven/victormagalhaes.client.certificate.crt'))])
+INFO:root:[Errno 2] No such file or directory: 'C:\\Users\\Victor Magal\\Desktop\\SAM\\topology_files\\2bbc08448306838ff459c632eaea170c.raven-topology'
+DEBUG:root:('Failed to retrieve database topology from all known nodes', [('https://a.rdbguiando.roll.ravendb.cloud', OSError('Could not find the TLS key file, invalid path: C:/Users/Victor Magal/Downloads/Raven/victormagalhaes.client.certificate.key'))])
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:8080
+INFO:root:[Errno 2] No such file or directory: 'C:\\Users\\Victor Magal\\Desktop\\SAM\\topology_files\\2bad18145a2f702371d0f826decebb26.raven-topology'
+DEBUG:root:('Failed to retrieve database topology from all known nodes', [('http://localhost:8080', ConnectionError(MaxRetryError("HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: /topology?name=PyRavenDB (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000144163032E0>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente'))")))])
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.rdbguiando.ravendb.community:443
+DEBUG:urllib3.connectionpool:https://a.rdbguiando.ravendb.community:443 "GET /studio/index.html/topology?name=PyRavenDB HTTP/1.1" 400 None
+DEBUG:root:Raven.Client.Exceptions.Routing.RouteNotFoundException: There is no handler for path: GET /studio/index.html/topology?name=PyRavenDB
+   at Raven.Server.Routing.RequestRouter.HandlePath(RequestHandlerContext reqCtx) in C:\Builds\RavenDB-Stable-5.2\52001\src\Raven.Server\Routing\RequestRouter.cs:line 356
+   at Raven.Server.RavenServerStartup.RequestHandler(HttpContext context) in C:\Builds\RavenDB-Stable-5.2\52001\src\Raven.Server\RavenServerStartup.cs:line 239
+DEBUG:root:'NoneType' object is not subscriptable
+INFO:root:[Errno 2] No such file or directory: 'C:\\Users\\Victor Magal\\Desktop\\SAM\\topology_files\\be8f14636c85b5f747a92906ee6f0ca3.raven-topology'
+DEBUG:root:('Failed to retrieve database topology from all known nodes', [('https://a.rdbguiando.ravendb.cloud', OSError('Could not find the TLS certificate file, invalid path: C:/Users/Victor Magal/Downloads/Raven/cert.crt'))])
+INFO:root:[Errno 2] No such file or directory: 'C:\\Users\\Victor Magal\\Desktop\\SAM\\topology_files\\be8f14636c85b5f747a92906ee6f0ca3.raven-topology'
+DEBUG:root:('Failed to retrieve database topology from all known nodes', [('https://a.rdbguiando.ravendb.cloud', OSError('Could not find the TLS certificate file, invalid path: C:/Users/Victor Magal/Downloads/Raven/cert.crt'))])
+INFO:root:[Errno 2] No such file or directory: 'C:\\Users\\Victor Magal\\Desktop\\SAM\\topology_files\\be8f14636c85b5f747a92906ee6f0ca3.raven-topology'
+DEBUG:root:('Failed to retrieve database topology from all known nodes', [('https://a.rdbguiando.ravendb.cloud', OSError('Could not find the TLS certificate file, invalid path: C:/Users/Victor Magal/Downloads/Raven/victormagalhaes.client.certificate.crt'))])
+INFO:root:[Errno 2] No such file or directory: 'C:\\Users\\Victor Magal\\Desktop\\SAM\\topology_files\\be8f14636c85b5f747a92906ee6f0ca3.raven-topology'
+DEBUG:root:('Failed to retrieve database topology from all known nodes', [('https://a.rdbguiando.ravendb.cloud', OSError('Could not find the TLS key file, invalid path: C:/Users/Victor Magal/Downloads/Raven/victormagalhaes.client.certificate.key'))])
+INFO:root:[Errno 2] No such file or directory: 'C:\\Users\\Victor Magal\\Desktop\\SAM\\topology_files\\be8f14636c85b5f747a92906ee6f0ca3.raven-topology'
+DEBUG:root:('Failed to retrieve database topology from all known nodes', [('https://a.rdbguiando.ravendb.cloud', OSError('Could not find the TLS key file, invalid path: C:/Users/Victor Magal/Downloads/Raven/victormagalhaes.client.certificate.key'))])
+DEBUG:PyQt5.uic.uiparser:UI version is 4.0
+DEBUG:PyQt5.uic.uiparser:uiname is SAM
+DEBUG:PyQt5.uic.uiparser:toplevel widget is QMainWindow
+DEBUG:PyQt5.uic.properties:setting property enabled
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property windowTitle
+DEBUG:PyQt5.uic.properties:setting property toolTip
+DEBUG:PyQt5.uic.properties:setting property statusTip
+DEBUG:PyQt5.uic.properties:setting property layoutDirection
+DEBUG:PyQt5.uic.uiparser:push QMainWindow SAM
+DEBUG:PyQt5.uic.uiparser:push QWidget centralwidget
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property pixmap
+DEBUG:PyQt5.uic.uiparser:push QLabel label
+DEBUG:PyQt5.uic.uiparser:pop widget QLabel label
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x0000014416811AF0>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property pixmap
+DEBUG:PyQt5.uic.uiparser:push QLabel label_2
+DEBUG:PyQt5.uic.uiparser:pop widget QLabel label_2
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x0000014416811AF0>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.uiparser:push QPushButton pushButton
+DEBUG:PyQt5.uic.uiparser:pop widget QPushButton pushButton
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x0000014416811AF0>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.uiparser:push QPushButton pushButton_4
+DEBUG:PyQt5.uic.uiparser:pop widget QPushButton pushButton_4
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x0000014416811AF0>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property iconSize
+DEBUG:PyQt5.uic.uiparser:push QCheckBox checkBox
+DEBUG:PyQt5.uic.uiparser:pop widget QCheckBox checkBox
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x0000014416811AF0>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property alignment
+DEBUG:PyQt5.uic.uiparser:push QLineEdit lineEdit
+DEBUG:PyQt5.uic.uiparser:pop widget QLineEdit lineEdit
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x0000014416811AF0>
+DEBUG:PyQt5.uic.uiparser:pop widget QWidget centralwidget
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x0000014416802DC0>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.uiparser:push QMenuBar menubar
+DEBUG:PyQt5.uic.uiparser:pop widget QMenuBar menubar
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x0000014416802DC0>
+DEBUG:PyQt5.uic.uiparser:push QStatusBar statusbar
+DEBUG:PyQt5.uic.uiparser:pop widget QStatusBar statusbar
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x0000014416802DC0>
+DEBUG:PyQt5.uic.uiparser:pop widget QMainWindow SAM
+DEBUG:PyQt5.uic.uiparser:new topwidget None
+DEBUG:PyQt5.uic.uiparser:UI version is 4.0
+DEBUG:PyQt5.uic.uiparser:uiname is SAM
+DEBUG:PyQt5.uic.uiparser:toplevel widget is QMainWindow
+DEBUG:PyQt5.uic.properties:setting property enabled
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property windowTitle
+DEBUG:PyQt5.uic.properties:setting property toolTip
+DEBUG:PyQt5.uic.properties:setting property statusTip
+DEBUG:PyQt5.uic.properties:setting property layoutDirection
+DEBUG:PyQt5.uic.uiparser:push QMainWindow SAM
+DEBUG:PyQt5.uic.uiparser:push QWidget centralwidget
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property pixmap
+DEBUG:PyQt5.uic.uiparser:push QLabel label
+DEBUG:PyQt5.uic.uiparser:pop widget QLabel label
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x00000144170FE1F0>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property pixmap
+DEBUG:PyQt5.uic.uiparser:push QLabel label_2
+DEBUG:PyQt5.uic.uiparser:pop widget QLabel label_2
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x00000144170FE1F0>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.uiparser:push QPushButton pushButton
+DEBUG:PyQt5.uic.uiparser:pop widget QPushButton pushButton
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x00000144170FE1F0>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.uiparser:push QPushButton pushButton_4
+DEBUG:PyQt5.uic.uiparser:pop widget QPushButton pushButton_4
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x00000144170FE1F0>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property iconSize
+DEBUG:PyQt5.uic.uiparser:push QCheckBox checkBox
+DEBUG:PyQt5.uic.uiparser:pop widget QCheckBox checkBox
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x00000144170FE1F0>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property alignment
+DEBUG:PyQt5.uic.uiparser:push QLineEdit lineEdit
+DEBUG:PyQt5.uic.uiparser:pop widget QLineEdit lineEdit
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x00000144170FE1F0>
+DEBUG:PyQt5.uic.uiparser:pop widget QWidget centralwidget
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x00000144170FE0D0>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.uiparser:push QMenuBar menubar
+DEBUG:PyQt5.uic.uiparser:pop widget QMenuBar menubar
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x00000144170FE0D0>
+DEBUG:PyQt5.uic.uiparser:push QStatusBar statusbar
+DEBUG:PyQt5.uic.uiparser:pop widget QStatusBar statusbar
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x00000144170FE0D0>
+DEBUG:PyQt5.uic.uiparser:pop widget QMainWindow SAM
+DEBUG:PyQt5.uic.uiparser:new topwidget None
+DEBUG:PyQt5.uic.uiparser:UI version is 4.0
+DEBUG:PyQt5.uic.uiparser:uiname is SAM
+DEBUG:PyQt5.uic.uiparser:toplevel widget is QMainWindow
+DEBUG:PyQt5.uic.properties:setting property enabled
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property windowTitle
+DEBUG:PyQt5.uic.properties:setting property toolTip
+DEBUG:PyQt5.uic.properties:setting property statusTip
+DEBUG:PyQt5.uic.properties:setting property layoutDirection
+DEBUG:PyQt5.uic.uiparser:push QMainWindow SAM
+DEBUG:PyQt5.uic.uiparser:push QWidget centralwidget
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property pixmap
+DEBUG:PyQt5.uic.uiparser:push QLabel label
+DEBUG:PyQt5.uic.uiparser:pop widget QLabel label
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x0000014423AA6D30>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property pixmap
+DEBUG:PyQt5.uic.uiparser:push QLabel label_2
+DEBUG:PyQt5.uic.uiparser:pop widget QLabel label_2
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x0000014423AA6D30>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.uiparser:push QPushButton pushButton
+DEBUG:PyQt5.uic.uiparser:pop widget QPushButton pushButton
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x0000014423AA6D30>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.uiparser:push QPushButton pushButton_4
+DEBUG:PyQt5.uic.uiparser:pop widget QPushButton pushButton_4
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x0000014423AA6D30>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property iconSize
+DEBUG:PyQt5.uic.uiparser:push QCheckBox checkBox
+DEBUG:PyQt5.uic.uiparser:pop widget QCheckBox checkBox
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x0000014423AA6D30>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property alignment
+DEBUG:PyQt5.uic.uiparser:push QLineEdit lineEdit
+DEBUG:PyQt5.uic.uiparser:pop widget QLineEdit lineEdit
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x0000014423AA6D30>
+DEBUG:PyQt5.uic.uiparser:pop widget QWidget centralwidget
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x0000014423AA6C10>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.uiparser:push QMenuBar menubar
+DEBUG:PyQt5.uic.uiparser:pop widget QMenuBar menubar
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x0000014423AA6C10>
+DEBUG:PyQt5.uic.uiparser:push QStatusBar statusbar
+DEBUG:PyQt5.uic.uiparser:pop widget QStatusBar statusbar
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x0000014423AA6C10>
+DEBUG:PyQt5.uic.uiparser:pop widget QMainWindow SAM
+DEBUG:PyQt5.uic.uiparser:new topwidget None
+DEBUG:PyQt5.uic.uiparser:UI version is 4.0
+DEBUG:PyQt5.uic.uiparser:uiname is SAM
+DEBUG:PyQt5.uic.uiparser:toplevel widget is QMainWindow
+DEBUG:PyQt5.uic.properties:setting property enabled
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property windowTitle
+DEBUG:PyQt5.uic.properties:setting property toolTip
+DEBUG:PyQt5.uic.properties:setting property statusTip
+DEBUG:PyQt5.uic.properties:setting property layoutDirection
+DEBUG:PyQt5.uic.uiparser:push QMainWindow SAM
+DEBUG:PyQt5.uic.uiparser:push QWidget centralwidget
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property pixmap
+DEBUG:PyQt5.uic.uiparser:push QLabel label
+DEBUG:PyQt5.uic.uiparser:pop widget QLabel label
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x000001442B08D310>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property pixmap
+DEBUG:PyQt5.uic.uiparser:push QLabel label_2
+DEBUG:PyQt5.uic.uiparser:pop widget QLabel label_2
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x000001442B08D310>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.uiparser:push QPushButton pushButton
+DEBUG:PyQt5.uic.uiparser:pop widget QPushButton pushButton
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x000001442B08D310>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.uiparser:push QPushButton pushButton_4
+DEBUG:PyQt5.uic.uiparser:pop widget QPushButton pushButton_4
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x000001442B08D310>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property iconSize
+DEBUG:PyQt5.uic.uiparser:push QCheckBox checkBox
+DEBUG:PyQt5.uic.uiparser:pop widget QCheckBox checkBox
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x000001442B08D310>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property alignment
+DEBUG:PyQt5.uic.uiparser:push QLineEdit lineEdit
+DEBUG:PyQt5.uic.uiparser:pop widget QLineEdit lineEdit
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x000001442B08D310>
+DEBUG:PyQt5.uic.uiparser:pop widget QWidget centralwidget
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x000001442B08D1F0>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.uiparser:push QMenuBar menubar
+DEBUG:PyQt5.uic.uiparser:pop widget QMenuBar menubar
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x000001442B08D1F0>
+DEBUG:PyQt5.uic.uiparser:push QStatusBar statusbar
+DEBUG:PyQt5.uic.uiparser:pop widget QStatusBar statusbar
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x000001442B08D1F0>
+DEBUG:PyQt5.uic.uiparser:pop widget QMainWindow SAM
+DEBUG:PyQt5.uic.uiparser:new topwidget None
+DEBUG:PyQt5.uic.uiparser:UI version is 4.0
+DEBUG:PyQt5.uic.uiparser:uiname is SAM
+DEBUG:PyQt5.uic.uiparser:toplevel widget is QMainWindow
+DEBUG:PyQt5.uic.properties:setting property enabled
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property windowTitle
+DEBUG:PyQt5.uic.properties:setting property toolTip
+DEBUG:PyQt5.uic.properties:setting property statusTip
+DEBUG:PyQt5.uic.properties:setting property layoutDirection
+DEBUG:PyQt5.uic.uiparser:push QMainWindow SAM
+DEBUG:PyQt5.uic.uiparser:push QWidget centralwidget
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property pixmap
+DEBUG:PyQt5.uic.uiparser:push QLabel label
+DEBUG:PyQt5.uic.uiparser:pop widget QLabel label
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x000001441F4AD430>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property pixmap
+DEBUG:PyQt5.uic.uiparser:push QLabel label_2
+DEBUG:PyQt5.uic.uiparser:pop widget QLabel label_2
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x000001441F4AD430>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.uiparser:push QPushButton pushButton
+DEBUG:PyQt5.uic.uiparser:pop widget QPushButton pushButton
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x000001441F4AD430>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.uiparser:push QPushButton pushButton_4
+DEBUG:PyQt5.uic.uiparser:pop widget QPushButton pushButton_4
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x000001441F4AD430>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property iconSize
+DEBUG:PyQt5.uic.uiparser:push QCheckBox checkBox
+DEBUG:PyQt5.uic.uiparser:pop widget QCheckBox checkBox
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x000001441F4AD430>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property alignment
+DEBUG:PyQt5.uic.uiparser:push QLineEdit lineEdit
+DEBUG:PyQt5.uic.uiparser:pop widget QLineEdit lineEdit
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x000001441F4AD430>
+DEBUG:PyQt5.uic.uiparser:pop widget QWidget centralwidget
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x000001441F4AD310>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.uiparser:push QMenuBar menubar
+DEBUG:PyQt5.uic.uiparser:pop widget QMenuBar menubar
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x000001441F4AD310>
+DEBUG:PyQt5.uic.uiparser:push QStatusBar statusbar
+DEBUG:PyQt5.uic.uiparser:pop widget QStatusBar statusbar
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x000001441F4AD310>
+DEBUG:PyQt5.uic.uiparser:pop widget QMainWindow SAM
+DEBUG:PyQt5.uic.uiparser:new topwidget None
+DEBUG:PyQt5.uic.uiparser:UI version is 4.0
+DEBUG:PyQt5.uic.uiparser:uiname is SAM
+DEBUG:PyQt5.uic.uiparser:toplevel widget is QMainWindow
+DEBUG:PyQt5.uic.properties:setting property enabled
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property windowTitle
+DEBUG:PyQt5.uic.properties:setting property toolTip
+DEBUG:PyQt5.uic.properties:setting property statusTip
+DEBUG:PyQt5.uic.properties:setting property layoutDirection
+DEBUG:PyQt5.uic.uiparser:push QMainWindow SAM
+DEBUG:PyQt5.uic.uiparser:push QWidget centralwidget
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property pixmap
+DEBUG:PyQt5.uic.uiparser:push QLabel label
+DEBUG:PyQt5.uic.uiparser:pop widget QLabel label
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x00000144162EDAF0>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property pixmap
+DEBUG:PyQt5.uic.uiparser:push QLabel label_2
+DEBUG:PyQt5.uic.uiparser:pop widget QLabel label_2
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x00000144162EDAF0>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.uiparser:push QPushButton pushButton
+DEBUG:PyQt5.uic.uiparser:pop widget QPushButton pushButton
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x00000144162EDAF0>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.uiparser:push QPushButton pushButton_4
+DEBUG:PyQt5.uic.uiparser:pop widget QPushButton pushButton_4
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x00000144162EDAF0>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property iconSize
+DEBUG:PyQt5.uic.uiparser:push QCheckBox checkBox
+DEBUG:PyQt5.uic.uiparser:pop widget QCheckBox checkBox
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x00000144162EDAF0>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property alignment
+DEBUG:PyQt5.uic.uiparser:push QLineEdit lineEdit
+DEBUG:PyQt5.uic.uiparser:pop widget QLineEdit lineEdit
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x00000144162EDAF0>
+DEBUG:PyQt5.uic.uiparser:pop widget QWidget centralwidget
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x00000144170EAAF0>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.uiparser:push QMenuBar menubar
+DEBUG:PyQt5.uic.uiparser:pop widget QMenuBar menubar
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x00000144170EAAF0>
+DEBUG:PyQt5.uic.uiparser:push QStatusBar statusbar
+DEBUG:PyQt5.uic.uiparser:pop widget QStatusBar statusbar
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x00000144170EAAF0>
+DEBUG:PyQt5.uic.uiparser:pop widget QMainWindow SAM
+DEBUG:PyQt5.uic.uiparser:new topwidget None
+DEBUG:PyQt5.uic.uiparser:UI version is 4.0
+DEBUG:PyQt5.uic.uiparser:uiname is SAM
+DEBUG:PyQt5.uic.uiparser:toplevel widget is QMainWindow
+DEBUG:PyQt5.uic.properties:setting property enabled
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property windowTitle
+DEBUG:PyQt5.uic.properties:setting property toolTip
+DEBUG:PyQt5.uic.properties:setting property statusTip
+DEBUG:PyQt5.uic.properties:setting property layoutDirection
+DEBUG:PyQt5.uic.uiparser:push QMainWindow SAM
+DEBUG:PyQt5.uic.uiparser:push QWidget centralwidget
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property pixmap
+DEBUG:PyQt5.uic.uiparser:push QLabel label
+DEBUG:PyQt5.uic.uiparser:pop widget QLabel label
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x00000144170FE820>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property pixmap
+DEBUG:PyQt5.uic.uiparser:push QLabel label_2
+DEBUG:PyQt5.uic.uiparser:pop widget QLabel label_2
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x00000144170FE820>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.uiparser:push QPushButton pushButton
+DEBUG:PyQt5.uic.uiparser:pop widget QPushButton pushButton
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x00000144170FE820>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.uiparser:push QPushButton pushButton_4
+DEBUG:PyQt5.uic.uiparser:pop widget QPushButton pushButton_4
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x00000144170FE820>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property iconSize
+DEBUG:PyQt5.uic.uiparser:push QCheckBox checkBox
+DEBUG:PyQt5.uic.uiparser:pop widget QCheckBox checkBox
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x00000144170FE820>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property alignment
+DEBUG:PyQt5.uic.uiparser:push QLineEdit lineEdit
+DEBUG:PyQt5.uic.uiparser:pop widget QLineEdit lineEdit
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x00000144170FE820>
+DEBUG:PyQt5.uic.uiparser:pop widget QWidget centralwidget
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x00000144170FE700>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.uiparser:push QMenuBar menubar
+DEBUG:PyQt5.uic.uiparser:pop widget QMenuBar menubar
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x00000144170FE700>
+DEBUG:PyQt5.uic.uiparser:push QStatusBar statusbar
+DEBUG:PyQt5.uic.uiparser:pop widget QStatusBar statusbar
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x00000144170FE700>
+DEBUG:PyQt5.uic.uiparser:pop widget QMainWindow SAM
+DEBUG:PyQt5.uic.uiparser:new topwidget None
+DEBUG:PyQt5.uic.uiparser:UI version is 4.0
+DEBUG:PyQt5.uic.uiparser:uiname is SAM
+DEBUG:PyQt5.uic.uiparser:toplevel widget is QMainWindow
+DEBUG:PyQt5.uic.properties:setting property enabled
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property windowTitle
+DEBUG:PyQt5.uic.properties:setting property toolTip
+DEBUG:PyQt5.uic.properties:setting property statusTip
+DEBUG:PyQt5.uic.properties:setting property layoutDirection
+DEBUG:PyQt5.uic.uiparser:push QMainWindow SAM
+DEBUG:PyQt5.uic.uiparser:push QWidget centralwidget
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property pixmap
+DEBUG:PyQt5.uic.uiparser:push QLabel label
+DEBUG:PyQt5.uic.uiparser:pop widget QLabel label
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x000001442A9C14C0>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property pixmap
+DEBUG:PyQt5.uic.uiparser:push QLabel label_2
+DEBUG:PyQt5.uic.uiparser:pop widget QLabel label_2
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x000001442A9C14C0>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.uiparser:push QPushButton pushButton
+DEBUG:PyQt5.uic.uiparser:pop widget QPushButton pushButton
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x000001442A9C14C0>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.uiparser:push QPushButton pushButton_4
+DEBUG:PyQt5.uic.uiparser:pop widget QPushButton pushButton_4
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x000001442A9C14C0>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property iconSize
+DEBUG:PyQt5.uic.uiparser:push QCheckBox checkBox
+DEBUG:PyQt5.uic.uiparser:pop widget QCheckBox checkBox
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x000001442A9C14C0>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property alignment
+DEBUG:PyQt5.uic.uiparser:push QLineEdit lineEdit
+DEBUG:PyQt5.uic.uiparser:pop widget QLineEdit lineEdit
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x000001442A9C14C0>
+DEBUG:PyQt5.uic.uiparser:pop widget QWidget centralwidget
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x000001441D68D940>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.uiparser:push QMenuBar menubar
+DEBUG:PyQt5.uic.uiparser:pop widget QMenuBar menubar
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x000001441D68D940>
+DEBUG:PyQt5.uic.uiparser:push QStatusBar statusbar
+DEBUG:PyQt5.uic.uiparser:pop widget QStatusBar statusbar
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x000001441D68D940>
+DEBUG:PyQt5.uic.uiparser:pop widget QMainWindow SAM
+DEBUG:PyQt5.uic.uiparser:new topwidget None
+DEBUG:PyQt5.uic.uiparser:UI version is 4.0
+DEBUG:PyQt5.uic.uiparser:uiname is SAM
+DEBUG:PyQt5.uic.uiparser:toplevel widget is QMainWindow
+DEBUG:PyQt5.uic.properties:setting property enabled
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property windowTitle
+DEBUG:PyQt5.uic.properties:setting property toolTip
+DEBUG:PyQt5.uic.properties:setting property statusTip
+DEBUG:PyQt5.uic.properties:setting property layoutDirection
+DEBUG:PyQt5.uic.uiparser:push QMainWindow SAM
+DEBUG:PyQt5.uic.uiparser:push QWidget centralwidget
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property pixmap
+DEBUG:PyQt5.uic.uiparser:push QLabel label
+DEBUG:PyQt5.uic.uiparser:pop widget QLabel label
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x000001441D583B80>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property pixmap
+DEBUG:PyQt5.uic.uiparser:push QLabel label_2
+DEBUG:PyQt5.uic.uiparser:pop widget QLabel label_2
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x000001441D583B80>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.uiparser:push QPushButton pushButton
+DEBUG:PyQt5.uic.uiparser:pop widget QPushButton pushButton
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x000001441D583B80>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.uiparser:push QPushButton pushButton_4
+DEBUG:PyQt5.uic.uiparser:pop widget QPushButton pushButton_4
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x000001441D583B80>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property iconSize
+DEBUG:PyQt5.uic.uiparser:push QCheckBox checkBox
+DEBUG:PyQt5.uic.uiparser:pop widget QCheckBox checkBox
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x000001441D583B80>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property alignment
+DEBUG:PyQt5.uic.uiparser:push QLineEdit lineEdit
+DEBUG:PyQt5.uic.uiparser:pop widget QLineEdit lineEdit
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x000001441D583B80>
+DEBUG:PyQt5.uic.uiparser:pop widget QWidget centralwidget
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x000001441D583A60>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.uiparser:push QMenuBar menubar
+DEBUG:PyQt5.uic.uiparser:pop widget QMenuBar menubar
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x000001441D583A60>
+DEBUG:PyQt5.uic.uiparser:push QStatusBar statusbar
+DEBUG:PyQt5.uic.uiparser:pop widget QStatusBar statusbar
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x000001441D583A60>
+DEBUG:PyQt5.uic.uiparser:pop widget QMainWindow SAM
+DEBUG:PyQt5.uic.uiparser:new topwidget None
+DEBUG:PyQt5.uic.uiparser:UI version is 4.0
+DEBUG:PyQt5.uic.uiparser:uiname is SAM
+DEBUG:PyQt5.uic.uiparser:toplevel widget is QMainWindow
+DEBUG:PyQt5.uic.properties:setting property enabled
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property windowTitle
+DEBUG:PyQt5.uic.properties:setting property toolTip
+DEBUG:PyQt5.uic.properties:setting property statusTip
+DEBUG:PyQt5.uic.properties:setting property layoutDirection
+DEBUG:PyQt5.uic.uiparser:push QMainWindow SAM
+DEBUG:PyQt5.uic.uiparser:push QWidget centralwidget
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property pixmap
+DEBUG:PyQt5.uic.uiparser:push QLabel label
+DEBUG:PyQt5.uic.uiparser:pop widget QLabel label
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x000001442395BB80>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property pixmap
+DEBUG:PyQt5.uic.uiparser:push QLabel label_2
+DEBUG:PyQt5.uic.uiparser:pop widget QLabel label_2
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x000001442395BB80>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.uiparser:push QPushButton pushButton
+DEBUG:PyQt5.uic.uiparser:pop widget QPushButton pushButton
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x000001442395BB80>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.uiparser:push QPushButton pushButton_4
+DEBUG:PyQt5.uic.uiparser:pop widget QPushButton pushButton_4
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x000001442395BB80>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property iconSize
+DEBUG:PyQt5.uic.uiparser:push QCheckBox checkBox
+DEBUG:PyQt5.uic.uiparser:pop widget QCheckBox checkBox
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x000001442395BB80>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property alignment
+DEBUG:PyQt5.uic.uiparser:push QLineEdit lineEdit
+DEBUG:PyQt5.uic.uiparser:pop widget QLineEdit lineEdit
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x000001442395BB80>
+DEBUG:PyQt5.uic.uiparser:pop widget QWidget centralwidget
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x000001442395B940>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.uiparser:push QMenuBar menubar
+DEBUG:PyQt5.uic.uiparser:pop widget QMenuBar menubar
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x000001442395B940>
+DEBUG:PyQt5.uic.uiparser:push QStatusBar statusbar
+DEBUG:PyQt5.uic.uiparser:pop widget QStatusBar statusbar
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x000001442395B940>
+DEBUG:PyQt5.uic.uiparser:pop widget QMainWindow SAM
+DEBUG:PyQt5.uic.uiparser:new topwidget None
+DEBUG:PyQt5.uic.uiparser:UI version is 4.0
+DEBUG:PyQt5.uic.uiparser:uiname is SAM
+DEBUG:PyQt5.uic.uiparser:toplevel widget is QMainWindow
+DEBUG:PyQt5.uic.properties:setting property enabled
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property windowTitle
+DEBUG:PyQt5.uic.properties:setting property toolTip
+DEBUG:PyQt5.uic.properties:setting property statusTip
+DEBUG:PyQt5.uic.properties:setting property layoutDirection
+DEBUG:PyQt5.uic.uiparser:push QMainWindow SAM
+DEBUG:PyQt5.uic.uiparser:push QWidget centralwidget
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property pixmap
+DEBUG:PyQt5.uic.uiparser:push QLabel label
+DEBUG:PyQt5.uic.uiparser:pop widget QLabel label
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x000001441F8F6D30>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property pixmap
+DEBUG:PyQt5.uic.uiparser:push QLabel label_2
+DEBUG:PyQt5.uic.uiparser:pop widget QLabel label_2
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x000001441F8F6D30>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.uiparser:push QPushButton pushButton
+DEBUG:PyQt5.uic.uiparser:pop widget QPushButton pushButton
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x000001441F8F6D30>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.uiparser:push QPushButton pushButton_4
+DEBUG:PyQt5.uic.uiparser:pop widget QPushButton pushButton_4
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x000001441F8F6D30>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property iconSize
+DEBUG:PyQt5.uic.uiparser:push QCheckBox checkBox
+DEBUG:PyQt5.uic.uiparser:pop widget QCheckBox checkBox
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x000001441F8F6D30>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property alignment
+DEBUG:PyQt5.uic.uiparser:push QLineEdit lineEdit
+DEBUG:PyQt5.uic.uiparser:pop widget QLineEdit lineEdit
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x000001441F8F6D30>
+DEBUG:PyQt5.uic.uiparser:pop widget QWidget centralwidget
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x000001441F8F6C10>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.uiparser:push QMenuBar menubar
+DEBUG:PyQt5.uic.uiparser:pop widget QMenuBar menubar
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x000001441F8F6C10>
+DEBUG:PyQt5.uic.uiparser:push QStatusBar statusbar
+DEBUG:PyQt5.uic.uiparser:pop widget QStatusBar statusbar
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x000001441F8F6C10>
+DEBUG:PyQt5.uic.uiparser:pop widget QMainWindow SAM
+DEBUG:PyQt5.uic.uiparser:new topwidget None
+DEBUG:PyQt5.uic.uiparser:UI version is 4.0
+DEBUG:PyQt5.uic.uiparser:uiname is SAM
+DEBUG:PyQt5.uic.uiparser:toplevel widget is QMainWindow
+DEBUG:PyQt5.uic.properties:setting property enabled
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property windowTitle
+DEBUG:PyQt5.uic.properties:setting property toolTip
+DEBUG:PyQt5.uic.properties:setting property statusTip
+DEBUG:PyQt5.uic.properties:setting property layoutDirection
+DEBUG:PyQt5.uic.uiparser:push QMainWindow SAM
+DEBUG:PyQt5.uic.uiparser:push QWidget centralwidget
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property pixmap
+DEBUG:PyQt5.uic.uiparser:push QLabel label
+DEBUG:PyQt5.uic.uiparser:pop widget QLabel label
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x0000014427C713A0>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property pixmap
+DEBUG:PyQt5.uic.uiparser:push QLabel label_2
+DEBUG:PyQt5.uic.uiparser:pop widget QLabel label_2
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x0000014427C713A0>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.uiparser:push QPushButton pushButton
+DEBUG:PyQt5.uic.uiparser:pop widget QPushButton pushButton
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x0000014427C713A0>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.uiparser:push QPushButton pushButton_4
+DEBUG:PyQt5.uic.uiparser:pop widget QPushButton pushButton_4
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x0000014427C713A0>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property iconSize
+DEBUG:PyQt5.uic.uiparser:push QCheckBox checkBox
+DEBUG:PyQt5.uic.uiparser:pop widget QCheckBox checkBox
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x0000014427C713A0>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property alignment
+DEBUG:PyQt5.uic.uiparser:push QLineEdit lineEdit
+DEBUG:PyQt5.uic.uiparser:pop widget QLineEdit lineEdit
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x0000014427C713A0>
+DEBUG:PyQt5.uic.uiparser:pop widget QWidget centralwidget
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x0000014427C71280>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.uiparser:push QMenuBar menubar
+DEBUG:PyQt5.uic.uiparser:pop widget QMenuBar menubar
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x0000014427C71280>
+DEBUG:PyQt5.uic.uiparser:push QStatusBar statusbar
+DEBUG:PyQt5.uic.uiparser:pop widget QStatusBar statusbar
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x0000014427C71280>
+DEBUG:PyQt5.uic.uiparser:pop widget QMainWindow SAM
+DEBUG:PyQt5.uic.uiparser:new topwidget None
+DEBUG:PyQt5.uic.uiparser:UI version is 4.0
+DEBUG:PyQt5.uic.uiparser:uiname is SAM
+DEBUG:PyQt5.uic.uiparser:toplevel widget is QMainWindow
+DEBUG:PyQt5.uic.properties:setting property enabled
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property windowTitle
+DEBUG:PyQt5.uic.properties:setting property toolTip
+DEBUG:PyQt5.uic.properties:setting property statusTip
+DEBUG:PyQt5.uic.properties:setting property layoutDirection
+DEBUG:PyQt5.uic.uiparser:push QMainWindow SAM
+DEBUG:PyQt5.uic.uiparser:push QWidget centralwidget
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property pixmap
+DEBUG:PyQt5.uic.uiparser:push QLabel label
+DEBUG:PyQt5.uic.uiparser:pop widget QLabel label
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x000001442B08D700>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property pixmap
+DEBUG:PyQt5.uic.uiparser:push QLabel label_2
+DEBUG:PyQt5.uic.uiparser:pop widget QLabel label_2
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x000001442B08D700>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.uiparser:push QPushButton pushButton
+DEBUG:PyQt5.uic.uiparser:pop widget QPushButton pushButton
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x000001442B08D700>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.uiparser:push QPushButton pushButton_4
+DEBUG:PyQt5.uic.uiparser:pop widget QPushButton pushButton_4
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x000001442B08D700>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property iconSize
+DEBUG:PyQt5.uic.uiparser:push QCheckBox checkBox
+DEBUG:PyQt5.uic.uiparser:pop widget QCheckBox checkBox
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x000001442B08D700>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property alignment
+DEBUG:PyQt5.uic.uiparser:push QLineEdit lineEdit
+DEBUG:PyQt5.uic.uiparser:pop widget QLineEdit lineEdit
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x000001442B08D700>
+DEBUG:PyQt5.uic.uiparser:pop widget QWidget centralwidget
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x000001442B08D160>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.uiparser:push QMenuBar menubar
+DEBUG:PyQt5.uic.uiparser:pop widget QMenuBar menubar
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x000001442B08D160>
+DEBUG:PyQt5.uic.uiparser:push QStatusBar statusbar
+DEBUG:PyQt5.uic.uiparser:pop widget QStatusBar statusbar
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x000001442B08D160>
+DEBUG:PyQt5.uic.uiparser:pop widget QMainWindow SAM
+DEBUG:PyQt5.uic.uiparser:new topwidget None
+DEBUG:PyQt5.uic.uiparser:UI version is 4.0
+DEBUG:PyQt5.uic.uiparser:uiname is SAM
+DEBUG:PyQt5.uic.uiparser:toplevel widget is QMainWindow
+DEBUG:PyQt5.uic.properties:setting property enabled
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property windowTitle
+DEBUG:PyQt5.uic.properties:setting property toolTip
+DEBUG:PyQt5.uic.properties:setting property statusTip
+DEBUG:PyQt5.uic.properties:setting property layoutDirection
+DEBUG:PyQt5.uic.uiparser:push QMainWindow SAM
+DEBUG:PyQt5.uic.uiparser:push QWidget centralwidget
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property pixmap
+DEBUG:PyQt5.uic.uiparser:push QLabel label
+DEBUG:PyQt5.uic.uiparser:pop widget QLabel label
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x0000014423AA6B80>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property pixmap
+DEBUG:PyQt5.uic.uiparser:push QLabel label_2
+DEBUG:PyQt5.uic.uiparser:pop widget QLabel label_2
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x0000014423AA6B80>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.uiparser:push QPushButton pushButton
+DEBUG:PyQt5.uic.uiparser:pop widget QPushButton pushButton
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x0000014423AA6B80>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.uiparser:push QPushButton pushButton_4
+DEBUG:PyQt5.uic.uiparser:pop widget QPushButton pushButton_4
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x0000014423AA6B80>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property iconSize
+DEBUG:PyQt5.uic.uiparser:push QCheckBox checkBox
+DEBUG:PyQt5.uic.uiparser:pop widget QCheckBox checkBox
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x0000014423AA6B80>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property alignment
+DEBUG:PyQt5.uic.uiparser:push QLineEdit lineEdit
+DEBUG:PyQt5.uic.uiparser:pop widget QLineEdit lineEdit
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x0000014423AA6B80>
+DEBUG:PyQt5.uic.uiparser:pop widget QWidget centralwidget
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x0000014423AA68B0>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.uiparser:push QMenuBar menubar
+DEBUG:PyQt5.uic.uiparser:pop widget QMenuBar menubar
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x0000014423AA68B0>
+DEBUG:PyQt5.uic.uiparser:push QStatusBar statusbar
+DEBUG:PyQt5.uic.uiparser:pop widget QStatusBar statusbar
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x0000014423AA68B0>
+DEBUG:PyQt5.uic.uiparser:pop widget QMainWindow SAM
+DEBUG:PyQt5.uic.uiparser:new topwidget None
+DEBUG:PyQt5.uic.uiparser:UI version is 4.0
+DEBUG:PyQt5.uic.uiparser:uiname is SAM
+DEBUG:PyQt5.uic.uiparser:toplevel widget is QMainWindow
+DEBUG:PyQt5.uic.properties:setting property enabled
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property windowTitle
+DEBUG:PyQt5.uic.properties:setting property toolTip
+DEBUG:PyQt5.uic.properties:setting property statusTip
+DEBUG:PyQt5.uic.properties:setting property layoutDirection
+DEBUG:PyQt5.uic.uiparser:push QMainWindow SAM
+DEBUG:PyQt5.uic.uiparser:push QWidget centralwidget
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property pixmap
+DEBUG:PyQt5.uic.uiparser:push QLabel label
+DEBUG:PyQt5.uic.uiparser:pop widget QLabel label
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x000001442B08D160>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property pixmap
+DEBUG:PyQt5.uic.uiparser:push QLabel label_2
+DEBUG:PyQt5.uic.uiparser:pop widget QLabel label_2
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x000001442B08D160>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.uiparser:push QPushButton pushButton
+DEBUG:PyQt5.uic.uiparser:pop widget QPushButton pushButton
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x000001442B08D160>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.uiparser:push QPushButton pushButton_4
+DEBUG:PyQt5.uic.uiparser:pop widget QPushButton pushButton_4
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x000001442B08D160>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property iconSize
+DEBUG:PyQt5.uic.uiparser:push QCheckBox checkBox
+DEBUG:PyQt5.uic.uiparser:pop widget QCheckBox checkBox
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x000001442B08D160>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property alignment
+DEBUG:PyQt5.uic.uiparser:push QLineEdit lineEdit
+DEBUG:PyQt5.uic.uiparser:pop widget QLineEdit lineEdit
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x000001442B08D160>
+DEBUG:PyQt5.uic.uiparser:pop widget QWidget centralwidget
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x00000144162ED550>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.uiparser:push QMenuBar menubar
+DEBUG:PyQt5.uic.uiparser:pop widget QMenuBar menubar
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x00000144162ED550>
+DEBUG:PyQt5.uic.uiparser:push QStatusBar statusbar
+DEBUG:PyQt5.uic.uiparser:pop widget QStatusBar statusbar
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x00000144162ED550>
+DEBUG:PyQt5.uic.uiparser:pop widget QMainWindow SAM
+DEBUG:PyQt5.uic.uiparser:new topwidget None
+DEBUG:PyQt5.uic.uiparser:UI version is 4.0
+DEBUG:PyQt5.uic.uiparser:uiname is SAM
+DEBUG:PyQt5.uic.uiparser:toplevel widget is QMainWindow
+DEBUG:PyQt5.uic.properties:setting property enabled
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property windowTitle
+DEBUG:PyQt5.uic.properties:setting property toolTip
+DEBUG:PyQt5.uic.properties:setting property statusTip
+DEBUG:PyQt5.uic.properties:setting property layoutDirection
+DEBUG:PyQt5.uic.uiparser:push QMainWindow SAM
+DEBUG:PyQt5.uic.uiparser:push QWidget centralwidget
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property pixmap
+DEBUG:PyQt5.uic.uiparser:push QLabel label
+DEBUG:PyQt5.uic.uiparser:pop widget QLabel label
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x0000014428EAD0D0>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property pixmap
+DEBUG:PyQt5.uic.uiparser:push QLabel label_2
+DEBUG:PyQt5.uic.uiparser:pop widget QLabel label_2
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x0000014428EAD0D0>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.uiparser:push QPushButton pushButton
+DEBUG:PyQt5.uic.uiparser:pop widget QPushButton pushButton
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x0000014428EAD0D0>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.uiparser:push QPushButton pushButton_4
+DEBUG:PyQt5.uic.uiparser:pop widget QPushButton pushButton_4
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x0000014428EAD0D0>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property iconSize
+DEBUG:PyQt5.uic.uiparser:push QCheckBox checkBox
+DEBUG:PyQt5.uic.uiparser:pop widget QCheckBox checkBox
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x0000014428EAD0D0>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property alignment
+DEBUG:PyQt5.uic.uiparser:push QLineEdit lineEdit
+DEBUG:PyQt5.uic.uiparser:pop widget QLineEdit lineEdit
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x0000014428EAD0D0>
+DEBUG:PyQt5.uic.uiparser:pop widget QWidget centralwidget
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x0000014428EAD040>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.uiparser:push QMenuBar menubar
+DEBUG:PyQt5.uic.uiparser:pop widget QMenuBar menubar
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x0000014428EAD040>
+DEBUG:PyQt5.uic.uiparser:push QStatusBar statusbar
+DEBUG:PyQt5.uic.uiparser:pop widget QStatusBar statusbar
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x0000014428EAD040>
+DEBUG:PyQt5.uic.uiparser:pop widget QMainWindow SAM
+DEBUG:PyQt5.uic.uiparser:new topwidget None
+DEBUG:PyQt5.uic.uiparser:UI version is 4.0
+DEBUG:PyQt5.uic.uiparser:uiname is SAM
+DEBUG:PyQt5.uic.uiparser:toplevel widget is QMainWindow
+DEBUG:PyQt5.uic.properties:setting property enabled
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property windowTitle
+DEBUG:PyQt5.uic.properties:setting property toolTip
+DEBUG:PyQt5.uic.properties:setting property statusTip
+DEBUG:PyQt5.uic.properties:setting property layoutDirection
+DEBUG:PyQt5.uic.uiparser:push QMainWindow SAM
+DEBUG:PyQt5.uic.uiparser:push QWidget centralwidget
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property pixmap
+DEBUG:PyQt5.uic.uiparser:push QLabel label
+DEBUG:PyQt5.uic.uiparser:pop widget QLabel label
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x0000014423AA6550>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property pixmap
+DEBUG:PyQt5.uic.uiparser:push QLabel label_2
+DEBUG:PyQt5.uic.uiparser:pop widget QLabel label_2
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x0000014423AA6550>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.uiparser:push QPushButton pushButton
+DEBUG:PyQt5.uic.uiparser:pop widget QPushButton pushButton
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x0000014423AA6550>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.uiparser:push QPushButton pushButton_4
+DEBUG:PyQt5.uic.uiparser:pop widget QPushButton pushButton_4
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x0000014423AA6550>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property iconSize
+DEBUG:PyQt5.uic.uiparser:push QCheckBox checkBox
+DEBUG:PyQt5.uic.uiparser:pop widget QCheckBox checkBox
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x0000014423AA6550>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property alignment
+DEBUG:PyQt5.uic.uiparser:push QLineEdit lineEdit
+DEBUG:PyQt5.uic.uiparser:pop widget QLineEdit lineEdit
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x0000014423AA6550>
+DEBUG:PyQt5.uic.uiparser:pop widget QWidget centralwidget
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x0000014427C718B0>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.uiparser:push QMenuBar menubar
+DEBUG:PyQt5.uic.uiparser:pop widget QMenuBar menubar
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x0000014427C718B0>
+DEBUG:PyQt5.uic.uiparser:push QStatusBar statusbar
+DEBUG:PyQt5.uic.uiparser:pop widget QStatusBar statusbar
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x0000014427C718B0>
+DEBUG:PyQt5.uic.uiparser:pop widget QMainWindow SAM
+DEBUG:PyQt5.uic.uiparser:new topwidget None
+DEBUG:PyQt5.uic.uiparser:UI version is 4.0
+DEBUG:PyQt5.uic.uiparser:uiname is SAM
+DEBUG:PyQt5.uic.uiparser:toplevel widget is QMainWindow
+DEBUG:PyQt5.uic.properties:setting property enabled
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property windowTitle
+DEBUG:PyQt5.uic.properties:setting property toolTip
+DEBUG:PyQt5.uic.properties:setting property statusTip
+DEBUG:PyQt5.uic.properties:setting property layoutDirection
+DEBUG:PyQt5.uic.uiparser:push QMainWindow SAM
+DEBUG:PyQt5.uic.uiparser:push QWidget centralwidget
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property pixmap
+DEBUG:PyQt5.uic.uiparser:push QLabel label
+DEBUG:PyQt5.uic.uiparser:pop widget QLabel label
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x000001442B08D9D0>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property pixmap
+DEBUG:PyQt5.uic.uiparser:push QLabel label_2
+DEBUG:PyQt5.uic.uiparser:pop widget QLabel label_2
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x000001442B08D9D0>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.uiparser:push QPushButton pushButton
+DEBUG:PyQt5.uic.uiparser:pop widget QPushButton pushButton
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x000001442B08D9D0>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.uiparser:push QPushButton pushButton_4
+DEBUG:PyQt5.uic.uiparser:pop widget QPushButton pushButton_4
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x000001442B08D9D0>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property iconSize
+DEBUG:PyQt5.uic.uiparser:push QCheckBox checkBox
+DEBUG:PyQt5.uic.uiparser:pop widget QCheckBox checkBox
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x000001442B08D9D0>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property alignment
+DEBUG:PyQt5.uic.uiparser:push QLineEdit lineEdit
+DEBUG:PyQt5.uic.uiparser:pop widget QLineEdit lineEdit
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x000001442B08D9D0>
+DEBUG:PyQt5.uic.uiparser:pop widget QWidget centralwidget
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x000001442B08D430>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.uiparser:push QMenuBar menubar
+DEBUG:PyQt5.uic.uiparser:pop widget QMenuBar menubar
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x000001442B08D430>
+DEBUG:PyQt5.uic.uiparser:push QStatusBar statusbar
+DEBUG:PyQt5.uic.uiparser:pop widget QStatusBar statusbar
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x000001442B08D430>
+DEBUG:PyQt5.uic.uiparser:pop widget QMainWindow SAM
+DEBUG:PyQt5.uic.uiparser:new topwidget None
+DEBUG:PyQt5.uic.uiparser:UI version is 4.0
+DEBUG:PyQt5.uic.uiparser:uiname is SAM
+DEBUG:PyQt5.uic.uiparser:toplevel widget is QMainWindow
+DEBUG:PyQt5.uic.properties:setting property enabled
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property windowTitle
+DEBUG:PyQt5.uic.properties:setting property toolTip
+DEBUG:PyQt5.uic.properties:setting property statusTip
+DEBUG:PyQt5.uic.properties:setting property layoutDirection
+DEBUG:PyQt5.uic.uiparser:push QMainWindow SAM
+DEBUG:PyQt5.uic.uiparser:push QWidget centralwidget
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property pixmap
+DEBUG:PyQt5.uic.uiparser:push QLabel label
+DEBUG:PyQt5.uic.uiparser:pop widget QLabel label
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x0000014416324CA0>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property pixmap
+DEBUG:PyQt5.uic.uiparser:push QLabel label_2
+DEBUG:PyQt5.uic.uiparser:pop widget QLabel label_2
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x0000014416324CA0>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.uiparser:push QPushButton pushButton
+DEBUG:PyQt5.uic.uiparser:pop widget QPushButton pushButton
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x0000014416324CA0>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.uiparser:push QPushButton pushButton_4
+DEBUG:PyQt5.uic.uiparser:pop widget QPushButton pushButton_4
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x0000014416324CA0>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property iconSize
+DEBUG:PyQt5.uic.uiparser:push QCheckBox checkBox
+DEBUG:PyQt5.uic.uiparser:pop widget QCheckBox checkBox
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x0000014416324CA0>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property alignment
+DEBUG:PyQt5.uic.uiparser:push QLineEdit lineEdit
+DEBUG:PyQt5.uic.uiparser:pop widget QLineEdit lineEdit
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x0000014416324CA0>
+DEBUG:PyQt5.uic.uiparser:pop widget QWidget centralwidget
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x0000014425E1FE50>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.uiparser:push QMenuBar menubar
+DEBUG:PyQt5.uic.uiparser:pop widget QMenuBar menubar
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x0000014425E1FE50>
+DEBUG:PyQt5.uic.uiparser:push QStatusBar statusbar
+DEBUG:PyQt5.uic.uiparser:pop widget QStatusBar statusbar
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x0000014425E1FE50>
+DEBUG:PyQt5.uic.uiparser:pop widget QMainWindow SAM
+DEBUG:PyQt5.uic.uiparser:new topwidget None
+INFO:root:[Errno 2] No such file or directory: 'C:\\Users\\Victor Magal\\Desktop\\SAM\\topology_files\\be8f14636c85b5f747a92906ee6f0ca3.raven-topology'
+DEBUG:root:('Failed to retrieve database topology from all known nodes', [('https://a.rdbguiando.ravendb.cloud', OSError('Could not find the TLS key file, invalid path: C:/Users/Victor Magal/Downloads/Raven/victormagalhaes.client.certificate.key'))])
+INFO:root:[Errno 2] No such file or directory: 'C:\\Users\\Victor Magal\\Desktop\\SAM\\topology_files\\70032a2d823e0de8640e6a312b5e838b.raven-topology'
+DEBUG:root:('Failed to retrieve database topology from all known nodes', [('https://a.rdbguiando.ravendb.community/studio/index.html', OSError('Could not find the TLS key file, invalid path: C:/Users/Victor Magal/Downloads/Raven/victormagalhaes.client.certificate.key'))])
+INFO:root:[Errno 2] No such file or directory: 'C:\\Users\\Victor Magal\\Desktop\\SAM\\topology_files\\70032a2d823e0de8640e6a312b5e838b.raven-topology'
+DEBUG:root:('Failed to retrieve database topology from all known nodes', [('https://a.rdbguiando.ravendb.community/studio/index.html', OSError('Could not find the TLS key file, invalid path: C:/Users/Victor Magal/Downloads/Raven/victormagalhaes.client.certificate.key'))])
+INFO:root:[Errno 2] No such file or directory: 'C:\\Users\\Victor Magal\\Desktop\\SAM\\topology_files\\70032a2d823e0de8640e6a312b5e838b.raven-topology'
+DEBUG:root:('Failed to retrieve database topology from all known nodes', [('https://a.rdbguiando.ravendb.community/studio/index.html', OSError('Could not find the TLS certificate file, invalid path: C:/Users/Victor Magal/Downloads/Raven/cert.crt'))])
+DEBUG:PyQt5.uic.uiparser:UI version is 4.0
+DEBUG:PyQt5.uic.uiparser:uiname is SAM
+DEBUG:PyQt5.uic.uiparser:toplevel widget is QMainWindow
+DEBUG:PyQt5.uic.properties:setting property enabled
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property windowTitle
+DEBUG:PyQt5.uic.properties:setting property toolTip
+DEBUG:PyQt5.uic.properties:setting property statusTip
+DEBUG:PyQt5.uic.properties:setting property layoutDirection
+DEBUG:PyQt5.uic.uiparser:push QMainWindow SAM
+DEBUG:PyQt5.uic.uiparser:push QWidget centralwidget
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property pixmap
+DEBUG:PyQt5.uic.uiparser:push QLabel label
+DEBUG:PyQt5.uic.uiparser:pop widget QLabel label
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x0000025A883DBC10>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property pixmap
+DEBUG:PyQt5.uic.uiparser:push QLabel label_2
+DEBUG:PyQt5.uic.uiparser:pop widget QLabel label_2
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x0000025A883DBC10>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.uiparser:push QPushButton pushButton
+DEBUG:PyQt5.uic.uiparser:pop widget QPushButton pushButton
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x0000025A883DBC10>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.uiparser:push QPushButton pushButton_4
+DEBUG:PyQt5.uic.uiparser:pop widget QPushButton pushButton_4
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x0000025A883DBC10>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property iconSize
+DEBUG:PyQt5.uic.uiparser:push QCheckBox checkBox
+DEBUG:PyQt5.uic.uiparser:pop widget QCheckBox checkBox
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x0000025A883DBC10>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property alignment
+DEBUG:PyQt5.uic.uiparser:push QLineEdit lineEdit
+DEBUG:PyQt5.uic.uiparser:pop widget QLineEdit lineEdit
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x0000025A883DBC10>
+DEBUG:PyQt5.uic.uiparser:pop widget QWidget centralwidget
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x0000025A883DBAF0>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.uiparser:push QMenuBar menubar
+DEBUG:PyQt5.uic.uiparser:pop widget QMenuBar menubar
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x0000025A883DBAF0>
+DEBUG:PyQt5.uic.uiparser:push QStatusBar statusbar
+DEBUG:PyQt5.uic.uiparser:pop widget QStatusBar statusbar
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x0000025A883DBAF0>
+DEBUG:PyQt5.uic.uiparser:pop widget QMainWindow SAM
+DEBUG:PyQt5.uic.uiparser:new topwidget None
+DEBUG:PyQt5.uic.uiparser:UI version is 4.0
+DEBUG:PyQt5.uic.uiparser:uiname is SAM
+DEBUG:PyQt5.uic.uiparser:toplevel widget is QMainWindow
+DEBUG:PyQt5.uic.properties:setting property enabled
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property windowTitle
+DEBUG:PyQt5.uic.properties:setting property toolTip
+DEBUG:PyQt5.uic.properties:setting property statusTip
+DEBUG:PyQt5.uic.properties:setting property layoutDirection
+DEBUG:PyQt5.uic.uiparser:push QMainWindow SAM
+DEBUG:PyQt5.uic.uiparser:push QWidget centralwidget
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property pixmap
+DEBUG:PyQt5.uic.uiparser:push QLabel label
+DEBUG:PyQt5.uic.uiparser:pop widget QLabel label
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x0000028FABBFBE50>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property pixmap
+DEBUG:PyQt5.uic.uiparser:push QLabel label_2
+DEBUG:PyQt5.uic.uiparser:pop widget QLabel label_2
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x0000028FABBFBE50>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.uiparser:push QPushButton pushButton
+DEBUG:PyQt5.uic.uiparser:pop widget QPushButton pushButton
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x0000028FABBFBE50>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.uiparser:push QPushButton pushButton_4
+DEBUG:PyQt5.uic.uiparser:pop widget QPushButton pushButton_4
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x0000028FABBFBE50>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property iconSize
+DEBUG:PyQt5.uic.uiparser:push QCheckBox checkBox
+DEBUG:PyQt5.uic.uiparser:pop widget QCheckBox checkBox
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x0000028FABBFBE50>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property alignment
+DEBUG:PyQt5.uic.uiparser:push QLineEdit lineEdit
+DEBUG:PyQt5.uic.uiparser:pop widget QLineEdit lineEdit
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x0000028FABBFBE50>
+DEBUG:PyQt5.uic.uiparser:pop widget QWidget centralwidget
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x0000028FABBFBC10>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.uiparser:push QMenuBar menubar
+DEBUG:PyQt5.uic.uiparser:pop widget QMenuBar menubar
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x0000028FABBFBC10>
+DEBUG:PyQt5.uic.uiparser:push QStatusBar statusbar
+DEBUG:PyQt5.uic.uiparser:pop widget QStatusBar statusbar
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x0000028FABBFBC10>
+DEBUG:PyQt5.uic.uiparser:pop widget QMainWindow SAM
+DEBUG:PyQt5.uic.uiparser:new topwidget None
