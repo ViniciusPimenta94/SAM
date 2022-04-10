@@ -1,0 +1,2214 @@
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:8080
+INFO:root:[Errno 2] No such file or directory: 'C:\\Users\\Victor Magal\\Desktop\\SAM\\topology_files\\2bad18145a2f702371d0f826decebb26.raven-topology'
+DEBUG:root:('Failed to retrieve database topology from all known nodes', [('http://localhost:8080', ConnectionError(MaxRetryError("HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: /topology?name=PyRavenDB (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000014415F48C40>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente'))")))])
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:8080
+INFO:root:[Errno 2] No such file or directory: 'C:\\Users\\Victor Magal\\Desktop\\SAM\\topology_files\\2bad18145a2f702371d0f826decebb26.raven-topology'
+DEBUG:root:('Failed to retrieve database topology from all known nodes', [('http://localhost:8080', ConnectionError(MaxRetryError("HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: /topology?name=PyRavenDB (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000014416264370>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente'))")))])
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:8080
+INFO:root:[Errno 2] No such file or directory: 'C:\\Users\\Victor Magal\\Desktop\\SAM\\topology_files\\2bad18145a2f702371d0f826decebb26.raven-topology'
+DEBUG:root:('Failed to retrieve database topology from all known nodes', [('http://localhost:8080', ConnectionError(MaxRetryError("HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: /topology?name=PyRavenDB (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001441626E6D0>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente'))")))])
+INFO:root:[Errno 2] No such file or directory: 'C:\\Users\\Victor Magal\\Desktop\\SAM\\topology_files\\d73913106307a03113fa0490d5b19d25.raven-topology'
+INFO:root:[Errno 2] No such file or directory: 'C:\\Users\\Victor Magal\\Desktop\\SAM\\topology_files\\1c2acefe19e03a18ba2a99cb7aba3147.raven-topology'
+INFO:root:[Errno 2] No such file or directory: 'C:\\Users\\Victor Magal\\Desktop\\SAM\\topology_files\\a143ae7e9b045549f1b11a77d4a16614.raven-topology'
+DEBUG:root:('Failed to retrieve database topology from all known nodes', [('https://a.prod.roll.ravendb.cloud', OSError('Could not find the TLS key file, invalid path: C:/Users\\Victor Magal/Downloads/Raven/victormagalhaes.client.certificate.key')), ('https://b.prod.roll.ravendb.cloud', OSError('Could not find the TLS key file, invalid path: C:/Users\\Victor Magal/Downloads/Raven/victormagalhaes.client.certificate.key')), ('https://c.prod.roll.ravendb.cloud', OSError('Could not find the TLS key file, invalid path: C:/Users\\Victor Magal/Downloads/Raven/victormagalhaes.client.certificate.key'))])
+INFO:root:[Errno 2] No such file or directory: 'C:\\Users\\Victor Magal\\Desktop\\SAM\\topology_files\\d73913106307a03113fa0490d5b19d25.raven-topology'
+INFO:root:[Errno 2] No such file or directory: 'C:\\Users\\Victor Magal\\Desktop\\SAM\\topology_files\\1c2acefe19e03a18ba2a99cb7aba3147.raven-topology'
+INFO:root:[Errno 2] No such file or directory: 'C:\\Users\\Victor Magal\\Desktop\\SAM\\topology_files\\a143ae7e9b045549f1b11a77d4a16614.raven-topology'
+DEBUG:root:('Failed to retrieve database topology from all known nodes', [('https://a.prod.roll.ravendb.cloud', OSError('Could not find the TLS key file, invalid path: C:/Users/Victor Magal/Downloads/Raven/victormagalhaes.client.certificate.key')), ('https://b.prod.roll.ravendb.cloud', OSError('Could not find the TLS key file, invalid path: C:/Users/Victor Magal/Downloads/Raven/victormagalhaes.client.certificate.key')), ('https://c.prod.roll.ravendb.cloud', OSError('Could not find the TLS key file, invalid path: C:/Users/Victor Magal/Downloads/Raven/victormagalhaes.client.certificate.key'))])
+INFO:root:[Errno 2] No such file or directory: 'C:\\Users\\Victor Magal\\Desktop\\SAM\\topology_files\\d73913106307a03113fa0490d5b19d25.raven-topology'
+INFO:root:[Errno 2] No such file or directory: 'C:\\Users\\Victor Magal\\Desktop\\SAM\\topology_files\\1c2acefe19e03a18ba2a99cb7aba3147.raven-topology'
+INFO:root:[Errno 2] No such file or directory: 'C:\\Users\\Victor Magal\\Desktop\\SAM\\topology_files\\a143ae7e9b045549f1b11a77d4a16614.raven-topology'
+DEBUG:root:('Failed to retrieve database topology from all known nodes', [('https://a.prod.roll.ravendb.cloud', OSError('Could not find the TLS certificate file, invalid path: C:/Users/Victor Magal/Downloads/Raven/victormagalhaes.client.certificate.crt')), ('https://b.prod.roll.ravendb.cloud', OSError('Could not find the TLS certificate file, invalid path: C:/Users/Victor Magal/Downloads/Raven/victormagalhaes.client.certificate.crt')), ('https://c.prod.roll.ravendb.cloud', OSError('Could not find the TLS certificate file, invalid path: C:/Users/Victor Magal/Downloads/Raven/victormagalhaes.client.certificate.crt'))])
+INFO:root:[Errno 2] No such file or directory: 'C:\\Users\\Victor Magal\\Desktop\\SAM\\topology_files\\92a8c46802110c0b721c52be6a053c5c.raven-topology'
+DEBUG:root:('Failed to retrieve database topology from all known nodes', [('https://a.rdbguiando.ravendb.community/studio/index.html', OSError('Could not find the TLS certificate file, invalid path: C:/Users/Victor Magal/Downloads/Raven/victormagalhaes.client.certificate.crt'))])
+INFO:root:[Errno 2] No such file or directory: 'C:\\Users\\Victor Magal\\Desktop\\SAM\\topology_files\\2bbc08448306838ff459c632eaea170c.raven-topology'
+DEBUG:root:('Failed to retrieve database topology from all known nodes', [('https://a.rdbguiando.roll.ravendb.cloud', OSError('Could not find the TLS key file, invalid path: C:/Users/Victor Magal/Downloads/Raven/victormagalhaes.client.certificate.key'))])
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:8080
+INFO:root:[Errno 2] No such file or directory: 'C:\\Users\\Victor Magal\\Desktop\\SAM\\topology_files\\2bad18145a2f702371d0f826decebb26.raven-topology'
+DEBUG:root:('Failed to retrieve database topology from all known nodes', [('http://localhost:8080', ConnectionError(MaxRetryError("HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: /topology?name=PyRavenDB (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000144163032E0>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente'))")))])
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.rdbguiando.ravendb.community:443
+DEBUG:urllib3.connectionpool:https://a.rdbguiando.ravendb.community:443 "GET /studio/index.html/topology?name=PyRavenDB HTTP/1.1" 400 None
+DEBUG:root:Raven.Client.Exceptions.Routing.RouteNotFoundException: There is no handler for path: GET /studio/index.html/topology?name=PyRavenDB
+   at Raven.Server.Routing.RequestRouter.HandlePath(RequestHandlerContext reqCtx) in C:\Builds\RavenDB-Stable-5.2\52001\src\Raven.Server\Routing\RequestRouter.cs:line 356
+   at Raven.Server.RavenServerStartup.RequestHandler(HttpContext context) in C:\Builds\RavenDB-Stable-5.2\52001\src\Raven.Server\RavenServerStartup.cs:line 239
+DEBUG:root:'NoneType' object is not subscriptable
+INFO:root:[Errno 2] No such file or directory: 'C:\\Users\\Victor Magal\\Desktop\\SAM\\topology_files\\be8f14636c85b5f747a92906ee6f0ca3.raven-topology'
+DEBUG:root:('Failed to retrieve database topology from all known nodes', [('https://a.rdbguiando.ravendb.cloud', OSError('Could not find the TLS certificate file, invalid path: C:/Users/Victor Magal/Downloads/Raven/cert.crt'))])
+INFO:root:[Errno 2] No such file or directory: 'C:\\Users\\Victor Magal\\Desktop\\SAM\\topology_files\\be8f14636c85b5f747a92906ee6f0ca3.raven-topology'
+DEBUG:root:('Failed to retrieve database topology from all known nodes', [('https://a.rdbguiando.ravendb.cloud', OSError('Could not find the TLS certificate file, invalid path: C:/Users/Victor Magal/Downloads/Raven/cert.crt'))])
+INFO:root:[Errno 2] No such file or directory: 'C:\\Users\\Victor Magal\\Desktop\\SAM\\topology_files\\be8f14636c85b5f747a92906ee6f0ca3.raven-topology'
+DEBUG:root:('Failed to retrieve database topology from all known nodes', [('https://a.rdbguiando.ravendb.cloud', OSError('Could not find the TLS certificate file, invalid path: C:/Users/Victor Magal/Downloads/Raven/victormagalhaes.client.certificate.crt'))])
+INFO:root:[Errno 2] No such file or directory: 'C:\\Users\\Victor Magal\\Desktop\\SAM\\topology_files\\be8f14636c85b5f747a92906ee6f0ca3.raven-topology'
+DEBUG:root:('Failed to retrieve database topology from all known nodes', [('https://a.rdbguiando.ravendb.cloud', OSError('Could not find the TLS key file, invalid path: C:/Users/Victor Magal/Downloads/Raven/victormagalhaes.client.certificate.key'))])
+INFO:root:[Errno 2] No such file or directory: 'C:\\Users\\Victor Magal\\Desktop\\SAM\\topology_files\\be8f14636c85b5f747a92906ee6f0ca3.raven-topology'
+DEBUG:root:('Failed to retrieve database topology from all known nodes', [('https://a.rdbguiando.ravendb.cloud', OSError('Could not find the TLS key file, invalid path: C:/Users/Victor Magal/Downloads/Raven/victormagalhaes.client.certificate.key'))])
+DEBUG:PyQt5.uic.uiparser:UI version is 4.0
+DEBUG:PyQt5.uic.uiparser:uiname is SAM
+DEBUG:PyQt5.uic.uiparser:toplevel widget is QMainWindow
+DEBUG:PyQt5.uic.properties:setting property enabled
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property windowTitle
+DEBUG:PyQt5.uic.properties:setting property toolTip
+DEBUG:PyQt5.uic.properties:setting property statusTip
+DEBUG:PyQt5.uic.properties:setting property layoutDirection
+DEBUG:PyQt5.uic.uiparser:push QMainWindow SAM
+DEBUG:PyQt5.uic.uiparser:push QWidget centralwidget
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property pixmap
+DEBUG:PyQt5.uic.uiparser:push QLabel label
+DEBUG:PyQt5.uic.uiparser:pop widget QLabel label
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x0000014416811AF0>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property pixmap
+DEBUG:PyQt5.uic.uiparser:push QLabel label_2
+DEBUG:PyQt5.uic.uiparser:pop widget QLabel label_2
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x0000014416811AF0>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.uiparser:push QPushButton pushButton
+DEBUG:PyQt5.uic.uiparser:pop widget QPushButton pushButton
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x0000014416811AF0>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.uiparser:push QPushButton pushButton_4
+DEBUG:PyQt5.uic.uiparser:pop widget QPushButton pushButton_4
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x0000014416811AF0>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property iconSize
+DEBUG:PyQt5.uic.uiparser:push QCheckBox checkBox
+DEBUG:PyQt5.uic.uiparser:pop widget QCheckBox checkBox
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x0000014416811AF0>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property alignment
+DEBUG:PyQt5.uic.uiparser:push QLineEdit lineEdit
+DEBUG:PyQt5.uic.uiparser:pop widget QLineEdit lineEdit
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x0000014416811AF0>
+DEBUG:PyQt5.uic.uiparser:pop widget QWidget centralwidget
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x0000014416802DC0>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.uiparser:push QMenuBar menubar
+DEBUG:PyQt5.uic.uiparser:pop widget QMenuBar menubar
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x0000014416802DC0>
+DEBUG:PyQt5.uic.uiparser:push QStatusBar statusbar
+DEBUG:PyQt5.uic.uiparser:pop widget QStatusBar statusbar
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x0000014416802DC0>
+DEBUG:PyQt5.uic.uiparser:pop widget QMainWindow SAM
+DEBUG:PyQt5.uic.uiparser:new topwidget None
+DEBUG:PyQt5.uic.uiparser:UI version is 4.0
+DEBUG:PyQt5.uic.uiparser:uiname is SAM
+DEBUG:PyQt5.uic.uiparser:toplevel widget is QMainWindow
+DEBUG:PyQt5.uic.properties:setting property enabled
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property windowTitle
+DEBUG:PyQt5.uic.properties:setting property toolTip
+DEBUG:PyQt5.uic.properties:setting property statusTip
+DEBUG:PyQt5.uic.properties:setting property layoutDirection
+DEBUG:PyQt5.uic.uiparser:push QMainWindow SAM
+DEBUG:PyQt5.uic.uiparser:push QWidget centralwidget
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property pixmap
+DEBUG:PyQt5.uic.uiparser:push QLabel label
+DEBUG:PyQt5.uic.uiparser:pop widget QLabel label
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x00000144170FE1F0>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property pixmap
+DEBUG:PyQt5.uic.uiparser:push QLabel label_2
+DEBUG:PyQt5.uic.uiparser:pop widget QLabel label_2
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x00000144170FE1F0>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.uiparser:push QPushButton pushButton
+DEBUG:PyQt5.uic.uiparser:pop widget QPushButton pushButton
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x00000144170FE1F0>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.uiparser:push QPushButton pushButton_4
+DEBUG:PyQt5.uic.uiparser:pop widget QPushButton pushButton_4
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x00000144170FE1F0>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property iconSize
+DEBUG:PyQt5.uic.uiparser:push QCheckBox checkBox
+DEBUG:PyQt5.uic.uiparser:pop widget QCheckBox checkBox
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x00000144170FE1F0>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property alignment
+DEBUG:PyQt5.uic.uiparser:push QLineEdit lineEdit
+DEBUG:PyQt5.uic.uiparser:pop widget QLineEdit lineEdit
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x00000144170FE1F0>
+DEBUG:PyQt5.uic.uiparser:pop widget QWidget centralwidget
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x00000144170FE0D0>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.uiparser:push QMenuBar menubar
+DEBUG:PyQt5.uic.uiparser:pop widget QMenuBar menubar
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x00000144170FE0D0>
+DEBUG:PyQt5.uic.uiparser:push QStatusBar statusbar
+DEBUG:PyQt5.uic.uiparser:pop widget QStatusBar statusbar
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x00000144170FE0D0>
+DEBUG:PyQt5.uic.uiparser:pop widget QMainWindow SAM
+DEBUG:PyQt5.uic.uiparser:new topwidget None
+DEBUG:PyQt5.uic.uiparser:UI version is 4.0
+DEBUG:PyQt5.uic.uiparser:uiname is SAM
+DEBUG:PyQt5.uic.uiparser:toplevel widget is QMainWindow
+DEBUG:PyQt5.uic.properties:setting property enabled
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property windowTitle
+DEBUG:PyQt5.uic.properties:setting property toolTip
+DEBUG:PyQt5.uic.properties:setting property statusTip
+DEBUG:PyQt5.uic.properties:setting property layoutDirection
+DEBUG:PyQt5.uic.uiparser:push QMainWindow SAM
+DEBUG:PyQt5.uic.uiparser:push QWidget centralwidget
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property pixmap
+DEBUG:PyQt5.uic.uiparser:push QLabel label
+DEBUG:PyQt5.uic.uiparser:pop widget QLabel label
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x0000014423AA6D30>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property pixmap
+DEBUG:PyQt5.uic.uiparser:push QLabel label_2
+DEBUG:PyQt5.uic.uiparser:pop widget QLabel label_2
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x0000014423AA6D30>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.uiparser:push QPushButton pushButton
+DEBUG:PyQt5.uic.uiparser:pop widget QPushButton pushButton
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x0000014423AA6D30>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.uiparser:push QPushButton pushButton_4
+DEBUG:PyQt5.uic.uiparser:pop widget QPushButton pushButton_4
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x0000014423AA6D30>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property iconSize
+DEBUG:PyQt5.uic.uiparser:push QCheckBox checkBox
+DEBUG:PyQt5.uic.uiparser:pop widget QCheckBox checkBox
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x0000014423AA6D30>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property alignment
+DEBUG:PyQt5.uic.uiparser:push QLineEdit lineEdit
+DEBUG:PyQt5.uic.uiparser:pop widget QLineEdit lineEdit
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x0000014423AA6D30>
+DEBUG:PyQt5.uic.uiparser:pop widget QWidget centralwidget
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x0000014423AA6C10>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.uiparser:push QMenuBar menubar
+DEBUG:PyQt5.uic.uiparser:pop widget QMenuBar menubar
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x0000014423AA6C10>
+DEBUG:PyQt5.uic.uiparser:push QStatusBar statusbar
+DEBUG:PyQt5.uic.uiparser:pop widget QStatusBar statusbar
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x0000014423AA6C10>
+DEBUG:PyQt5.uic.uiparser:pop widget QMainWindow SAM
+DEBUG:PyQt5.uic.uiparser:new topwidget None
+DEBUG:PyQt5.uic.uiparser:UI version is 4.0
+DEBUG:PyQt5.uic.uiparser:uiname is SAM
+DEBUG:PyQt5.uic.uiparser:toplevel widget is QMainWindow
+DEBUG:PyQt5.uic.properties:setting property enabled
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property windowTitle
+DEBUG:PyQt5.uic.properties:setting property toolTip
+DEBUG:PyQt5.uic.properties:setting property statusTip
+DEBUG:PyQt5.uic.properties:setting property layoutDirection
+DEBUG:PyQt5.uic.uiparser:push QMainWindow SAM
+DEBUG:PyQt5.uic.uiparser:push QWidget centralwidget
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property pixmap
+DEBUG:PyQt5.uic.uiparser:push QLabel label
+DEBUG:PyQt5.uic.uiparser:pop widget QLabel label
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x000001442B08D310>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property pixmap
+DEBUG:PyQt5.uic.uiparser:push QLabel label_2
+DEBUG:PyQt5.uic.uiparser:pop widget QLabel label_2
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x000001442B08D310>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.uiparser:push QPushButton pushButton
+DEBUG:PyQt5.uic.uiparser:pop widget QPushButton pushButton
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x000001442B08D310>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.uiparser:push QPushButton pushButton_4
+DEBUG:PyQt5.uic.uiparser:pop widget QPushButton pushButton_4
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x000001442B08D310>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property iconSize
+DEBUG:PyQt5.uic.uiparser:push QCheckBox checkBox
+DEBUG:PyQt5.uic.uiparser:pop widget QCheckBox checkBox
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x000001442B08D310>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property alignment
+DEBUG:PyQt5.uic.uiparser:push QLineEdit lineEdit
+DEBUG:PyQt5.uic.uiparser:pop widget QLineEdit lineEdit
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x000001442B08D310>
+DEBUG:PyQt5.uic.uiparser:pop widget QWidget centralwidget
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x000001442B08D1F0>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.uiparser:push QMenuBar menubar
+DEBUG:PyQt5.uic.uiparser:pop widget QMenuBar menubar
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x000001442B08D1F0>
+DEBUG:PyQt5.uic.uiparser:push QStatusBar statusbar
+DEBUG:PyQt5.uic.uiparser:pop widget QStatusBar statusbar
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x000001442B08D1F0>
+DEBUG:PyQt5.uic.uiparser:pop widget QMainWindow SAM
+DEBUG:PyQt5.uic.uiparser:new topwidget None
+DEBUG:PyQt5.uic.uiparser:UI version is 4.0
+DEBUG:PyQt5.uic.uiparser:uiname is SAM
+DEBUG:PyQt5.uic.uiparser:toplevel widget is QMainWindow
+DEBUG:PyQt5.uic.properties:setting property enabled
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property windowTitle
+DEBUG:PyQt5.uic.properties:setting property toolTip
+DEBUG:PyQt5.uic.properties:setting property statusTip
+DEBUG:PyQt5.uic.properties:setting property layoutDirection
+DEBUG:PyQt5.uic.uiparser:push QMainWindow SAM
+DEBUG:PyQt5.uic.uiparser:push QWidget centralwidget
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property pixmap
+DEBUG:PyQt5.uic.uiparser:push QLabel label
+DEBUG:PyQt5.uic.uiparser:pop widget QLabel label
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x000001441F4AD430>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property pixmap
+DEBUG:PyQt5.uic.uiparser:push QLabel label_2
+DEBUG:PyQt5.uic.uiparser:pop widget QLabel label_2
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x000001441F4AD430>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.uiparser:push QPushButton pushButton
+DEBUG:PyQt5.uic.uiparser:pop widget QPushButton pushButton
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x000001441F4AD430>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.uiparser:push QPushButton pushButton_4
+DEBUG:PyQt5.uic.uiparser:pop widget QPushButton pushButton_4
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x000001441F4AD430>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property iconSize
+DEBUG:PyQt5.uic.uiparser:push QCheckBox checkBox
+DEBUG:PyQt5.uic.uiparser:pop widget QCheckBox checkBox
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x000001441F4AD430>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property alignment
+DEBUG:PyQt5.uic.uiparser:push QLineEdit lineEdit
+DEBUG:PyQt5.uic.uiparser:pop widget QLineEdit lineEdit
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x000001441F4AD430>
+DEBUG:PyQt5.uic.uiparser:pop widget QWidget centralwidget
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x000001441F4AD310>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.uiparser:push QMenuBar menubar
+DEBUG:PyQt5.uic.uiparser:pop widget QMenuBar menubar
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x000001441F4AD310>
+DEBUG:PyQt5.uic.uiparser:push QStatusBar statusbar
+DEBUG:PyQt5.uic.uiparser:pop widget QStatusBar statusbar
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x000001441F4AD310>
+DEBUG:PyQt5.uic.uiparser:pop widget QMainWindow SAM
+DEBUG:PyQt5.uic.uiparser:new topwidget None
+DEBUG:PyQt5.uic.uiparser:UI version is 4.0
+DEBUG:PyQt5.uic.uiparser:uiname is SAM
+DEBUG:PyQt5.uic.uiparser:toplevel widget is QMainWindow
+DEBUG:PyQt5.uic.properties:setting property enabled
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property windowTitle
+DEBUG:PyQt5.uic.properties:setting property toolTip
+DEBUG:PyQt5.uic.properties:setting property statusTip
+DEBUG:PyQt5.uic.properties:setting property layoutDirection
+DEBUG:PyQt5.uic.uiparser:push QMainWindow SAM
+DEBUG:PyQt5.uic.uiparser:push QWidget centralwidget
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property pixmap
+DEBUG:PyQt5.uic.uiparser:push QLabel label
+DEBUG:PyQt5.uic.uiparser:pop widget QLabel label
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x00000144162EDAF0>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property pixmap
+DEBUG:PyQt5.uic.uiparser:push QLabel label_2
+DEBUG:PyQt5.uic.uiparser:pop widget QLabel label_2
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x00000144162EDAF0>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.uiparser:push QPushButton pushButton
+DEBUG:PyQt5.uic.uiparser:pop widget QPushButton pushButton
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x00000144162EDAF0>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.uiparser:push QPushButton pushButton_4
+DEBUG:PyQt5.uic.uiparser:pop widget QPushButton pushButton_4
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x00000144162EDAF0>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property iconSize
+DEBUG:PyQt5.uic.uiparser:push QCheckBox checkBox
+DEBUG:PyQt5.uic.uiparser:pop widget QCheckBox checkBox
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x00000144162EDAF0>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property alignment
+DEBUG:PyQt5.uic.uiparser:push QLineEdit lineEdit
+DEBUG:PyQt5.uic.uiparser:pop widget QLineEdit lineEdit
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x00000144162EDAF0>
+DEBUG:PyQt5.uic.uiparser:pop widget QWidget centralwidget
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x00000144170EAAF0>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.uiparser:push QMenuBar menubar
+DEBUG:PyQt5.uic.uiparser:pop widget QMenuBar menubar
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x00000144170EAAF0>
+DEBUG:PyQt5.uic.uiparser:push QStatusBar statusbar
+DEBUG:PyQt5.uic.uiparser:pop widget QStatusBar statusbar
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x00000144170EAAF0>
+DEBUG:PyQt5.uic.uiparser:pop widget QMainWindow SAM
+DEBUG:PyQt5.uic.uiparser:new topwidget None
+DEBUG:PyQt5.uic.uiparser:UI version is 4.0
+DEBUG:PyQt5.uic.uiparser:uiname is SAM
+DEBUG:PyQt5.uic.uiparser:toplevel widget is QMainWindow
+DEBUG:PyQt5.uic.properties:setting property enabled
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property windowTitle
+DEBUG:PyQt5.uic.properties:setting property toolTip
+DEBUG:PyQt5.uic.properties:setting property statusTip
+DEBUG:PyQt5.uic.properties:setting property layoutDirection
+DEBUG:PyQt5.uic.uiparser:push QMainWindow SAM
+DEBUG:PyQt5.uic.uiparser:push QWidget centralwidget
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property pixmap
+DEBUG:PyQt5.uic.uiparser:push QLabel label
+DEBUG:PyQt5.uic.uiparser:pop widget QLabel label
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x00000144170FE820>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property pixmap
+DEBUG:PyQt5.uic.uiparser:push QLabel label_2
+DEBUG:PyQt5.uic.uiparser:pop widget QLabel label_2
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x00000144170FE820>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.uiparser:push QPushButton pushButton
+DEBUG:PyQt5.uic.uiparser:pop widget QPushButton pushButton
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x00000144170FE820>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.uiparser:push QPushButton pushButton_4
+DEBUG:PyQt5.uic.uiparser:pop widget QPushButton pushButton_4
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x00000144170FE820>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property iconSize
+DEBUG:PyQt5.uic.uiparser:push QCheckBox checkBox
+DEBUG:PyQt5.uic.uiparser:pop widget QCheckBox checkBox
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x00000144170FE820>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property alignment
+DEBUG:PyQt5.uic.uiparser:push QLineEdit lineEdit
+DEBUG:PyQt5.uic.uiparser:pop widget QLineEdit lineEdit
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x00000144170FE820>
+DEBUG:PyQt5.uic.uiparser:pop widget QWidget centralwidget
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x00000144170FE700>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.uiparser:push QMenuBar menubar
+DEBUG:PyQt5.uic.uiparser:pop widget QMenuBar menubar
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x00000144170FE700>
+DEBUG:PyQt5.uic.uiparser:push QStatusBar statusbar
+DEBUG:PyQt5.uic.uiparser:pop widget QStatusBar statusbar
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x00000144170FE700>
+DEBUG:PyQt5.uic.uiparser:pop widget QMainWindow SAM
+DEBUG:PyQt5.uic.uiparser:new topwidget None
+DEBUG:PyQt5.uic.uiparser:UI version is 4.0
+DEBUG:PyQt5.uic.uiparser:uiname is SAM
+DEBUG:PyQt5.uic.uiparser:toplevel widget is QMainWindow
+DEBUG:PyQt5.uic.properties:setting property enabled
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property windowTitle
+DEBUG:PyQt5.uic.properties:setting property toolTip
+DEBUG:PyQt5.uic.properties:setting property statusTip
+DEBUG:PyQt5.uic.properties:setting property layoutDirection
+DEBUG:PyQt5.uic.uiparser:push QMainWindow SAM
+DEBUG:PyQt5.uic.uiparser:push QWidget centralwidget
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property pixmap
+DEBUG:PyQt5.uic.uiparser:push QLabel label
+DEBUG:PyQt5.uic.uiparser:pop widget QLabel label
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x000001442A9C14C0>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property pixmap
+DEBUG:PyQt5.uic.uiparser:push QLabel label_2
+DEBUG:PyQt5.uic.uiparser:pop widget QLabel label_2
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x000001442A9C14C0>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.uiparser:push QPushButton pushButton
+DEBUG:PyQt5.uic.uiparser:pop widget QPushButton pushButton
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x000001442A9C14C0>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.uiparser:push QPushButton pushButton_4
+DEBUG:PyQt5.uic.uiparser:pop widget QPushButton pushButton_4
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x000001442A9C14C0>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property iconSize
+DEBUG:PyQt5.uic.uiparser:push QCheckBox checkBox
+DEBUG:PyQt5.uic.uiparser:pop widget QCheckBox checkBox
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x000001442A9C14C0>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property alignment
+DEBUG:PyQt5.uic.uiparser:push QLineEdit lineEdit
+DEBUG:PyQt5.uic.uiparser:pop widget QLineEdit lineEdit
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x000001442A9C14C0>
+DEBUG:PyQt5.uic.uiparser:pop widget QWidget centralwidget
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x000001441D68D940>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.uiparser:push QMenuBar menubar
+DEBUG:PyQt5.uic.uiparser:pop widget QMenuBar menubar
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x000001441D68D940>
+DEBUG:PyQt5.uic.uiparser:push QStatusBar statusbar
+DEBUG:PyQt5.uic.uiparser:pop widget QStatusBar statusbar
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x000001441D68D940>
+DEBUG:PyQt5.uic.uiparser:pop widget QMainWindow SAM
+DEBUG:PyQt5.uic.uiparser:new topwidget None
+DEBUG:PyQt5.uic.uiparser:UI version is 4.0
+DEBUG:PyQt5.uic.uiparser:uiname is SAM
+DEBUG:PyQt5.uic.uiparser:toplevel widget is QMainWindow
+DEBUG:PyQt5.uic.properties:setting property enabled
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property windowTitle
+DEBUG:PyQt5.uic.properties:setting property toolTip
+DEBUG:PyQt5.uic.properties:setting property statusTip
+DEBUG:PyQt5.uic.properties:setting property layoutDirection
+DEBUG:PyQt5.uic.uiparser:push QMainWindow SAM
+DEBUG:PyQt5.uic.uiparser:push QWidget centralwidget
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property pixmap
+DEBUG:PyQt5.uic.uiparser:push QLabel label
+DEBUG:PyQt5.uic.uiparser:pop widget QLabel label
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x000001441D583B80>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property pixmap
+DEBUG:PyQt5.uic.uiparser:push QLabel label_2
+DEBUG:PyQt5.uic.uiparser:pop widget QLabel label_2
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x000001441D583B80>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.uiparser:push QPushButton pushButton
+DEBUG:PyQt5.uic.uiparser:pop widget QPushButton pushButton
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x000001441D583B80>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.uiparser:push QPushButton pushButton_4
+DEBUG:PyQt5.uic.uiparser:pop widget QPushButton pushButton_4
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x000001441D583B80>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property iconSize
+DEBUG:PyQt5.uic.uiparser:push QCheckBox checkBox
+DEBUG:PyQt5.uic.uiparser:pop widget QCheckBox checkBox
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x000001441D583B80>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property alignment
+DEBUG:PyQt5.uic.uiparser:push QLineEdit lineEdit
+DEBUG:PyQt5.uic.uiparser:pop widget QLineEdit lineEdit
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x000001441D583B80>
+DEBUG:PyQt5.uic.uiparser:pop widget QWidget centralwidget
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x000001441D583A60>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.uiparser:push QMenuBar menubar
+DEBUG:PyQt5.uic.uiparser:pop widget QMenuBar menubar
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x000001441D583A60>
+DEBUG:PyQt5.uic.uiparser:push QStatusBar statusbar
+DEBUG:PyQt5.uic.uiparser:pop widget QStatusBar statusbar
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x000001441D583A60>
+DEBUG:PyQt5.uic.uiparser:pop widget QMainWindow SAM
+DEBUG:PyQt5.uic.uiparser:new topwidget None
+DEBUG:PyQt5.uic.uiparser:UI version is 4.0
+DEBUG:PyQt5.uic.uiparser:uiname is SAM
+DEBUG:PyQt5.uic.uiparser:toplevel widget is QMainWindow
+DEBUG:PyQt5.uic.properties:setting property enabled
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property windowTitle
+DEBUG:PyQt5.uic.properties:setting property toolTip
+DEBUG:PyQt5.uic.properties:setting property statusTip
+DEBUG:PyQt5.uic.properties:setting property layoutDirection
+DEBUG:PyQt5.uic.uiparser:push QMainWindow SAM
+DEBUG:PyQt5.uic.uiparser:push QWidget centralwidget
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property pixmap
+DEBUG:PyQt5.uic.uiparser:push QLabel label
+DEBUG:PyQt5.uic.uiparser:pop widget QLabel label
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x000001442395BB80>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property pixmap
+DEBUG:PyQt5.uic.uiparser:push QLabel label_2
+DEBUG:PyQt5.uic.uiparser:pop widget QLabel label_2
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x000001442395BB80>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.uiparser:push QPushButton pushButton
+DEBUG:PyQt5.uic.uiparser:pop widget QPushButton pushButton
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x000001442395BB80>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.uiparser:push QPushButton pushButton_4
+DEBUG:PyQt5.uic.uiparser:pop widget QPushButton pushButton_4
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x000001442395BB80>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property iconSize
+DEBUG:PyQt5.uic.uiparser:push QCheckBox checkBox
+DEBUG:PyQt5.uic.uiparser:pop widget QCheckBox checkBox
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x000001442395BB80>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property alignment
+DEBUG:PyQt5.uic.uiparser:push QLineEdit lineEdit
+DEBUG:PyQt5.uic.uiparser:pop widget QLineEdit lineEdit
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x000001442395BB80>
+DEBUG:PyQt5.uic.uiparser:pop widget QWidget centralwidget
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x000001442395B940>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.uiparser:push QMenuBar menubar
+DEBUG:PyQt5.uic.uiparser:pop widget QMenuBar menubar
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x000001442395B940>
+DEBUG:PyQt5.uic.uiparser:push QStatusBar statusbar
+DEBUG:PyQt5.uic.uiparser:pop widget QStatusBar statusbar
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x000001442395B940>
+DEBUG:PyQt5.uic.uiparser:pop widget QMainWindow SAM
+DEBUG:PyQt5.uic.uiparser:new topwidget None
+DEBUG:PyQt5.uic.uiparser:UI version is 4.0
+DEBUG:PyQt5.uic.uiparser:uiname is SAM
+DEBUG:PyQt5.uic.uiparser:toplevel widget is QMainWindow
+DEBUG:PyQt5.uic.properties:setting property enabled
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property windowTitle
+DEBUG:PyQt5.uic.properties:setting property toolTip
+DEBUG:PyQt5.uic.properties:setting property statusTip
+DEBUG:PyQt5.uic.properties:setting property layoutDirection
+DEBUG:PyQt5.uic.uiparser:push QMainWindow SAM
+DEBUG:PyQt5.uic.uiparser:push QWidget centralwidget
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property pixmap
+DEBUG:PyQt5.uic.uiparser:push QLabel label
+DEBUG:PyQt5.uic.uiparser:pop widget QLabel label
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x000001441F8F6D30>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property pixmap
+DEBUG:PyQt5.uic.uiparser:push QLabel label_2
+DEBUG:PyQt5.uic.uiparser:pop widget QLabel label_2
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x000001441F8F6D30>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.uiparser:push QPushButton pushButton
+DEBUG:PyQt5.uic.uiparser:pop widget QPushButton pushButton
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x000001441F8F6D30>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.uiparser:push QPushButton pushButton_4
+DEBUG:PyQt5.uic.uiparser:pop widget QPushButton pushButton_4
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x000001441F8F6D30>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property iconSize
+DEBUG:PyQt5.uic.uiparser:push QCheckBox checkBox
+DEBUG:PyQt5.uic.uiparser:pop widget QCheckBox checkBox
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x000001441F8F6D30>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property alignment
+DEBUG:PyQt5.uic.uiparser:push QLineEdit lineEdit
+DEBUG:PyQt5.uic.uiparser:pop widget QLineEdit lineEdit
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x000001441F8F6D30>
+DEBUG:PyQt5.uic.uiparser:pop widget QWidget centralwidget
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x000001441F8F6C10>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.uiparser:push QMenuBar menubar
+DEBUG:PyQt5.uic.uiparser:pop widget QMenuBar menubar
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x000001441F8F6C10>
+DEBUG:PyQt5.uic.uiparser:push QStatusBar statusbar
+DEBUG:PyQt5.uic.uiparser:pop widget QStatusBar statusbar
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x000001441F8F6C10>
+DEBUG:PyQt5.uic.uiparser:pop widget QMainWindow SAM
+DEBUG:PyQt5.uic.uiparser:new topwidget None
+DEBUG:PyQt5.uic.uiparser:UI version is 4.0
+DEBUG:PyQt5.uic.uiparser:uiname is SAM
+DEBUG:PyQt5.uic.uiparser:toplevel widget is QMainWindow
+DEBUG:PyQt5.uic.properties:setting property enabled
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property windowTitle
+DEBUG:PyQt5.uic.properties:setting property toolTip
+DEBUG:PyQt5.uic.properties:setting property statusTip
+DEBUG:PyQt5.uic.properties:setting property layoutDirection
+DEBUG:PyQt5.uic.uiparser:push QMainWindow SAM
+DEBUG:PyQt5.uic.uiparser:push QWidget centralwidget
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property pixmap
+DEBUG:PyQt5.uic.uiparser:push QLabel label
+DEBUG:PyQt5.uic.uiparser:pop widget QLabel label
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x0000014427C713A0>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property pixmap
+DEBUG:PyQt5.uic.uiparser:push QLabel label_2
+DEBUG:PyQt5.uic.uiparser:pop widget QLabel label_2
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x0000014427C713A0>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.uiparser:push QPushButton pushButton
+DEBUG:PyQt5.uic.uiparser:pop widget QPushButton pushButton
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x0000014427C713A0>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.uiparser:push QPushButton pushButton_4
+DEBUG:PyQt5.uic.uiparser:pop widget QPushButton pushButton_4
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x0000014427C713A0>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property iconSize
+DEBUG:PyQt5.uic.uiparser:push QCheckBox checkBox
+DEBUG:PyQt5.uic.uiparser:pop widget QCheckBox checkBox
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x0000014427C713A0>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property alignment
+DEBUG:PyQt5.uic.uiparser:push QLineEdit lineEdit
+DEBUG:PyQt5.uic.uiparser:pop widget QLineEdit lineEdit
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x0000014427C713A0>
+DEBUG:PyQt5.uic.uiparser:pop widget QWidget centralwidget
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x0000014427C71280>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.uiparser:push QMenuBar menubar
+DEBUG:PyQt5.uic.uiparser:pop widget QMenuBar menubar
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x0000014427C71280>
+DEBUG:PyQt5.uic.uiparser:push QStatusBar statusbar
+DEBUG:PyQt5.uic.uiparser:pop widget QStatusBar statusbar
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x0000014427C71280>
+DEBUG:PyQt5.uic.uiparser:pop widget QMainWindow SAM
+DEBUG:PyQt5.uic.uiparser:new topwidget None
+DEBUG:PyQt5.uic.uiparser:UI version is 4.0
+DEBUG:PyQt5.uic.uiparser:uiname is SAM
+DEBUG:PyQt5.uic.uiparser:toplevel widget is QMainWindow
+DEBUG:PyQt5.uic.properties:setting property enabled
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property windowTitle
+DEBUG:PyQt5.uic.properties:setting property toolTip
+DEBUG:PyQt5.uic.properties:setting property statusTip
+DEBUG:PyQt5.uic.properties:setting property layoutDirection
+DEBUG:PyQt5.uic.uiparser:push QMainWindow SAM
+DEBUG:PyQt5.uic.uiparser:push QWidget centralwidget
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property pixmap
+DEBUG:PyQt5.uic.uiparser:push QLabel label
+DEBUG:PyQt5.uic.uiparser:pop widget QLabel label
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x000001442B08D700>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property pixmap
+DEBUG:PyQt5.uic.uiparser:push QLabel label_2
+DEBUG:PyQt5.uic.uiparser:pop widget QLabel label_2
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x000001442B08D700>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.uiparser:push QPushButton pushButton
+DEBUG:PyQt5.uic.uiparser:pop widget QPushButton pushButton
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x000001442B08D700>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.uiparser:push QPushButton pushButton_4
+DEBUG:PyQt5.uic.uiparser:pop widget QPushButton pushButton_4
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x000001442B08D700>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property iconSize
+DEBUG:PyQt5.uic.uiparser:push QCheckBox checkBox
+DEBUG:PyQt5.uic.uiparser:pop widget QCheckBox checkBox
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x000001442B08D700>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property alignment
+DEBUG:PyQt5.uic.uiparser:push QLineEdit lineEdit
+DEBUG:PyQt5.uic.uiparser:pop widget QLineEdit lineEdit
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x000001442B08D700>
+DEBUG:PyQt5.uic.uiparser:pop widget QWidget centralwidget
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x000001442B08D160>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.uiparser:push QMenuBar menubar
+DEBUG:PyQt5.uic.uiparser:pop widget QMenuBar menubar
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x000001442B08D160>
+DEBUG:PyQt5.uic.uiparser:push QStatusBar statusbar
+DEBUG:PyQt5.uic.uiparser:pop widget QStatusBar statusbar
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x000001442B08D160>
+DEBUG:PyQt5.uic.uiparser:pop widget QMainWindow SAM
+DEBUG:PyQt5.uic.uiparser:new topwidget None
+DEBUG:PyQt5.uic.uiparser:UI version is 4.0
+DEBUG:PyQt5.uic.uiparser:uiname is SAM
+DEBUG:PyQt5.uic.uiparser:toplevel widget is QMainWindow
+DEBUG:PyQt5.uic.properties:setting property enabled
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property windowTitle
+DEBUG:PyQt5.uic.properties:setting property toolTip
+DEBUG:PyQt5.uic.properties:setting property statusTip
+DEBUG:PyQt5.uic.properties:setting property layoutDirection
+DEBUG:PyQt5.uic.uiparser:push QMainWindow SAM
+DEBUG:PyQt5.uic.uiparser:push QWidget centralwidget
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property pixmap
+DEBUG:PyQt5.uic.uiparser:push QLabel label
+DEBUG:PyQt5.uic.uiparser:pop widget QLabel label
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x0000014423AA6B80>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property pixmap
+DEBUG:PyQt5.uic.uiparser:push QLabel label_2
+DEBUG:PyQt5.uic.uiparser:pop widget QLabel label_2
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x0000014423AA6B80>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.uiparser:push QPushButton pushButton
+DEBUG:PyQt5.uic.uiparser:pop widget QPushButton pushButton
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x0000014423AA6B80>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.uiparser:push QPushButton pushButton_4
+DEBUG:PyQt5.uic.uiparser:pop widget QPushButton pushButton_4
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x0000014423AA6B80>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property iconSize
+DEBUG:PyQt5.uic.uiparser:push QCheckBox checkBox
+DEBUG:PyQt5.uic.uiparser:pop widget QCheckBox checkBox
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x0000014423AA6B80>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property alignment
+DEBUG:PyQt5.uic.uiparser:push QLineEdit lineEdit
+DEBUG:PyQt5.uic.uiparser:pop widget QLineEdit lineEdit
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x0000014423AA6B80>
+DEBUG:PyQt5.uic.uiparser:pop widget QWidget centralwidget
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x0000014423AA68B0>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.uiparser:push QMenuBar menubar
+DEBUG:PyQt5.uic.uiparser:pop widget QMenuBar menubar
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x0000014423AA68B0>
+DEBUG:PyQt5.uic.uiparser:push QStatusBar statusbar
+DEBUG:PyQt5.uic.uiparser:pop widget QStatusBar statusbar
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x0000014423AA68B0>
+DEBUG:PyQt5.uic.uiparser:pop widget QMainWindow SAM
+DEBUG:PyQt5.uic.uiparser:new topwidget None
+DEBUG:PyQt5.uic.uiparser:UI version is 4.0
+DEBUG:PyQt5.uic.uiparser:uiname is SAM
+DEBUG:PyQt5.uic.uiparser:toplevel widget is QMainWindow
+DEBUG:PyQt5.uic.properties:setting property enabled
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property windowTitle
+DEBUG:PyQt5.uic.properties:setting property toolTip
+DEBUG:PyQt5.uic.properties:setting property statusTip
+DEBUG:PyQt5.uic.properties:setting property layoutDirection
+DEBUG:PyQt5.uic.uiparser:push QMainWindow SAM
+DEBUG:PyQt5.uic.uiparser:push QWidget centralwidget
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property pixmap
+DEBUG:PyQt5.uic.uiparser:push QLabel label
+DEBUG:PyQt5.uic.uiparser:pop widget QLabel label
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x000001442B08D160>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property pixmap
+DEBUG:PyQt5.uic.uiparser:push QLabel label_2
+DEBUG:PyQt5.uic.uiparser:pop widget QLabel label_2
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x000001442B08D160>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.uiparser:push QPushButton pushButton
+DEBUG:PyQt5.uic.uiparser:pop widget QPushButton pushButton
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x000001442B08D160>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.uiparser:push QPushButton pushButton_4
+DEBUG:PyQt5.uic.uiparser:pop widget QPushButton pushButton_4
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x000001442B08D160>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property iconSize
+DEBUG:PyQt5.uic.uiparser:push QCheckBox checkBox
+DEBUG:PyQt5.uic.uiparser:pop widget QCheckBox checkBox
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x000001442B08D160>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property alignment
+DEBUG:PyQt5.uic.uiparser:push QLineEdit lineEdit
+DEBUG:PyQt5.uic.uiparser:pop widget QLineEdit lineEdit
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x000001442B08D160>
+DEBUG:PyQt5.uic.uiparser:pop widget QWidget centralwidget
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x00000144162ED550>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.uiparser:push QMenuBar menubar
+DEBUG:PyQt5.uic.uiparser:pop widget QMenuBar menubar
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x00000144162ED550>
+DEBUG:PyQt5.uic.uiparser:push QStatusBar statusbar
+DEBUG:PyQt5.uic.uiparser:pop widget QStatusBar statusbar
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x00000144162ED550>
+DEBUG:PyQt5.uic.uiparser:pop widget QMainWindow SAM
+DEBUG:PyQt5.uic.uiparser:new topwidget None
+DEBUG:PyQt5.uic.uiparser:UI version is 4.0
+DEBUG:PyQt5.uic.uiparser:uiname is SAM
+DEBUG:PyQt5.uic.uiparser:toplevel widget is QMainWindow
+DEBUG:PyQt5.uic.properties:setting property enabled
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property windowTitle
+DEBUG:PyQt5.uic.properties:setting property toolTip
+DEBUG:PyQt5.uic.properties:setting property statusTip
+DEBUG:PyQt5.uic.properties:setting property layoutDirection
+DEBUG:PyQt5.uic.uiparser:push QMainWindow SAM
+DEBUG:PyQt5.uic.uiparser:push QWidget centralwidget
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property pixmap
+DEBUG:PyQt5.uic.uiparser:push QLabel label
+DEBUG:PyQt5.uic.uiparser:pop widget QLabel label
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x0000014428EAD0D0>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property pixmap
+DEBUG:PyQt5.uic.uiparser:push QLabel label_2
+DEBUG:PyQt5.uic.uiparser:pop widget QLabel label_2
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x0000014428EAD0D0>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.uiparser:push QPushButton pushButton
+DEBUG:PyQt5.uic.uiparser:pop widget QPushButton pushButton
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x0000014428EAD0D0>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.uiparser:push QPushButton pushButton_4
+DEBUG:PyQt5.uic.uiparser:pop widget QPushButton pushButton_4
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x0000014428EAD0D0>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property iconSize
+DEBUG:PyQt5.uic.uiparser:push QCheckBox checkBox
+DEBUG:PyQt5.uic.uiparser:pop widget QCheckBox checkBox
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x0000014428EAD0D0>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property alignment
+DEBUG:PyQt5.uic.uiparser:push QLineEdit lineEdit
+DEBUG:PyQt5.uic.uiparser:pop widget QLineEdit lineEdit
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x0000014428EAD0D0>
+DEBUG:PyQt5.uic.uiparser:pop widget QWidget centralwidget
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x0000014428EAD040>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.uiparser:push QMenuBar menubar
+DEBUG:PyQt5.uic.uiparser:pop widget QMenuBar menubar
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x0000014428EAD040>
+DEBUG:PyQt5.uic.uiparser:push QStatusBar statusbar
+DEBUG:PyQt5.uic.uiparser:pop widget QStatusBar statusbar
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x0000014428EAD040>
+DEBUG:PyQt5.uic.uiparser:pop widget QMainWindow SAM
+DEBUG:PyQt5.uic.uiparser:new topwidget None
+DEBUG:PyQt5.uic.uiparser:UI version is 4.0
+DEBUG:PyQt5.uic.uiparser:uiname is SAM
+DEBUG:PyQt5.uic.uiparser:toplevel widget is QMainWindow
+DEBUG:PyQt5.uic.properties:setting property enabled
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property windowTitle
+DEBUG:PyQt5.uic.properties:setting property toolTip
+DEBUG:PyQt5.uic.properties:setting property statusTip
+DEBUG:PyQt5.uic.properties:setting property layoutDirection
+DEBUG:PyQt5.uic.uiparser:push QMainWindow SAM
+DEBUG:PyQt5.uic.uiparser:push QWidget centralwidget
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property pixmap
+DEBUG:PyQt5.uic.uiparser:push QLabel label
+DEBUG:PyQt5.uic.uiparser:pop widget QLabel label
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x0000014423AA6550>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property pixmap
+DEBUG:PyQt5.uic.uiparser:push QLabel label_2
+DEBUG:PyQt5.uic.uiparser:pop widget QLabel label_2
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x0000014423AA6550>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.uiparser:push QPushButton pushButton
+DEBUG:PyQt5.uic.uiparser:pop widget QPushButton pushButton
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x0000014423AA6550>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.uiparser:push QPushButton pushButton_4
+DEBUG:PyQt5.uic.uiparser:pop widget QPushButton pushButton_4
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x0000014423AA6550>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property iconSize
+DEBUG:PyQt5.uic.uiparser:push QCheckBox checkBox
+DEBUG:PyQt5.uic.uiparser:pop widget QCheckBox checkBox
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x0000014423AA6550>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property alignment
+DEBUG:PyQt5.uic.uiparser:push QLineEdit lineEdit
+DEBUG:PyQt5.uic.uiparser:pop widget QLineEdit lineEdit
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x0000014423AA6550>
+DEBUG:PyQt5.uic.uiparser:pop widget QWidget centralwidget
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x0000014427C718B0>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.uiparser:push QMenuBar menubar
+DEBUG:PyQt5.uic.uiparser:pop widget QMenuBar menubar
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x0000014427C718B0>
+DEBUG:PyQt5.uic.uiparser:push QStatusBar statusbar
+DEBUG:PyQt5.uic.uiparser:pop widget QStatusBar statusbar
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x0000014427C718B0>
+DEBUG:PyQt5.uic.uiparser:pop widget QMainWindow SAM
+DEBUG:PyQt5.uic.uiparser:new topwidget None
+DEBUG:PyQt5.uic.uiparser:UI version is 4.0
+DEBUG:PyQt5.uic.uiparser:uiname is SAM
+DEBUG:PyQt5.uic.uiparser:toplevel widget is QMainWindow
+DEBUG:PyQt5.uic.properties:setting property enabled
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property windowTitle
+DEBUG:PyQt5.uic.properties:setting property toolTip
+DEBUG:PyQt5.uic.properties:setting property statusTip
+DEBUG:PyQt5.uic.properties:setting property layoutDirection
+DEBUG:PyQt5.uic.uiparser:push QMainWindow SAM
+DEBUG:PyQt5.uic.uiparser:push QWidget centralwidget
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property pixmap
+DEBUG:PyQt5.uic.uiparser:push QLabel label
+DEBUG:PyQt5.uic.uiparser:pop widget QLabel label
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x000001442B08D9D0>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property pixmap
+DEBUG:PyQt5.uic.uiparser:push QLabel label_2
+DEBUG:PyQt5.uic.uiparser:pop widget QLabel label_2
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x000001442B08D9D0>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.uiparser:push QPushButton pushButton
+DEBUG:PyQt5.uic.uiparser:pop widget QPushButton pushButton
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x000001442B08D9D0>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.uiparser:push QPushButton pushButton_4
+DEBUG:PyQt5.uic.uiparser:pop widget QPushButton pushButton_4
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x000001442B08D9D0>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property iconSize
+DEBUG:PyQt5.uic.uiparser:push QCheckBox checkBox
+DEBUG:PyQt5.uic.uiparser:pop widget QCheckBox checkBox
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x000001442B08D9D0>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property alignment
+DEBUG:PyQt5.uic.uiparser:push QLineEdit lineEdit
+DEBUG:PyQt5.uic.uiparser:pop widget QLineEdit lineEdit
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x000001442B08D9D0>
+DEBUG:PyQt5.uic.uiparser:pop widget QWidget centralwidget
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x000001442B08D430>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.uiparser:push QMenuBar menubar
+DEBUG:PyQt5.uic.uiparser:pop widget QMenuBar menubar
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x000001442B08D430>
+DEBUG:PyQt5.uic.uiparser:push QStatusBar statusbar
+DEBUG:PyQt5.uic.uiparser:pop widget QStatusBar statusbar
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x000001442B08D430>
+DEBUG:PyQt5.uic.uiparser:pop widget QMainWindow SAM
+DEBUG:PyQt5.uic.uiparser:new topwidget None
+DEBUG:PyQt5.uic.uiparser:UI version is 4.0
+DEBUG:PyQt5.uic.uiparser:uiname is SAM
+DEBUG:PyQt5.uic.uiparser:toplevel widget is QMainWindow
+DEBUG:PyQt5.uic.properties:setting property enabled
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property windowTitle
+DEBUG:PyQt5.uic.properties:setting property toolTip
+DEBUG:PyQt5.uic.properties:setting property statusTip
+DEBUG:PyQt5.uic.properties:setting property layoutDirection
+DEBUG:PyQt5.uic.uiparser:push QMainWindow SAM
+DEBUG:PyQt5.uic.uiparser:push QWidget centralwidget
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property pixmap
+DEBUG:PyQt5.uic.uiparser:push QLabel label
+DEBUG:PyQt5.uic.uiparser:pop widget QLabel label
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x0000014416324CA0>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property pixmap
+DEBUG:PyQt5.uic.uiparser:push QLabel label_2
+DEBUG:PyQt5.uic.uiparser:pop widget QLabel label_2
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x0000014416324CA0>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.uiparser:push QPushButton pushButton
+DEBUG:PyQt5.uic.uiparser:pop widget QPushButton pushButton
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x0000014416324CA0>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.uiparser:push QPushButton pushButton_4
+DEBUG:PyQt5.uic.uiparser:pop widget QPushButton pushButton_4
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x0000014416324CA0>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property iconSize
+DEBUG:PyQt5.uic.uiparser:push QCheckBox checkBox
+DEBUG:PyQt5.uic.uiparser:pop widget QCheckBox checkBox
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x0000014416324CA0>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property alignment
+DEBUG:PyQt5.uic.uiparser:push QLineEdit lineEdit
+DEBUG:PyQt5.uic.uiparser:pop widget QLineEdit lineEdit
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x0000014416324CA0>
+DEBUG:PyQt5.uic.uiparser:pop widget QWidget centralwidget
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x0000014425E1FE50>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.uiparser:push QMenuBar menubar
+DEBUG:PyQt5.uic.uiparser:pop widget QMenuBar menubar
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x0000014425E1FE50>
+DEBUG:PyQt5.uic.uiparser:push QStatusBar statusbar
+DEBUG:PyQt5.uic.uiparser:pop widget QStatusBar statusbar
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x0000014425E1FE50>
+DEBUG:PyQt5.uic.uiparser:pop widget QMainWindow SAM
+DEBUG:PyQt5.uic.uiparser:new topwidget None
+INFO:root:[Errno 2] No such file or directory: 'C:\\Users\\Victor Magal\\Desktop\\SAM\\topology_files\\be8f14636c85b5f747a92906ee6f0ca3.raven-topology'
+DEBUG:root:('Failed to retrieve database topology from all known nodes', [('https://a.rdbguiando.ravendb.cloud', OSError('Could not find the TLS key file, invalid path: C:/Users/Victor Magal/Downloads/Raven/victormagalhaes.client.certificate.key'))])
+INFO:root:[Errno 2] No such file or directory: 'C:\\Users\\Victor Magal\\Desktop\\SAM\\topology_files\\70032a2d823e0de8640e6a312b5e838b.raven-topology'
+DEBUG:root:('Failed to retrieve database topology from all known nodes', [('https://a.rdbguiando.ravendb.community/studio/index.html', OSError('Could not find the TLS key file, invalid path: C:/Users/Victor Magal/Downloads/Raven/victormagalhaes.client.certificate.key'))])
+INFO:root:[Errno 2] No such file or directory: 'C:\\Users\\Victor Magal\\Desktop\\SAM\\topology_files\\70032a2d823e0de8640e6a312b5e838b.raven-topology'
+DEBUG:root:('Failed to retrieve database topology from all known nodes', [('https://a.rdbguiando.ravendb.community/studio/index.html', OSError('Could not find the TLS key file, invalid path: C:/Users/Victor Magal/Downloads/Raven/victormagalhaes.client.certificate.key'))])
+INFO:root:[Errno 2] No such file or directory: 'C:\\Users\\Victor Magal\\Desktop\\SAM\\topology_files\\70032a2d823e0de8640e6a312b5e838b.raven-topology'
+DEBUG:root:('Failed to retrieve database topology from all known nodes', [('https://a.rdbguiando.ravendb.community/studio/index.html', OSError('Could not find the TLS certificate file, invalid path: C:/Users/Victor Magal/Downloads/Raven/cert.crt'))])
+DEBUG:PyQt5.uic.uiparser:UI version is 4.0
+DEBUG:PyQt5.uic.uiparser:uiname is SAM
+DEBUG:PyQt5.uic.uiparser:toplevel widget is QMainWindow
+DEBUG:PyQt5.uic.properties:setting property enabled
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property windowTitle
+DEBUG:PyQt5.uic.properties:setting property toolTip
+DEBUG:PyQt5.uic.properties:setting property statusTip
+DEBUG:PyQt5.uic.properties:setting property layoutDirection
+DEBUG:PyQt5.uic.uiparser:push QMainWindow SAM
+DEBUG:PyQt5.uic.uiparser:push QWidget centralwidget
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property pixmap
+DEBUG:PyQt5.uic.uiparser:push QLabel label
+DEBUG:PyQt5.uic.uiparser:pop widget QLabel label
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x0000025A883DBC10>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property pixmap
+DEBUG:PyQt5.uic.uiparser:push QLabel label_2
+DEBUG:PyQt5.uic.uiparser:pop widget QLabel label_2
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x0000025A883DBC10>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.uiparser:push QPushButton pushButton
+DEBUG:PyQt5.uic.uiparser:pop widget QPushButton pushButton
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x0000025A883DBC10>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.uiparser:push QPushButton pushButton_4
+DEBUG:PyQt5.uic.uiparser:pop widget QPushButton pushButton_4
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x0000025A883DBC10>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property iconSize
+DEBUG:PyQt5.uic.uiparser:push QCheckBox checkBox
+DEBUG:PyQt5.uic.uiparser:pop widget QCheckBox checkBox
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x0000025A883DBC10>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property alignment
+DEBUG:PyQt5.uic.uiparser:push QLineEdit lineEdit
+DEBUG:PyQt5.uic.uiparser:pop widget QLineEdit lineEdit
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x0000025A883DBC10>
+DEBUG:PyQt5.uic.uiparser:pop widget QWidget centralwidget
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x0000025A883DBAF0>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.uiparser:push QMenuBar menubar
+DEBUG:PyQt5.uic.uiparser:pop widget QMenuBar menubar
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x0000025A883DBAF0>
+DEBUG:PyQt5.uic.uiparser:push QStatusBar statusbar
+DEBUG:PyQt5.uic.uiparser:pop widget QStatusBar statusbar
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x0000025A883DBAF0>
+DEBUG:PyQt5.uic.uiparser:pop widget QMainWindow SAM
+DEBUG:PyQt5.uic.uiparser:new topwidget None
+DEBUG:PyQt5.uic.uiparser:UI version is 4.0
+DEBUG:PyQt5.uic.uiparser:uiname is SAM
+DEBUG:PyQt5.uic.uiparser:toplevel widget is QMainWindow
+DEBUG:PyQt5.uic.properties:setting property enabled
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property windowTitle
+DEBUG:PyQt5.uic.properties:setting property toolTip
+DEBUG:PyQt5.uic.properties:setting property statusTip
+DEBUG:PyQt5.uic.properties:setting property layoutDirection
+DEBUG:PyQt5.uic.uiparser:push QMainWindow SAM
+DEBUG:PyQt5.uic.uiparser:push QWidget centralwidget
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property pixmap
+DEBUG:PyQt5.uic.uiparser:push QLabel label
+DEBUG:PyQt5.uic.uiparser:pop widget QLabel label
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x0000028FABBFBE50>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property pixmap
+DEBUG:PyQt5.uic.uiparser:push QLabel label_2
+DEBUG:PyQt5.uic.uiparser:pop widget QLabel label_2
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x0000028FABBFBE50>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.uiparser:push QPushButton pushButton
+DEBUG:PyQt5.uic.uiparser:pop widget QPushButton pushButton
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x0000028FABBFBE50>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.uiparser:push QPushButton pushButton_4
+DEBUG:PyQt5.uic.uiparser:pop widget QPushButton pushButton_4
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x0000028FABBFBE50>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property iconSize
+DEBUG:PyQt5.uic.uiparser:push QCheckBox checkBox
+DEBUG:PyQt5.uic.uiparser:pop widget QCheckBox checkBox
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x0000028FABBFBE50>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property alignment
+DEBUG:PyQt5.uic.uiparser:push QLineEdit lineEdit
+DEBUG:PyQt5.uic.uiparser:pop widget QLineEdit lineEdit
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x0000028FABBFBE50>
+DEBUG:PyQt5.uic.uiparser:pop widget QWidget centralwidget
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x0000028FABBFBC10>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.uiparser:push QMenuBar menubar
+DEBUG:PyQt5.uic.uiparser:pop widget QMenuBar menubar
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x0000028FABBFBC10>
+DEBUG:PyQt5.uic.uiparser:push QStatusBar statusbar
+DEBUG:PyQt5.uic.uiparser:pop widget QStatusBar statusbar
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x0000028FABBFBC10>
+DEBUG:PyQt5.uic.uiparser:pop widget QMainWindow SAM
+DEBUG:PyQt5.uic.uiparser:new topwidget None
+DEBUG:PyQt5.uic.uiparser:UI version is 4.0
+DEBUG:PyQt5.uic.uiparser:uiname is SAM
+DEBUG:PyQt5.uic.uiparser:toplevel widget is QMainWindow
+DEBUG:PyQt5.uic.properties:setting property enabled
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property windowTitle
+DEBUG:PyQt5.uic.properties:setting property toolTip
+DEBUG:PyQt5.uic.properties:setting property statusTip
+DEBUG:PyQt5.uic.properties:setting property layoutDirection
+DEBUG:PyQt5.uic.uiparser:push QMainWindow SAM
+DEBUG:PyQt5.uic.uiparser:push QWidget centralwidget
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property pixmap
+DEBUG:PyQt5.uic.uiparser:push QLabel label
+DEBUG:PyQt5.uic.uiparser:pop widget QLabel label
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x00000235386F2700>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property pixmap
+DEBUG:PyQt5.uic.uiparser:push QLabel label_2
+DEBUG:PyQt5.uic.uiparser:pop widget QLabel label_2
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x00000235386F2700>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.uiparser:push QPushButton pushButton
+DEBUG:PyQt5.uic.uiparser:pop widget QPushButton pushButton
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x00000235386F2700>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.uiparser:push QPushButton pushButton_4
+DEBUG:PyQt5.uic.uiparser:pop widget QPushButton pushButton_4
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x00000235386F2700>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property iconSize
+DEBUG:PyQt5.uic.uiparser:push QCheckBox checkBox
+DEBUG:PyQt5.uic.uiparser:pop widget QCheckBox checkBox
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x00000235386F2700>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property alignment
+DEBUG:PyQt5.uic.uiparser:push QLineEdit lineEdit
+DEBUG:PyQt5.uic.uiparser:pop widget QLineEdit lineEdit
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x00000235386F2700>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property alignment
+DEBUG:PyQt5.uic.uiparser:push QLineEdit lineEdit_2
+DEBUG:PyQt5.uic.uiparser:pop widget QLineEdit lineEdit_2
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x00000235386F2700>
+DEBUG:PyQt5.uic.uiparser:pop widget QWidget centralwidget
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x00000235386F25E0>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.uiparser:push QMenuBar menubar
+DEBUG:PyQt5.uic.uiparser:pop widget QMenuBar menubar
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x00000235386F25E0>
+DEBUG:PyQt5.uic.uiparser:push QStatusBar statusbar
+DEBUG:PyQt5.uic.uiparser:pop widget QStatusBar statusbar
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x00000235386F25E0>
+DEBUG:PyQt5.uic.uiparser:pop widget QMainWindow SAM
+DEBUG:PyQt5.uic.uiparser:new topwidget None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/ping HTTP/1.1" 200 14
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/parsers HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "POST /v1/document/upload/odpzxugqcrml HTTP/1.1" 200 151
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/parsers HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "POST /v1/document/upload/odpzxugqcrml HTTP/1.1" 200 151
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/parsers HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/results/odpzxugqcrml/fb69e9a0d76a82ef9eb5044e2f8e0d3e HTTP/1.1" 200 2806
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/parsers HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/results/odpzxugqcrml/ca9df992a983e9e5f37fb9fa7aa5be15 HTTP/1.1" 200 2760
+DEBUG:PyQt5.uic.uiparser:UI version is 4.0
+DEBUG:PyQt5.uic.uiparser:uiname is SAM
+DEBUG:PyQt5.uic.uiparser:toplevel widget is QMainWindow
+DEBUG:PyQt5.uic.properties:setting property enabled
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property windowTitle
+DEBUG:PyQt5.uic.properties:setting property toolTip
+DEBUG:PyQt5.uic.properties:setting property statusTip
+DEBUG:PyQt5.uic.properties:setting property layoutDirection
+DEBUG:PyQt5.uic.uiparser:push QMainWindow SAM
+DEBUG:PyQt5.uic.uiparser:push QWidget centralwidget
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property pixmap
+DEBUG:PyQt5.uic.uiparser:push QLabel label
+DEBUG:PyQt5.uic.uiparser:pop widget QLabel label
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x000002353F8458B0>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property pixmap
+DEBUG:PyQt5.uic.uiparser:push QLabel label_2
+DEBUG:PyQt5.uic.uiparser:pop widget QLabel label_2
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x000002353F8458B0>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.uiparser:push QPushButton pushButton
+DEBUG:PyQt5.uic.uiparser:pop widget QPushButton pushButton
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x000002353F8458B0>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.uiparser:push QPushButton pushButton_4
+DEBUG:PyQt5.uic.uiparser:pop widget QPushButton pushButton_4
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x000002353F8458B0>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property iconSize
+DEBUG:PyQt5.uic.uiparser:push QCheckBox checkBox
+DEBUG:PyQt5.uic.uiparser:pop widget QCheckBox checkBox
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x000002353F8458B0>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property alignment
+DEBUG:PyQt5.uic.uiparser:push QLineEdit lineEdit
+DEBUG:PyQt5.uic.uiparser:pop widget QLineEdit lineEdit
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x000002353F8458B0>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property alignment
+DEBUG:PyQt5.uic.uiparser:push QLineEdit lineEdit_2
+DEBUG:PyQt5.uic.uiparser:pop widget QLineEdit lineEdit_2
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x000002353F8458B0>
+DEBUG:PyQt5.uic.uiparser:pop widget QWidget centralwidget
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x00000235334F8A60>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.uiparser:push QMenuBar menubar
+DEBUG:PyQt5.uic.uiparser:pop widget QMenuBar menubar
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x00000235334F8A60>
+DEBUG:PyQt5.uic.uiparser:push QStatusBar statusbar
+DEBUG:PyQt5.uic.uiparser:pop widget QStatusBar statusbar
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x00000235334F8A60>
+DEBUG:PyQt5.uic.uiparser:pop widget QMainWindow SAM
+DEBUG:PyQt5.uic.uiparser:new topwidget None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/ping HTTP/1.1" 200 14
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/parsers HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "POST /v1/document/upload/odpzxugqcrml HTTP/1.1" 200 151
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/parsers HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "POST /v1/document/upload/odpzxugqcrml HTTP/1.1" 200 151
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/parsers HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "POST /v1/document/upload/odpzxugqcrml HTTP/1.1" 200 151
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/parsers HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "POST /v1/document/upload/odpzxugqcrml HTTP/1.1" 200 151
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/parsers HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "POST /v1/document/upload/odpzxugqcrml HTTP/1.1" 200 151
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/parsers HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "POST /v1/document/upload/odpzxugqcrml HTTP/1.1" 200 151
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/parsers HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "POST /v1/document/upload/odpzxugqcrml HTTP/1.1" 200 151
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/parsers HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "POST /v1/document/upload/odpzxugqcrml HTTP/1.1" 200 151
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/parsers HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "POST /v1/document/upload/odpzxugqcrml HTTP/1.1" 200 151
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/parsers HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "POST /v1/document/upload/odpzxugqcrml HTTP/1.1" 200 151
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/parsers HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "POST /v1/document/upload/odpzxugqcrml HTTP/1.1" 200 151
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/parsers HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "POST /v1/document/upload/odpzxugqcrml HTTP/1.1" 200 151
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/parsers HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "POST /v1/document/upload/odpzxugqcrml HTTP/1.1" 200 151
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/parsers HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "POST /v1/document/upload/odpzxugqcrml HTTP/1.1" 200 151
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/parsers HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "POST /v1/document/upload/odpzxugqcrml HTTP/1.1" 200 151
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/parsers HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "POST /v1/document/upload/odpzxugqcrml HTTP/1.1" 200 151
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/parsers HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "POST /v1/document/upload/odpzxugqcrml HTTP/1.1" 200 151
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/parsers HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "POST /v1/document/upload/odpzxugqcrml HTTP/1.1" 200 151
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/parsers HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "POST /v1/document/upload/odpzxugqcrml HTTP/1.1" 200 151
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/parsers HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "POST /v1/document/upload/odpzxugqcrml HTTP/1.1" 200 151
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/parsers HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/results/odpzxugqcrml/4854fdeaad9df183554953f751b1e6ee HTTP/1.1" 200 2923
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/parsers HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/results/odpzxugqcrml/146ce3f1a4b869ea65f45227b0bcc24d HTTP/1.1" 200 2760
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/parsers HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/results/odpzxugqcrml/11da2a0f40cd6d4a4c2dd712a956b2e1 HTTP/1.1" 200 2905
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/parsers HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/results/odpzxugqcrml/60134eb69c7a97fb79120c41a679bb2e HTTP/1.1" 200 2789
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/parsers HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/results/odpzxugqcrml/9f8235726d9602c90eb28add0a760629 HTTP/1.1" 200 2909
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/parsers HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/results/odpzxugqcrml/2481bfaa75dcfd11f20b970f3e546194 HTTP/1.1" 200 2784
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/parsers HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/results/odpzxugqcrml/82d1fe39ce3cc0f30bc5aac3b8e3ab05 HTTP/1.1" 200 2881
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/parsers HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/results/odpzxugqcrml/24e0cea6f00a3b728116e88a4fe2570d HTTP/1.1" 200 2918
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/parsers HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/results/odpzxugqcrml/c89944efc6d5dbb2fc4d9025d7530540 HTTP/1.1" 200 2893
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/parsers HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/results/odpzxugqcrml/96c16e43645392fa8bfabd05c6deb3fd HTTP/1.1" 200 2893
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/parsers HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/results/odpzxugqcrml/cb0b7d0911b2e4c4e1a1ab6869768dc4 HTTP/1.1" 200 2892
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/parsers HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/results/odpzxugqcrml/6c9db73758df0d118176116c5be3089a HTTP/1.1" 200 2841
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/parsers HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/results/odpzxugqcrml/ba31c89ae448165905e61cace76bd3b7 HTTP/1.1" 200 2833
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/parsers HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/results/odpzxugqcrml/58d49e0ebac8e0678a6f4fc3917342ce HTTP/1.1" 200 2908
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/parsers HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/results/odpzxugqcrml/1fb825eb82a9206a9d1d90d2f94e849d HTTP/1.1" 200 2897
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/parsers HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/results/odpzxugqcrml/f2476c617167c140b711c4ad2cedbd88 HTTP/1.1" 200 2806
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/parsers HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/results/odpzxugqcrml/e98b65d5c375a49a6b1fc30af11e7d64 HTTP/1.1" 200 2899
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/parsers HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/results/odpzxugqcrml/d880fd4018b5f733f59957123b5042e8 HTTP/1.1" 200 2896
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/parsers HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/results/odpzxugqcrml/27ec33aad656e517c5a2372ef9889e5a HTTP/1.1" 200 2903
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/parsers HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/results/odpzxugqcrml/dbc815ee984cfd33cabb30c3084617fc HTTP/1.1" 200 2948
+DEBUG:PyQt5.uic.uiparser:UI version is 4.0
+DEBUG:PyQt5.uic.uiparser:uiname is SAM
+DEBUG:PyQt5.uic.uiparser:toplevel widget is QMainWindow
+DEBUG:PyQt5.uic.properties:setting property enabled
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property windowTitle
+DEBUG:PyQt5.uic.properties:setting property toolTip
+DEBUG:PyQt5.uic.properties:setting property statusTip
+DEBUG:PyQt5.uic.properties:setting property layoutDirection
+DEBUG:PyQt5.uic.uiparser:push QMainWindow SAM
+DEBUG:PyQt5.uic.uiparser:push QWidget centralwidget
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property pixmap
+DEBUG:PyQt5.uic.uiparser:push QLabel label
+DEBUG:PyQt5.uic.uiparser:pop widget QLabel label
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x000002353F8951F0>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property pixmap
+DEBUG:PyQt5.uic.uiparser:push QLabel label_2
+DEBUG:PyQt5.uic.uiparser:pop widget QLabel label_2
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x000002353F8951F0>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.uiparser:push QPushButton pushButton
+DEBUG:PyQt5.uic.uiparser:pop widget QPushButton pushButton
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x000002353F8951F0>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.uiparser:push QPushButton pushButton_4
+DEBUG:PyQt5.uic.uiparser:pop widget QPushButton pushButton_4
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x000002353F8951F0>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property iconSize
+DEBUG:PyQt5.uic.uiparser:push QCheckBox checkBox
+DEBUG:PyQt5.uic.uiparser:pop widget QCheckBox checkBox
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x000002353F8951F0>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property alignment
+DEBUG:PyQt5.uic.uiparser:push QLineEdit lineEdit
+DEBUG:PyQt5.uic.uiparser:pop widget QLineEdit lineEdit
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x000002353F8951F0>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property alignment
+DEBUG:PyQt5.uic.uiparser:push QLineEdit lineEdit_2
+DEBUG:PyQt5.uic.uiparser:pop widget QLineEdit lineEdit_2
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x000002353F8951F0>
+DEBUG:PyQt5.uic.uiparser:pop widget QWidget centralwidget
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x000002353F8950D0>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.uiparser:push QMenuBar menubar
+DEBUG:PyQt5.uic.uiparser:pop widget QMenuBar menubar
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x000002353F8950D0>
+DEBUG:PyQt5.uic.uiparser:push QStatusBar statusbar
+DEBUG:PyQt5.uic.uiparser:pop widget QStatusBar statusbar
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x000002353F8950D0>
+DEBUG:PyQt5.uic.uiparser:pop widget QMainWindow SAM
+DEBUG:PyQt5.uic.uiparser:new topwidget None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/ping HTTP/1.1" 200 14
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/parsers HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "POST /v1/document/upload/odpzxugqcrml HTTP/1.1" 200 151
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/parsers HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "POST /v1/document/upload/odpzxugqcrml HTTP/1.1" 200 151
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/parsers HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "POST /v1/document/upload/odpzxugqcrml HTTP/1.1" 200 151
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/parsers HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "POST /v1/document/upload/odpzxugqcrml HTTP/1.1" 200 151
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/parsers HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "POST /v1/document/upload/odpzxugqcrml HTTP/1.1" 200 151
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/parsers HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "POST /v1/document/upload/odpzxugqcrml HTTP/1.1" 200 151
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/parsers HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "POST /v1/document/upload/odpzxugqcrml HTTP/1.1" 200 151
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/parsers HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "POST /v1/document/upload/odpzxugqcrml HTTP/1.1" 200 151
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/parsers HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "POST /v1/document/upload/odpzxugqcrml HTTP/1.1" 200 151
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/parsers HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "POST /v1/document/upload/odpzxugqcrml HTTP/1.1" 200 151
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/parsers HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "POST /v1/document/upload/odpzxugqcrml HTTP/1.1" 200 151
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/parsers HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "POST /v1/document/upload/odpzxugqcrml HTTP/1.1" 200 151
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/parsers HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "POST /v1/document/upload/odpzxugqcrml HTTP/1.1" 200 151
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/parsers HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "POST /v1/document/upload/odpzxugqcrml HTTP/1.1" 200 151
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/parsers HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "POST /v1/document/upload/odpzxugqcrml HTTP/1.1" 200 151
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/parsers HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "POST /v1/document/upload/odpzxugqcrml HTTP/1.1" 200 151
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/parsers HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "POST /v1/document/upload/odpzxugqcrml HTTP/1.1" 200 151
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/parsers HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "POST /v1/document/upload/odpzxugqcrml HTTP/1.1" 200 151
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/parsers HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "POST /v1/document/upload/odpzxugqcrml HTTP/1.1" 200 151
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/parsers HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "POST /v1/document/upload/odpzxugqcrml HTTP/1.1" 200 151
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/parsers HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/results/odpzxugqcrml/3a35e0457812708564f2fc83c0e4ae9d HTTP/1.1" 200 2931
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/parsers HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/results/odpzxugqcrml/ff7838c31daebfb09c1ac3088a2398c8 HTTP/1.1" 200 2768
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/parsers HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/results/odpzxugqcrml/d871d11658c4c24698fc27ce000e6b05 HTTP/1.1" 200 2913
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/parsers HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/results/odpzxugqcrml/176880ab9851b213175f1dc320ae47ca HTTP/1.1" 200 2797
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/parsers HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/results/odpzxugqcrml/6822e66c2dfdc34efc51a8502bbef7de HTTP/1.1" 200 2917
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/parsers HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/results/odpzxugqcrml/dca2650825b86cfc37426a9d86cac396 HTTP/1.1" 200 2792
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/parsers HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/results/odpzxugqcrml/005a754d02e0839dcf3c63b6856e5bc9 HTTP/1.1" 200 2889
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/parsers HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/results/odpzxugqcrml/30ecb236186de9951426688570fceb44 HTTP/1.1" 200 2926
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/parsers HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/results/odpzxugqcrml/994b240eee3ef74f33e60aa1c9bbd5aa HTTP/1.1" 200 2901
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/parsers HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/results/odpzxugqcrml/75f1825c90feb1448513d411fc0ad771 HTTP/1.1" 200 2901
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/parsers HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/results/odpzxugqcrml/e0a01c7e5eb07ef10395fed7f6f48a61 HTTP/1.1" 200 2900
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/parsers HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/results/odpzxugqcrml/2d56cac66d4b57a238e71f91f9b57016 HTTP/1.1" 200 2849
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/parsers HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/results/odpzxugqcrml/494becd7eacfdf8b03c1d495ea05c199 HTTP/1.1" 200 2841
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/parsers HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/results/odpzxugqcrml/451158e228d61e6188221628cd5e0538 HTTP/1.1" 200 2916
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/parsers HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/results/odpzxugqcrml/64f7984f788dbd269bdc203ad23e6ce4 HTTP/1.1" 200 2905
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/parsers HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/results/odpzxugqcrml/5f153d35be62d636386406957605ae70 HTTP/1.1" 200 2814
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/parsers HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/results/odpzxugqcrml/55961b2420ceb2f8f718874ea48ffa59 HTTP/1.1" 200 2907
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/parsers HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/results/odpzxugqcrml/3c50997325fe21a6b42e80881c0cd228 HTTP/1.1" 200 2904
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/parsers HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/results/odpzxugqcrml/3a20c4fbeb282047f55f4fb72afb3fcd HTTP/1.1" 200 2911
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/parsers HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/results/odpzxugqcrml/d4a5a7ad4c1b8aba86e09e8af5fd116c HTTP/1.1" 200 2956
+DEBUG:PyQt5.uic.uiparser:UI version is 4.0
+DEBUG:PyQt5.uic.uiparser:uiname is SAM
+DEBUG:PyQt5.uic.uiparser:toplevel widget is QMainWindow
+DEBUG:PyQt5.uic.properties:setting property enabled
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property windowTitle
+DEBUG:PyQt5.uic.properties:setting property toolTip
+DEBUG:PyQt5.uic.properties:setting property statusTip
+DEBUG:PyQt5.uic.properties:setting property layoutDirection
+DEBUG:PyQt5.uic.uiparser:push QMainWindow SAM
+DEBUG:PyQt5.uic.uiparser:push QWidget centralwidget
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property pixmap
+DEBUG:PyQt5.uic.uiparser:push QLabel label
+DEBUG:PyQt5.uic.uiparser:pop widget QLabel label
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x000002353F875430>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property pixmap
+DEBUG:PyQt5.uic.uiparser:push QLabel label_2
+DEBUG:PyQt5.uic.uiparser:pop widget QLabel label_2
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x000002353F875430>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.uiparser:push QPushButton pushButton
+DEBUG:PyQt5.uic.uiparser:pop widget QPushButton pushButton
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x000002353F875430>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.uiparser:push QPushButton pushButton_4
+DEBUG:PyQt5.uic.uiparser:pop widget QPushButton pushButton_4
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x000002353F875430>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property iconSize
+DEBUG:PyQt5.uic.uiparser:push QCheckBox checkBox
+DEBUG:PyQt5.uic.uiparser:pop widget QCheckBox checkBox
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x000002353F875430>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property alignment
+DEBUG:PyQt5.uic.uiparser:push QLineEdit lineEdit
+DEBUG:PyQt5.uic.uiparser:pop widget QLineEdit lineEdit
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x000002353F875430>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.properties:setting property text
+DEBUG:PyQt5.uic.properties:setting property alignment
+DEBUG:PyQt5.uic.uiparser:push QLineEdit lineEdit_2
+DEBUG:PyQt5.uic.uiparser:pop widget QLineEdit lineEdit_2
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QWidget object at 0x000002353F875430>
+DEBUG:PyQt5.uic.uiparser:pop widget QWidget centralwidget
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x000002353F875310>
+DEBUG:PyQt5.uic.properties:setting property geometry
+DEBUG:PyQt5.uic.uiparser:push QMenuBar menubar
+DEBUG:PyQt5.uic.uiparser:pop widget QMenuBar menubar
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x000002353F875310>
+DEBUG:PyQt5.uic.uiparser:push QStatusBar statusbar
+DEBUG:PyQt5.uic.uiparser:pop widget QStatusBar statusbar
+DEBUG:PyQt5.uic.uiparser:new topwidget <PyQt5.QtWidgets.QMainWindow object at 0x000002353F875310>
+DEBUG:PyQt5.uic.uiparser:pop widget QMainWindow SAM
+DEBUG:PyQt5.uic.uiparser:new topwidget None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/ping HTTP/1.1" 200 14
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/parsers HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "POST /v1/document/upload/odpzxugqcrml HTTP/1.1" 200 151
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/parsers HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "POST /v1/document/upload/odpzxugqcrml HTTP/1.1" 200 151
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/parsers HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "POST /v1/document/upload/odpzxugqcrml HTTP/1.1" 200 151
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/parsers HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "POST /v1/document/upload/odpzxugqcrml HTTP/1.1" 200 151
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/parsers HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "POST /v1/document/upload/odpzxugqcrml HTTP/1.1" 200 151
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/parsers HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "POST /v1/document/upload/odpzxugqcrml HTTP/1.1" 200 151
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/parsers HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "POST /v1/document/upload/odpzxugqcrml HTTP/1.1" 200 151
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/parsers HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "POST /v1/document/upload/odpzxugqcrml HTTP/1.1" 200 151
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/parsers HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "POST /v1/document/upload/odpzxugqcrml HTTP/1.1" 200 151
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/parsers HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "POST /v1/document/upload/odpzxugqcrml HTTP/1.1" 200 151
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/parsers HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "POST /v1/document/upload/odpzxugqcrml HTTP/1.1" 200 151
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/parsers HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "POST /v1/document/upload/odpzxugqcrml HTTP/1.1" 200 151
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/parsers HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "POST /v1/document/upload/odpzxugqcrml HTTP/1.1" 200 151
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/parsers HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "POST /v1/document/upload/odpzxugqcrml HTTP/1.1" 200 151
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/parsers HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "POST /v1/document/upload/odpzxugqcrml HTTP/1.1" 200 151
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/parsers HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "POST /v1/document/upload/odpzxugqcrml HTTP/1.1" 200 151
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/parsers HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "POST /v1/document/upload/odpzxugqcrml HTTP/1.1" 200 151
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/parsers HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "POST /v1/document/upload/odpzxugqcrml HTTP/1.1" 200 151
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/parsers HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "POST /v1/document/upload/odpzxugqcrml HTTP/1.1" 200 151
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/parsers HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "POST /v1/document/upload/odpzxugqcrml HTTP/1.1" 200 151
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/parsers HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/results/odpzxugqcrml/94345f0b358505d4345d5511c089c191 HTTP/1.1" 200 2939
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/parsers HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/results/odpzxugqcrml/cdf5706ec0b41c9e6cdaae568d72e327 HTTP/1.1" 200 2776
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/parsers HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/results/odpzxugqcrml/b2c9badadf6233bbc8bd322fa98708bf HTTP/1.1" 200 2921
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/parsers HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/results/odpzxugqcrml/f13ef305ceabb7a5013da35eb833c5a2 HTTP/1.1" 200 2805
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/parsers HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/results/odpzxugqcrml/bd2ea7ccd9f4347a9c67585dc5e90120 HTTP/1.1" 200 2925
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/parsers HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/results/odpzxugqcrml/10b5215d447991d76df5d8fe0bd1d2e6 HTTP/1.1" 200 2800
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/parsers HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/results/odpzxugqcrml/ca8cb751d18e48450f56b14f9f4915ee HTTP/1.1" 200 2897
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/parsers HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/results/odpzxugqcrml/9f5d23d0531c9033e89a3bddbc282f38 HTTP/1.1" 200 2934
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/parsers HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/results/odpzxugqcrml/3d843586066d87debd7c141af0a6989e HTTP/1.1" 200 2909
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/parsers HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/results/odpzxugqcrml/cc9e7553d1293f4bc217ac0a48e9b284 HTTP/1.1" 200 2909
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/parsers HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/results/odpzxugqcrml/6edbfb4dc7f75a4413b48c0f488b9c68 HTTP/1.1" 200 2908
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/parsers HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/results/odpzxugqcrml/b0fa62018e19bc134a28c2bb063c464e HTTP/1.1" 200 2857
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/parsers HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/results/odpzxugqcrml/bdd3275071c165fa4afdd2ad44c6e697 HTTP/1.1" 200 2849
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/parsers HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/results/odpzxugqcrml/e65bbbbf51ff7dcaa405cfdff794d12b HTTP/1.1" 200 2924
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/parsers HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/results/odpzxugqcrml/1d2a768008c3894754c056de75efa0a7 HTTP/1.1" 200 2913
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/parsers HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/results/odpzxugqcrml/10483c5bcf0f55988527aa994a3dadd1 HTTP/1.1" 200 2822
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/parsers HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/results/odpzxugqcrml/8d852997f4803c788daa47400af7161d HTTP/1.1" 200 2915
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/parsers HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/results/odpzxugqcrml/ca0bba4121c15e0d36a4a5f73e0bca3b HTTP/1.1" 200 2912
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/parsers HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/results/odpzxugqcrml/b4df01d067024efebce91f7a6a22ea68 HTTP/1.1" 200 2919
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/parsers HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.docparser.com:443
+DEBUG:urllib3.connectionpool:https://api.docparser.com:443 "GET /v1/results/odpzxugqcrml/c6d0c5371f55c436dd03e7d70c55745c HTTP/1.1" 200 2964
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.rdbguiando.ravendb.community:443
+DEBUG:urllib3.connectionpool:https://a.rdbguiando.ravendb.community:443 "GET /topology?name=GED HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.rdbguiando.ravendb.community:443
+DEBUG:urllib3.connectionpool:https://a.rdbguiando.ravendb.community:443 "GET /databases/GED/attachments?id=GEDFileDocuments%2F5461112-A&name=14198630_20210515.pdf HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.rdbguiando.ravendb.community:443
+DEBUG:urllib3.connectionpool:https://a.rdbguiando.ravendb.community:443 "GET /topology?name=GED HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.rdbguiando.ravendb.community:443
+DEBUG:urllib3.connectionpool:https://a.rdbguiando.ravendb.community:443 "GET /databases/GED/attachments?id=GEDFileDocuments%2F5461112-A&name=14198630_20210515.pdf HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.rdbguiando.ravendb.community:443
+DEBUG:urllib3.connectionpool:https://a.rdbguiando.ravendb.community:443 "GET /topology?name=GED HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.rdbguiando.ravendb.community:443
+DEBUG:urllib3.connectionpool:https://a.rdbguiando.ravendb.community:443 "GET /databases/GED/attachments?id=GEDFileDocuments%2F5461112-A&name=14198630_20210515.pdf HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.rdbguiando.ravendb.community:443
+DEBUG:urllib3.connectionpool:https://a.rdbguiando.ravendb.community:443 "GET /topology?name=GED HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.rdbguiando.ravendb.community:443
+DEBUG:urllib3.connectionpool:https://a.rdbguiando.ravendb.community:443 "GET /databases/GED/attachments?id=GEDFileDocuments%2F5461112-A&name=14198630_220210515.pdf HTTP/1.1" 404 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.rdbguiando.ravendb.community:443
+DEBUG:urllib3.connectionpool:https://a.rdbguiando.ravendb.community:443 "GET /topology?name=GED HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.rdbguiando.ravendb.community:443
+DEBUG:urllib3.connectionpool:https://a.rdbguiando.ravendb.community:443 "GET /databases/GED/attachments?id=GEDFileDocuments%2F5461112-A&name=14198630_20210515.pdf HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.rdbguiando.ravendb.community:443
+DEBUG:urllib3.connectionpool:https://a.rdbguiando.ravendb.community:443 "GET /topology?name=GED HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.rdbguiando.ravendb.community:443
+DEBUG:urllib3.connectionpool:https://a.rdbguiando.ravendb.community:443 "GET /topology?name=GED HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.rdbguiando.ravendb.community:443
+DEBUG:urllib3.connectionpool:https://a.rdbguiando.ravendb.community:443 "GET /databases/GED/attachments?id=GEDFileDocuments%2F5461112-A&name=14198630_20210515.pdf HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.rdbguiando.ravendb.community:443
+DEBUG:urllib3.connectionpool:https://a.rdbguiando.ravendb.community:443 "GET /topology?name=GED HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.rdbguiando.ravendb.community:443
+DEBUG:urllib3.connectionpool:https://a.rdbguiando.ravendb.community:443 "GET /databases/GED/attachments?id=GEDFileDocuments%2F162017-A&name=14198630_20210515.pdf HTTP/1.1" 404 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.rdbguiando.ravendb.community:443
+DEBUG:urllib3.connectionpool:https://a.rdbguiando.ravendb.community:443 "GET /topology?name=GED HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.rdbguiando.ravendb.community:443
+DEBUG:urllib3.connectionpool:https://a.rdbguiando.ravendb.community:443 "GET /databases/GED/attachments?id=GEDFileDocuments%2F162017-A&name=ufjf.pdf HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.rdbguiando.ravendb.community:443
+DEBUG:urllib3.connectionpool:https://a.rdbguiando.ravendb.community:443 "GET /topology?name=GED HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.rdbguiando.ravendb.community:443
+DEBUG:urllib3.connectionpool:https://a.rdbguiando.ravendb.community:443 "GET /databases/GED/attachments?id=GEDFileDocuments%2F5461112-A&name=14198630_20210515.pdf HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.rdbguiando.ravendb.community:443
+DEBUG:urllib3.connectionpool:https://a.rdbguiando.ravendb.community:443 "GET /topology?name=GED HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.rdbguiando.ravendb.community:443
+DEBUG:urllib3.connectionpool:https://a.rdbguiando.ravendb.community:443 "GET /topology?name=GED HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.rdbguiando.ravendb.community:443
+DEBUG:urllib3.connectionpool:https://a.rdbguiando.ravendb.community:443 "GET /databases/GED/attachments?id=GEDFileDocuments%2F5461112-A&name=14198630_20210515.pdf HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.rdbguiando.ravendb.community:443
+DEBUG:urllib3.connectionpool:https://a.rdbguiando.ravendb.community:443 "GET /topology?name=GED HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.rdbguiando.ravendb.community:443
+DEBUG:urllib3.connectionpool:https://a.rdbguiando.ravendb.community:443 "GET /databases/GED/attachments?id=GEDFileDocuments%2F5461112-A&name=14198630_20210515.pdf HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.rdbguiando.ravendb.community:443
+DEBUG:urllib3.connectionpool:https://a.rdbguiando.ravendb.community:443 "GET /databases/GED/attachments?id=GEDFileDocuments%2F5461112-A&name=14198630_20210515.pdf HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.rdbguiando.ravendb.community:443
+DEBUG:urllib3.connectionpool:https://a.rdbguiando.ravendb.community:443 "GET /topology?name=GED HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.rdbguiando.ravendb.community:443
+DEBUG:urllib3.connectionpool:https://a.rdbguiando.ravendb.community:443 "GET /databases/GED/attachments?id=GEDFileDocuments%2F5461112-A&name=14198630_20210515.pdf HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.rdbguiando.ravendb.community:443
+DEBUG:urllib3.connectionpool:https://a.rdbguiando.ravendb.community:443 "GET /topology?name=GED HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.rdbguiando.ravendb.community:443
+DEBUG:urllib3.connectionpool:https://a.rdbguiando.ravendb.community:443 "GET /databases/GED/attachments?id=GEDFileDocuments%2F5461112-A&name=14198630_20210515.pdf HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.rdbguiando.ravendb.community:443
+DEBUG:urllib3.connectionpool:https://a.rdbguiando.ravendb.community:443 "GET /topology?name=GED HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.rdbguiando.ravendb.community:443
+DEBUG:urllib3.connectionpool:https://a.rdbguiando.ravendb.community:443 "GET /databases/GED/attachments?id=GEDFileDocuments%2F5461112-A&name=14198630_20210515.pdf HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.rdbguiando.ravendb.community:443
+DEBUG:urllib3.connectionpool:https://a.rdbguiando.ravendb.community:443 "GET /topology?name=GED HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.rdbguiando.ravendb.community:443
+DEBUG:urllib3.connectionpool:https://a.rdbguiando.ravendb.community:443 "GET /databases/GED/attachments?id=GEDFileDocuments%2F5461112-A&name=14198630_20210515.pdf HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.rdbguiando.ravendb.community:443
+DEBUG:urllib3.connectionpool:https://a.rdbguiando.ravendb.community:443 "GET /databases/GED/attachments?id=GEDFileDocuments%2F5461112-A&name=14198630_20210515.pdf HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.rdbguiando.ravendb.community:443
+DEBUG:urllib3.connectionpool:https://a.rdbguiando.ravendb.community:443 "GET /topology?name=GED HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.rdbguiando.ravendb.community:443
+DEBUG:urllib3.connectionpool:https://a.rdbguiando.ravendb.community:443 "GET /databases/GED/attachments?id=GEDFileDocuments%2F5461112-A&name=14198630_20210515.pdf HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.rdbguiando.ravendb.community:443
+DEBUG:urllib3.connectionpool:https://a.rdbguiando.ravendb.community:443 "GET /topology?name=GED HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.rdbguiando.ravendb.community:443
+DEBUG:urllib3.connectionpool:https://a.rdbguiando.ravendb.community:443 "GET /databases/GED/attachments?id=GEDFileDocuments%2F5461112-A&name=14198630_20210515.pdf HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.rdbguiando.ravendb.community:443
+DEBUG:urllib3.connectionpool:https://a.rdbguiando.ravendb.community:443 "GET /topology?name=GED HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.rdbguiando.ravendb.community:443
+DEBUG:urllib3.connectionpool:https://a.rdbguiando.ravendb.community:443 "GET /databases/GED/attachments?id=GEDFileDocuments%2F5461112-A&name=14198630_20210515.pdf HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.rdbguiando.ravendb.community:443
+DEBUG:urllib3.connectionpool:https://a.rdbguiando.ravendb.community:443 "GET /topology?name=GED HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.rdbguiando.ravendb.community:443
+DEBUG:urllib3.connectionpool:https://a.rdbguiando.ravendb.community:443 "GET /databases/GED/attachments?id=GEDFileDocuments%2F5461112-A&name=141s98630_20210515.pdf HTTP/1.1" 404 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.rdbguiando.ravendb.community:443
+DEBUG:urllib3.connectionpool:https://a.rdbguiando.ravendb.community:443 "GET /databases/GED/attachments?id=GEDFileDocuments%2F5461112-A&name=141s98630_20210515.pdf HTTP/1.1" 404 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.rdbguiando.ravendb.community:443
+DEBUG:urllib3.connectionpool:https://a.rdbguiando.ravendb.community:443 "GET /topology?name=GED HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.rdbguiando.ravendb.community:443
+DEBUG:urllib3.connectionpool:https://a.rdbguiando.ravendb.community:443 "GET /databases/GED/attachments?id=GEDFileDocuments%2F5461112-A&name=14198630_20210515.pdf HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.rdbguiando.ravendb.community:443
+DEBUG:urllib3.connectionpool:https://a.rdbguiando.ravendb.community:443 "GET /databases/GED/attachments?id=GEDFileDocuments%2F5461112-A&name=14198630_20210515.pdf HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.rdbguiando.ravendb.community:443
+DEBUG:urllib3.connectionpool:https://a.rdbguiando.ravendb.community:443 "GET /topology?name=GED HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.rdbguiando.ravendb.community:443
+DEBUG:urllib3.connectionpool:https://a.rdbguiando.ravendb.community:443 "GET /topology?name=GED HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.rdbguiando.ravendb.community:443
+DEBUG:urllib3.connectionpool:https://a.rdbguiando.ravendb.community:443 "GET /databases/GED/attachments?id=GEDFileDocuments%2F5461112-A&name=14198630_20210515.pdf HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.rdbguiando.ravendb.community:443
+DEBUG:urllib3.connectionpool:https://a.rdbguiando.ravendb.community:443 "GET /topology?name=GED HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.rdbguiando.ravendb.community:443
+DEBUG:urllib3.connectionpool:https://a.rdbguiando.ravendb.community:443 "GET /databases/GED/attachments?id=GEDFileDocuments%2F5461112-A&name=14198630_20210515.pdf HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.rdbguiando.ravendb.community:443
+DEBUG:urllib3.connectionpool:https://a.rdbguiando.ravendb.community:443 "GET /topology?name=GED HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.rdbguiando.ravendb.community:443
+DEBUG:urllib3.connectionpool:https://a.rdbguiando.ravendb.community:443 "GET /databases/GED/attachments?id=GEDFileDocuments%2F5461112-A&name=14198630_20210515 HTTP/1.1" 404 0
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.rdbguiando.ravendb.community:443
+DEBUG:urllib3.connectionpool:https://a.rdbguiando.ravendb.community:443 "GET /topology?name=GED HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.rdbguiando.ravendb.community:443
+DEBUG:urllib3.connectionpool:https://a.rdbguiando.ravendb.community:443 "GET /topology?name=GED HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.rdbguiando.ravendb.community:443
+DEBUG:urllib3.connectionpool:https://a.rdbguiando.ravendb.community:443 "GET /databases/GED/attachments?id=GEDFileDocuments%2F5461112-A&name=14198630_20210515.pdf HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.rdbguiando.ravendb.community:443
+DEBUG:urllib3.connectionpool:https://a.rdbguiando.ravendb.community:443 "GET /topology?name=GED HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.rdbguiando.ravendb.community:443
+DEBUG:urllib3.connectionpool:https://a.rdbguiando.ravendb.community:443 "GET /databases/GED/attachments?id=GEDFileDocuments%2F5461112-A&name=14198630_20210515.pdf HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.rdbguiando.ravendb.community:443
+DEBUG:urllib3.connectionpool:https://a.rdbguiando.ravendb.community:443 "GET /topology?name=GED HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.rdbguiando.ravendb.community:443
+DEBUG:urllib3.connectionpool:https://a.rdbguiando.ravendb.community:443 "GET /databases/GED/attachments?id=GEDFileDocuments%2F5461112-A&name=14198630_20210515.pdf HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.rdbguiando.ravendb.community:443
+DEBUG:urllib3.connectionpool:https://a.rdbguiando.ravendb.community:443 "GET /topology?name=GED HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.rdbguiando.ravendb.community:443
+DEBUG:urllib3.connectionpool:https://a.rdbguiando.ravendb.community:443 "GET /databases/GED/attachments?id=GEDFileDocuments%2F5461112-A&name=14198630_20210515.pdf HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.rdbguiando.ravendb.community:443
+DEBUG:urllib3.connectionpool:https://a.rdbguiando.ravendb.community:443 "GET /topology?name=GED HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.rdbguiando.ravendb.community:443
+DEBUG:urllib3.connectionpool:https://a.rdbguiando.ravendb.community:443 "GET /databases/GED/attachments?id=GEDFileDocuments%2F5461112-A&name=14198630_20210515.pdf HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.rdbguiando.ravendb.community:443
+DEBUG:urllib3.connectionpool:https://a.rdbguiando.ravendb.community:443 "GET /topology?name=GED HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.rdbguiando.ravendb.community:443
+DEBUG:urllib3.connectionpool:https://a.rdbguiando.ravendb.community:443 "GET /databases/GED/attachments?id=GEDFileDocuments%2F5461112-A&name=14198630_20210515.pdf HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.rdbguiando.ravendb.community:443
+DEBUG:urllib3.connectionpool:https://a.rdbguiando.ravendb.community:443 "GET /topology?name=GED HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.rdbguiando.ravendb.community:443
+DEBUG:urllib3.connectionpool:https://a.rdbguiando.ravendb.community:443 "GET /databases/GED/attachments?id=GEDFileDocuments%2F162177-A&name=98641473_180610.pdf HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.rdbguiando.ravendb.community:443
+DEBUG:urllib3.connectionpool:https://a.rdbguiando.ravendb.community:443 "GET /topology?name=GED HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.rdbguiando.ravendb.community:443
+DEBUG:urllib3.connectionpool:https://a.rdbguiando.ravendb.community:443 "GET /databases/GED/attachments?id=GEDFileDocuments%2F162177-A&name=98641473_180610.pdf HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.rdbguiando.ravendb.community:443
+DEBUG:urllib3.connectionpool:https://a.rdbguiando.ravendb.community:443 "GET /topology?name=GED HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.rdbguiando.ravendb.community:443
+DEBUG:urllib3.connectionpool:https://a.rdbguiando.ravendb.community:443 "GET /databases/GED/attachments?id=GEDFileDocuments%2F162177-A&name=98641473_180610.pdf HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.rdbguiando.ravendb.community:443
+DEBUG:urllib3.connectionpool:https://a.rdbguiando.ravendb.community:443 "GET /topology?name=GED HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.rdbguiando.ravendb.community:443
+DEBUG:urllib3.connectionpool:https://a.rdbguiando.ravendb.community:443 "GET /databases/GED/attachments?id=GEDFileDocuments%2F162177-A&name=98641473_180610.pdf HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.rdbguiando.ravendb.community:443
+DEBUG:urllib3.connectionpool:https://a.rdbguiando.ravendb.community:443 "GET /databases/GED/attachments?id=GEDFileDocuments%2F162177-A&name=98641473_180610.pdf HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.rdbguiando.ravendb.community:443
+DEBUG:urllib3.connectionpool:https://a.rdbguiando.ravendb.community:443 "GET /topology?name=GED HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.rdbguiando.ravendb.community:443
+DEBUG:urllib3.connectionpool:https://a.rdbguiando.ravendb.community:443 "GET /databases/GED/attachments?id=GEDFileDocuments%2F162177-A&name=98641473_180610.pdf HTTP/1.1" 200 None
+ERROR:asyncio:Task was destroyed but it is pending!
+task: <Task pending name='Task-1' coro=<Kernel.poll_control_queue() running at C:\ProgramData\Anaconda3\lib\site-packages\ipykernel\kernelbase.py:227> wait_for=<Future finished result=<Future at 0x...state=pending>> cb=[_chain_future.<locals>._call_set_state() at C:\ProgramData\Anaconda3\lib\asyncio\futures.py:391]>
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.rdbguiando.ravendb.community:443
+DEBUG:urllib3.connectionpool:https://a.rdbguiando.ravendb.community:443 "GET /topology?name=GED HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.rdbguiando.ravendb.community:443
+DEBUG:urllib3.connectionpool:https://a.rdbguiando.ravendb.community:443 "GET /databases/GED/attachments?id=GEDFileDocuments%2F162177-A&name=98641473_180610.pdf HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.rdbguiando.ravendb.community:443
+DEBUG:urllib3.connectionpool:https://a.rdbguiando.ravendb.community:443 "GET /topology?name=GED HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.rdbguiando.ravendb.community:443
+DEBUG:urllib3.connectionpool:https://a.rdbguiando.ravendb.community:443 "GET /databases/GED/attachments?id=GEDFileDocuments%2F162177-A&name=98641473_180610.pdf HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.rdbguiando.ravendb.community:443
+DEBUG:urllib3.connectionpool:https://a.rdbguiando.ravendb.community:443 "GET /topology?name=GED HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.rdbguiando.ravendb.community:443
+DEBUG:urllib3.connectionpool:https://a.rdbguiando.ravendb.community:443 "GET /databases/GED/attachments?id=GEDFileDocuments%2F162177-A&name=98641473_180610.pdf HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.rdbguiando.ravendb.community:443
+DEBUG:urllib3.connectionpool:https://a.rdbguiando.ravendb.community:443 "GET /topology?name=GED HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.rdbguiando.ravendb.community:443
+DEBUG:urllib3.connectionpool:https://a.rdbguiando.ravendb.community:443 "GET /databases/GED/attachments?id=GEDFileDocuments%2F162177-A&name=98641473_180610.pdf HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.rdbguiando.ravendb.community:443
+DEBUG:urllib3.connectionpool:https://a.rdbguiando.ravendb.community:443 "GET /topology?name=GED HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.rdbguiando.ravendb.community:443
+DEBUG:urllib3.connectionpool:https://a.rdbguiando.ravendb.community:443 "GET /topology?name=GED HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.rdbguiando.ravendb.community:443
+DEBUG:urllib3.connectionpool:https://a.rdbguiando.ravendb.community:443 "GET /topology?name=GED HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.rdbguiando.ravendb.community:443
+DEBUG:urllib3.connectionpool:https://a.rdbguiando.ravendb.community:443 "GET /topology?name=GED HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.rdbguiando.ravendb.community:443
+DEBUG:urllib3.connectionpool:https://a.rdbguiando.ravendb.community:443 "GET /databases/GED/attachments?id=GEDFileDocuments%2F162177-A&name=98641473_180610.pdf HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.rdbguiando.ravendb.community:443
+DEBUG:urllib3.connectionpool:https://a.rdbguiando.ravendb.community:443 "GET /topology?name=GED HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.rdbguiando.ravendb.community:443
+DEBUG:urllib3.connectionpool:https://a.rdbguiando.ravendb.community:443 "GET /topology?name=GED HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.rdbguiando.ravendb.community:443
+DEBUG:urllib3.connectionpool:https://a.rdbguiando.ravendb.community:443 "GET /topology?name=GED HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.rdbguiando.ravendb.community:443
+DEBUG:urllib3.connectionpool:https://a.rdbguiando.ravendb.community:443 "GET /topology?name=GED HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.rdbguiando.ravendb.community:443
+DEBUG:urllib3.connectionpool:https://a.rdbguiando.ravendb.community:443 "GET /topology?name=GED HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.rdbguiando.ravendb.community:443
+DEBUG:urllib3.connectionpool:https://a.rdbguiando.ravendb.community:443 "GET /topology?name=GED HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.rdbguiando.ravendb.community:443
+DEBUG:urllib3.connectionpool:https://a.rdbguiando.ravendb.community:443 "GET /topology?name=GED HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.rdbguiando.ravendb.community:443
+DEBUG:urllib3.connectionpool:https://a.rdbguiando.ravendb.community:443 "GET /topology?name=GED HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.rdbguiando.ravendb.community:443
+DEBUG:urllib3.connectionpool:https://a.rdbguiando.ravendb.community:443 "GET /topology?name=GED HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.rdbguiando.ravendb.community:443
+DEBUG:urllib3.connectionpool:https://a.rdbguiando.ravendb.community:443 "GET /topology?name=GED HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.rdbguiando.ravendb.community:443
+DEBUG:urllib3.connectionpool:https://a.rdbguiando.ravendb.community:443 "GET /topology?name=GED HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.rdbguiando.ravendb.community:443
+DEBUG:urllib3.connectionpool:https://a.rdbguiando.ravendb.community:443 "GET /topology?name=GED HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.rdbguiando.ravendb.community:443
+DEBUG:urllib3.connectionpool:https://a.rdbguiando.ravendb.community:443 "GET /topology?name=GED HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.rdbguiando.ravendb.community:443
+DEBUG:urllib3.connectionpool:https://a.rdbguiando.ravendb.community:443 "GET /topology?name=GED HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.rdbguiando.ravendb.community:443
+DEBUG:urllib3.connectionpool:https://a.rdbguiando.ravendb.community:443 "GET /topology?name=GED HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.rdbguiando.ravendb.community:443
+DEBUG:urllib3.connectionpool:https://a.rdbguiando.ravendb.community:443 "GET /topology?name=GED HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.rdbguiando.ravendb.community:443
+DEBUG:urllib3.connectionpool:https://a.rdbguiando.ravendb.community:443 "GET /topology?name=GED HTTP/1.1" 200 None
+ERROR:asyncio:Task was destroyed but it is pending!
+task: <Task pending name='Task-1' coro=<Kernel.poll_control_queue() running at C:\ProgramData\Anaconda3\lib\site-packages\ipykernel\kernelbase.py:227> wait_for=<Future finished result=<Future at 0x...state=pending>> cb=[_chain_future.<locals>._call_set_state() at C:\ProgramData\Anaconda3\lib\asyncio\futures.py:391]>
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.rdbguiando.ravendb.community:443
+DEBUG:urllib3.connectionpool:https://a.rdbguiando.ravendb.community:443 "GET /topology?name=GED HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.rdbguiando.ravendb.community:443
+DEBUG:urllib3.connectionpool:https://a.rdbguiando.ravendb.community:443 "GET /databases/GED/attachments?id=GEDFileDocuments%2F162177-A&name=98641473_180610.pdf HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.rdbguiando.ravendb.community:443
+DEBUG:urllib3.connectionpool:https://a.rdbguiando.ravendb.community:443 "GET /topology?name=GED HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.rdbguiando.ravendb.community:443
+DEBUG:urllib3.connectionpool:https://a.rdbguiando.ravendb.community:443 "GET /databases/GED/attachments?id=GEDFileDocuments%2F162177-A&name=98641473_180610.pdf HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.rdbguiando.ravendb.community:443
+DEBUG:urllib3.connectionpool:https://a.rdbguiando.ravendb.community:443 "GET /topology?name=GED HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.rdbguiando.ravendb.community:443
+DEBUG:urllib3.connectionpool:https://a.rdbguiando.ravendb.community:443 "GET /databases/GED/attachments?id=GEDFileDocuments%2F162177-A&name=98641473_180610.pdf HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.rdbguiando.ravendb.community:443
+DEBUG:urllib3.connectionpool:https://a.rdbguiando.ravendb.community:443 "GET /topology?name=GED HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): a.rdbguiando.ravendb.community:443
+DEBUG:urllib3.connectionpool:https://a.rdbguiando.ravendb.community:443 "GET /databases/GED/attachments?id=GEDFileDocuments%2F162177-A&name=98641473_180610.pdf HTTP/1.1" 200 None
