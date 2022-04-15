@@ -3,7 +3,7 @@ import openpyxl
 
 class consolidando_arquivos:
     def __init__(self, wb_fornecedor, Cliente, palavra_chave):
-        print('Executando SAM_3...')
+        print('\nExecutando SAM_3...')
         self.Cliente = Cliente
         self.palavra_chave = palavra_chave
                 
@@ -267,7 +267,7 @@ class consolidando_arquivos:
             for i in range (self.count_row_fornecedor-1):
                 self.ws_consolidado.cell (row = i+2, column = indice_col_CNPJ_CPFL).value = '04.172.213/0001-51'
         
-        cliente = self.Cliente
-        self.wb_consolidado.save(f'Consolidados\{cliente}/______consolidado_' + self.Cliente + '_' + self.Nome_do_fornecedor+'.xlsx')
+        self.wb_consolidado.save(f'Consolidados\{self.Cliente}/______consolidado_' + self.Cliente + '_' + self.Nome_do_fornecedor+'.xlsx')
         print(r'Save file >>>>>', '______consolidado_' + self.Cliente + '_' + self.Nome_do_fornecedor+'.xlsx')
+        
         

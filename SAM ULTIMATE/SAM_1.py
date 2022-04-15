@@ -4,9 +4,7 @@ from PyQt5.QtWidgets import QCompleter
 from SAM_2 import verificação
 from SAM_4_docparser import Parseamento_docparser
 from pathlib import Path
-import openpyxl
-import zipfile
-import os
+import openpyxl, zipfile, os, shutil
 
 class load_arquivos:
         def __init__(self):
@@ -19,64 +17,37 @@ class load_arquivos:
             rar = QtWidgets.QFileDialog.getOpenFileNames()[0]
             path = Path('./')
             path.mkdir(parents=True, exist_ok=True)
+            
             for i in rar:
                 with zipfile.ZipFile(i, 'r') as zip_ref:
                     zip_ref.extractall('./PDF')
                     
-            print('Arquivos extraídos')
+            print('\nArquivos extraídos para a pasta PDF')
                     
         def ler_arquivo_fornecedor(self):
-            fornecedor = QtWidgets.QFileDialog.getOpenFileNames()[0]
-            print('Arquivos importados:', len(fornecedor))
+            self.fornecedor = QtWidgets.QFileDialog.getOpenFileNames()[0]
+            print('Arquivos importados:', len(self.fornecedor))
             
-            for arquivo in fornecedor:
+            for arquivo in self.fornecedor:
                 self.list_fornecedor.append(arquivo)
             print('Load file fornecedor complete!')
-
+        
         def Identificar_Cliente(self):
-            if self.palavra_chave[:3] == 'PUC':
-                 self.Cliente = 'PUC'
-                 print('Cliente = ',self.Cliente)
-                
-            elif self.palavra_chave[:3] == 'LOC':
-                self.Cliente = 'LOCALIZA'
-                print('Cliente = ',self.Cliente)
             
-            elif self.palavra_chave[:3] == 'RIA':
-                self.Cliente = 'RIACHUELO'
-                print('Cliente = ',self.Cliente)
+            lista_clientes = ['LOCALIZA', 'FLEURY', 'RIACHUELO', 'PUC', 'DAKI', 'PAGUE_MENOS', 'DPSP', 'GRPCOM']
+            self.Cliente = None
             
-            elif self.palavra_chave[:3] == 'FLE':
-                self.Cliente = 'FLEURY'
-                print('Cliente = ',self.Cliente)
-                
-            elif self.palavra_chave[:3] == 'DAK':
-                 self.Cliente = 'DAKI'
-                 print('Cliente = ',self.Cliente)
-            
-            elif self.palavra_chave[:3] == 'PAG':
-                 self.Cliente = 'PAGUE_MENOS'
-                 print('Cliente = ',self.Cliente)
-            
-            elif self.palavra_chave[:3] == 'MRV':
-                 self.Cliente = 'MRV'
-                 print('Cliente = ',self.Cliente)
-                 
-            elif self.palavra_chave[:3] == 'DPS':
-                 self.Cliente = 'DPSP'
-                 print('Cliente = ',self.Cliente)
-            
-            elif self.palavra_chave[:3] == 'GRP':
-                 self.Cliente = 'GRPCOM'
-                 print('Cliente = ',self.Cliente)
-        
-            else: 
+            for i, v in enumerate(lista_clientes):
+                if lista_clientes[i][:3] == self.palavra_chave[:3]:
+                    self.Cliente = v
+                    print('Cliente = ',self.Cliente)
+
+            if self.Cliente == None:
                 print('Cliente não identificado!!')
-        
-            cliente = self.Cliente
-            path = Path(f'Consolidados\{cliente}')
+                
+            path = Path(f'Consolidados\{self.Cliente}')
             path.mkdir(parents=True, exist_ok=True)
-            path2 = Path(f'Verticais\{cliente}')
+            path2 = Path(f'Verticais\{self.Cliente}')
             path2.mkdir(parents=True, exist_ok=True)
       
         def executar_SAM4(self):
@@ -131,12 +102,12 @@ class load_arquivos:
                     is_data = False
             
             row_vertical = 2
-            count = 0
+            faturas = []
            
             try: 
                 for json_parseado in self.list_json_parseado:
                     json_parseado = json_parseado[0]
-                    print(json_parseado['file_name'])
+                    faturas.append(json_parseado['file_name'])
                    
                     if type(json_parseado[coluna_faturados]) == list:
                         quant_pdf = len(json_parseado[coluna_faturados])
@@ -183,7 +154,6 @@ class load_arquivos:
                                 
                             if type(json_valores_faturados) != dict:  
                                 json_valores_faturados == {}
-                                count += 1
                                 print('aviso: json com problema valores faturados')
                             
                             if column_vertical.lower() in json_parseado.keys():
@@ -220,17 +190,30 @@ class load_arquivos:
                         
             except:
                     print('Erro: Ou a fatura foi deletada no Parser ou ainda está em fila de processamento.')
-            
-            print(f'\nFaturas erro processamento Parser: {int(count/6)}\n')
-            cliente = self.Cliente
-            self.wb_vertical.save(f'Verticais\{cliente}/______vertical_' + self.Cliente + '__' + self.nome_fornecedor+'.xlsx')
-            # print('Save file >>>>>', '______vertical_' + self.Cliente + '__' + self.nome_fornecedor+'.xlsx')
-            
-            self.list_fornecedor = [(f'Verticais\{cliente}/______vertical_' + self.Cliente + '__' + self.nome_fornecedor+'.xlsx')]
+                                
+            if len(self.fornecedor) != len(faturas):
+                pdf_erro = faturas.pop()
+                print()
+                print('CONSOLIDADO INCOMPLETO\n'*15)
+                
+                for i in faturas:
+                    print(f'{i} - OK')
 
+                print(f'\nVerificar no Parser a fatura: {pdf_erro}\n')
+            print(f'\n{len(faturas)} faturas foram processadas corretamente')
+                            
+            self.wb_vertical.save(f'Verticais\{self.Cliente}/______vertical_' + self.Cliente + '__' + self.nome_fornecedor+'.xlsx')
+            # print('Save file >>>>>', '______vertical_' + self.Cliente + '__' + self.nome_fornecedor+'.xlsx')
+                        
+            self.list_fornecedor = [(f'Verticais\{self.Cliente}/______vertical_' + self.Cliente + '__' + self.nome_fornecedor+'.xlsx')]
+            
+            try:
+                shutil.rmtree('./PDF')
+            except OSError as e:
+                print(e)
         
         def executar_SAM2(self):
-            print('Executando SAM_2...')
+            print('\nExecutando SAM_2...')
             palavra_chave = tela.lineEdit.text()
             self.palavra_chave = palavra_chave
             
@@ -242,7 +225,7 @@ class load_arquivos:
             
             fornecedor_x = 0 
             while fornecedor_x < len(self.list_fornecedor):
-                print("Fazendo....>> ", self.list_fornecedor[fornecedor_x])
+                print("\nFazendo....>> ", self.list_fornecedor[fornecedor_x])
             
                 chama_SAM2 = verificação(self.list_fornecedor[fornecedor_x], self.palavra_chave, self.Cliente)
                 chama_SAM2.criar_new_sheet()

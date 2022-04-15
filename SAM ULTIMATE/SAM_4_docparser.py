@@ -45,7 +45,7 @@ class Parseamento_docparser():
 
         print('\nAguarda processamento no Parser...\n')
         
-        for _ in tqdm(range(300)):
+        for _ in tqdm(range(270)):
             sleep(1)
 
         for id in list_id:

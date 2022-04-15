@@ -6,7 +6,7 @@ class verificação():
         self.arquivo_fornecedor = arquivo_fornecedor
         self.palavra_chave = palavra_chave
         self.cliente = cliente
-        print('palavra_chave', palavra_chave)
+        # print('palavra_chave', palavra_chave)
     
     def criar_new_sheet(self):
         self.wb_fornecedor = openpyxl.load_workbook(self.arquivo_fornecedor)
@@ -244,7 +244,6 @@ class verificação():
             if dic_vltotal[list_identificador[i]] == dic_auditoria[list_identificador[i]]:    
                 None
             else:
-                print()
                 print('errado', list_identificador[i])
                 print('layout errado = ', list_layout[i])
                 count_id_errado += 1
@@ -271,8 +270,12 @@ class verificação():
         
         if self.soma_total_data == self.soma_faturados_data:
                 self.analise = "Valor correto!!!"
-                print('\n -------------- \n Soma_total', self.soma_total_data)
+                print()
+                print('-'*50)
+                print('\nSoma_total', self.soma_total_data)
                 print('Soma_total_faturado', self.soma_faturados_data)
+                print()
+                print('% de faturas certas: 100%')
                 print(self.analise)
                 
                 chama_SAM3 = consolidando_arquivos (self.wb_fornecedor, self.cliente, self.palavra_chave)
