@@ -1,11 +1,13 @@
-import openpyxl
+import openpyxl, time
+from pathlib import Path
 # from datetime import datetime
 
 class consolidando_arquivos:
-    def __init__(self, wb_fornecedor, Cliente, palavra_chave):
+    def __init__(self, wb_fornecedor, Cliente, palavra_chave, inicio):
         print('\nExecutando SAM_3...')
         self.Cliente = Cliente
         self.palavra_chave = palavra_chave
+        self.inicio = inicio
                 
         self.wb_fornecedor = wb_fornecedor
         self.ws_fornecedor = self.wb_fornecedor['Worksheet2']
@@ -269,5 +271,18 @@ class consolidando_arquivos:
         
         self.wb_consolidado.save(f'Consolidados\{self.Cliente}/______consolidado_' + self.Cliente + '_' + self.Nome_do_fornecedor+'.xlsx')
         print(r'Save file >>>>>', '______consolidado_' + self.Cliente + '_' + self.Nome_do_fornecedor+'.xlsx')
+        
+        myfile = Path(f"./Consolidados/{self.Cliente}/Erros {self.Cliente}.txt")
+        myfile.touch(exist_ok=True)
+        f = open(f"./Consolidados/{self.Cliente}/Erros {self.Cliente}.txt", 'a+')
+        
+        fim = time.time()
+        total = (fim - self.inicio)
+        tempo = time.strftime('%H:%M:%S', time.gmtime(total))
+        f.write(f'\n\nO tempo de execução foi de {tempo}\n')
+        f.close()
+        print('-'*75)
+        print('FIM DO PROCESSO')
+
         
         

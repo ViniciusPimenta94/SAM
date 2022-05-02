@@ -4,7 +4,7 @@ from PyQt5.QtWidgets import QCompleter
 from SAM_2 import verificação
 from SAM_4_docparser import Parseamento_docparser
 from pathlib import Path
-import openpyxl, zipfile, os, shutil
+import openpyxl, zipfile, os, re, time
 
 class load_arquivos:
         def __init__(self):
@@ -14,26 +14,33 @@ class load_arquivos:
             self.nome_fornecedor = []
             
         def extrair_arquivo_fornecedor(self):
-            rar = QtWidgets.QFileDialog.getOpenFileNames()[0]
-            path = Path('./')
-            path.mkdir(parents=True, exist_ok=True)
-            
-            for i in rar:
-                with zipfile.ZipFile(i, 'r') as zip_ref:
-                    zip_ref.extractall('./PDF')
-                    
-            print('\nArquivos extraídos para a pasta PDF')
+            try:
+                rar = QtWidgets.QFileDialog.getOpenFileNames()[0]
+                path = Path('./')
+                path.mkdir(parents=True, exist_ok=True)
+                
+                pasta = re.findall(r'\/Downloads\/(.*)\.', rar[0])
+                
+                if pasta == None:
+                    pasta = ['None']
+                
+                for i in rar:
+                    with zipfile.ZipFile(i, 'r') as zip_ref:
+                        zip_ref.extractall(f'./PDF/{pasta[0]}')
+                        
+                print('\nArquivos extraídos para a pasta PDF')
+            except:
+                print('Nenhum arquivo foi extraído, tente novamente...')
                     
         def ler_arquivo_fornecedor(self):
             self.fornecedor = QtWidgets.QFileDialog.getOpenFileNames()[0]
-            print('Arquivos importados:', len(self.fornecedor))
+            print('\nArquivos importados:', len(self.fornecedor))
             
             for arquivo in self.fornecedor:
                 self.list_fornecedor.append(arquivo)
             print('Load file fornecedor complete!')
         
-        def Identificar_Cliente(self):
-            
+        def Identificar_Cliente(self):            
             lista_clientes = ['LOCALIZA', 'FLEURY', 'RIACHUELO', 'PUC', 'DAKI', 'PAGUE_MENOS', 'DPSP', 'GRPCOM']
             self.Cliente = None
             
@@ -44,12 +51,14 @@ class load_arquivos:
 
             if self.Cliente == None:
                 print('Cliente não identificado!!')
-                
+                                
             path = Path(f'Consolidados\{self.Cliente}')
             path.mkdir(parents=True, exist_ok=True)
             path2 = Path(f'Verticais\{self.Cliente}')
             path2.mkdir(parents=True, exist_ok=True)
-      
+            path3 = Path(f'Dashboard\{self.Cliente}')
+            path3.mkdir(parents=True, exist_ok=True)           
+                  
         def executar_SAM4(self):
             self.nova_list_fornecedor = []
             for nome_arquivo in self.list_fornecedor:
@@ -67,6 +76,11 @@ class load_arquivos:
             arquivo_pdf = self.list_fornecedor
             
             print(f'{nome_fornecedor}\n')
+            myfile = Path(f"./Consolidados/{self.Cliente}/Erros {self.Cliente}.txt")
+            myfile.touch(exist_ok=True)
+            f = open(f"./Consolidados/{self.Cliente}/Erros {self.Cliente}.txt", 'a+')
+            f.write(f'\n{self.nome_fornecedor}\n')
+            f.close()
             
             chama_SAM4 = Parseamento_docparser(nome_fornecedor, arquivo_pdf)
             self.list_json_parseado = chama_SAM4.importar_pdf()
@@ -206,20 +220,18 @@ class load_arquivos:
             # print('Save file >>>>>', '______vertical_' + self.Cliente + '__' + self.nome_fornecedor+'.xlsx')
                         
             self.list_fornecedor = [(f'Verticais\{self.Cliente}/______vertical_' + self.Cliente + '__' + self.nome_fornecedor+'.xlsx')]
-            
-            try:
-                shutil.rmtree('./PDF')
-            except OSError as e:
-                print(e)
-        
+                    
         def executar_SAM2(self):
+            inicio = time.time()
+            self.inicio = inicio
+            
             print('\nExecutando SAM_2...')
             palavra_chave = tela.lineEdit.text()
             self.palavra_chave = palavra_chave
             
             nome_fornecedor = tela.lineEdit_2.text()
             self.nome_fornecedor = nome_fornecedor
-            
+                                    
             load_active.Identificar_Cliente()
             load_active.executar_SAM4()
             
@@ -227,7 +239,7 @@ class load_arquivos:
             while fornecedor_x < len(self.list_fornecedor):
                 print("\nFazendo....>> ", self.list_fornecedor[fornecedor_x])
             
-                chama_SAM2 = verificação(self.list_fornecedor[fornecedor_x], self.palavra_chave, self.Cliente)
+                chama_SAM2 = verificação(self.list_fornecedor[fornecedor_x], self.palavra_chave, self.Cliente, self.inicio)
                 chama_SAM2.criar_new_sheet()
                 chama_SAM2.count_ws()
                 chama_SAM2.File_name()      
@@ -236,7 +248,7 @@ class load_arquivos:
                 chama_SAM2.comparar_valores()
             
                 fornecedor_x+=1
-
+                            
 app = QtWidgets.QApplication([])
 tela = uic.loadUi("./assets/Interface_SAM.ui")
 

@@ -1,9 +1,8 @@
 import sys
 from PyQt5 import uic, QtWidgets
 from PyQt5.QtWidgets import QCompleter
-import openpyxl, os
-import pandas as pd
-import numpy as np
+from Validacao_Consolidado import Validando_arquivos
+import openpyxl, time
 
 class load_arquivos:
         def __init__(self):
@@ -11,9 +10,19 @@ class load_arquivos:
             self.list_fornecedor = []
             self.wb_new = openpyxl.Workbook()
             self.ws_new = self.wb_new.active
-            
-        def ler_arquivo_fornecedor(self):
-            
+        
+        def num_float(self,num):
+            if num == None:
+                num = float(0)
+
+            if type(num) == str:
+                string = '!.#%'
+                char_rep = {k: '' for k in string}
+                num = num.translate(str.maketrans(char_rep))
+                num = float(num.replace(',', '.'))
+            return num
+        
+        def ler_arquivo_fornecedor(self):            
             fornecedor = QtWidgets.QFileDialog.getOpenFileNames()[0]
             self.list_fornecedor = fornecedor
             
@@ -21,6 +30,8 @@ class load_arquivos:
             print('Fornecedores:', len(self.list_fornecedor))
 
         def juntar_arquivos(self):
+            inicio = time.time()
+            self.inicio = inicio
             k = 0
             ultima_linha_ws_new = 1
             
@@ -53,9 +64,8 @@ class load_arquivos:
                         self.ws_new.cell(row=ultima_linha_ws_new+i+1, column= j+1).value = self.ws.cell(row=i+2,column=j+1).value
                 ultima_linha_ws_new += count_row_ws-1
                 k+=1
-            
-            load_arquivos.excel_atualizador(self)
-            
+                
+            load_arquivos.excel_atualizador(self)            
 
         def excel_atualizador(self):
             cliente = tela.lineEdit.text()
@@ -66,7 +76,7 @@ class load_arquivos:
             
             ws_atualizador_dados = wb_atualizador ['Dados Cliente']
             ws_atualizador_fatura = wb_atualizador ['Fatura']
-            
+                        
             try:
                 ws_twm = wb_twm['Planilha1']
             except:
@@ -95,7 +105,7 @@ class load_arquivos:
             self.ws_twm = ws_twm
             self.banco = banco
             
-            wb_atualizador.save('_____Atualizador_'+self.cliente+'.xlsx')
+            wb_atualizador.save(f'./Dashboard/{self.cliente}/_____Atualizador_'+self.cliente+'.xlsx')
             
             load_arquivos.consolidado_twm(self)
             
@@ -177,7 +187,11 @@ class load_arquivos:
                           for t in range (count_row_twm-1):  
                                 valor_twm = round(float(load_arquivos.num_float(self, self.ws_twm.cell (row = t+2, column = indice_valor_twm).value)), 2)
                                 valor_consolidado = round(float(load_arquivos.num_float(self, self.ws_new.cell (row = i+2, column = indice_valor_consolidado).value)),2)
-                                if valor_twm == valor_consolidado and self.ws_new.cell (row = i+2, column = indice_num_conta).value == self.ws_twm.cell (row = t+2, column = indice_conta_aglutinada).value:
+                                num_conta = self.ws_new.cell (row = i+2, column = indice_num_conta).value
+                                num_conta_num = ''.join(filter(str.isnumeric, num_conta))
+                                conta_aglutinada = self.ws_twm.cell (row = t+2, column = indice_conta_aglutinada).value
+                                conta_aglutinada_num = ''.join(filter(str.isnumeric, conta_aglutinada))
+                                if valor_twm == valor_consolidado and num_conta_num == conta_aglutinada_num:
                                   self.ws_new.cell (row = i+2, column = j+1).value = self.ws_twm.cell (row = t+2, column = indice_twm).value                         
                 
                 j+=1
@@ -223,12 +237,12 @@ class load_arquivos:
             load_arquivos.tusd_te(self)
             
             self.wb_twm.save('_____TWM_'+self.banco+'.xlsx')
-            self.wb_new.save('_____CONSOLIDADO_COMPLETO'+self.banco+'.xlsx')
+            self.wb_new.save(f'./Dashboard/{self.cliente}/_____CONSOLIDADO_COMPLETO'+self.banco+'.xlsx')
             
             print('\nComplete Consolidado...')
             
-            load_arquivos.validar_consumo(self)
-        
+            Validando_arquivos(self.banco, self.cliente, self.inicio)
+            
         def tusd_te(self):
             print('Implementando TUSD TE...')
             try:
@@ -301,179 +315,13 @@ class load_arquivos:
                           
             except:
                 print("Não foi possível implementar a regra de TUSD/TE, é preciso verificar manualmente na planilha.")
-                
-    ####################################################################################
-
-        def num_float(self,num):
-
-            if num == None:
-                num = float(0)
-
-            if type(num) == str:
-                string = '!.#%'
-                char_rep = {k: '' for k in string}
-                num = num.translate(str.maketrans(char_rep))
-                num = float(num.replace(',', '.'))
-            return num
-
-        def validar_consumo(self):
-            # Carregando Excel
-            print('\nValidando consumo\n')
-            wb_consolidado = openpyxl.load_workbook('_____CONSOLIDADO_COMPLETO' + self.banco + '.xlsx')
-            wb_consolidado.save('CONSOLIDADO_Consumo' + self.banco + '.xlsx')
-            ws_consolidado = wb_consolidado['Sheet']
-
-            a = 1
-            b = 0
-
-            # Encontrar índices da coluna
-            while b < a:
-                try:
-                    coluna = ws_consolidado.cell(row=1, column=a).value
-                    if coluna == None:
-                        a -= 1
-                    if coluna == 'Categoria':
-                        cat = a
-                    if coluna == 'Subcategoria':
-                        subcat = a
-                    if coluna == 'Quantidade':
-                        indice_quant = a
-                    if coluna == 'Valor do Serviço':
-                        valor = a
-                except:
-                    pass
-                a += 1
-                b += 1
-            
-            is_data = True
-            count_row_consolidado = 1
-            while is_data:
-                count_row_consolidado += 1
-                data =  ws_consolidado.cell (row = count_row_consolidado, column = 1).value
-                if data == None:
-                    is_data = False
-            count_row_consolidado-=1
-            
-            c = count_row_consolidado
-
-            i = 2
-            valor_servico = 0
-
-            # Filtrando Consumo
-            while i <= c:
-                try:
-                    ws_consolidado.cell (row = i, column=indice_quant).value = load_arquivos.num_float(self, ws_consolidado.cell (row = i, column=indice_quant).value) 
-                    ws_consolidado.cell (row = i, column=valor).value = load_arquivos.num_float(self, ws_consolidado.cell (row = i, column=valor).value)
-                except:
-                    pass
-                
-                categoria = ws_consolidado.cell(row=i, column=cat).value
-                subcategoria = ws_consolidado.cell(row=i, column=subcat).value
-                valor_servico += ws_consolidado.cell(row = i, column=valor).value
-                
-                if categoria == None:
-                    categoria = '-'
-                if subcategoria == None:
-                    subcategoria = '-'
-                   
-                if categoria.lower() == 'consumo' and subcategoria.lower() == 'na ponta':
-                    pass #print(categoria,'-', subcategoria)
-                elif categoria.lower() == 'consumo' and subcategoria.lower() == 'fora ponta':
-                    pass #print(categoria,'-', subcategoria)
-                elif categoria.lower() == 'consumo' and subcategoria.lower() == 'te na ponta':
-                    pass #print(categoria,'-', subcategoria)
-                elif categoria.lower() == 'consumo' and subcategoria.lower() == 'te fora ponta':
-                    pass #print(categoria,'-', subcategoria)
-                elif categoria.lower() == 'consumo água':
-                    pass
-                else:
-                    ws_consolidado.cell(row=i, column=indice_quant).value = None
-                    # print(categoria, ':', subcategoria, '=', None)
-                    
-                i += 1
-            
-            wb_consolidado.save('CONSOLIDADO_Consumo' + self.banco + '.xlsx')
-
-            # Criando tabelas dinâmicas
-            tabela1 = pd.read_excel('CONSOLIDADO_Consumo' + self.banco + '.xlsx')
-            tabela2 = pd.read_excel('./arquivo_twm/arquivo_TWM_' + self.cliente + '.xlsx')
-
-            tabela_consolidado = pd.pivot_table(tabela1, index=['Identificador'], values=['Quantidade'], aggfunc=[np.sum])
-            tabela_twm = pd.pivot_table(tabela2, index=['Identificador'], values=['Consumo da fatura'], aggfunc=[np.sum])
-            tabela_twm_valor = pd.pivot_table(tabela2, index=['Identificador'], values=['Valor'], aggfunc=[np.sum])
-            tabela_fornecedor = pd.pivot_table(tabela2, index=['Identificador'], values=['Fornecedor'], aggfunc=[np.sum])
-   
-            lista_id_consolidado = tabela_consolidado.index.tolist()
-            lista_consumo_consolidado = tabela_consolidado.values.tolist()
-            lista_id_twm = tabela_twm.index.tolist()
-            lista_consumo_twm = tabela_twm.values.tolist()
-            lista_id_fornecedor = tabela_fornecedor.index.tolist()
-            lista_fornecedor = tabela_fornecedor.values.tolist()
-            lista_twm_valor = tabela_twm_valor.values.tolist()
-            
-            for i in lista_id_twm:
-                if i in lista_id_consolidado:
-                    pass
-                else:
-                    lista_id_consolidado.append(i)
-                    lista_consumo_consolidado.append(['Não encontrado'])
-                    
-            valor_twm = 0
-            
-            for i in lista_twm_valor:
-                valor_twm += float(i[0])
-   
-            dict_consolidado = dict(zip(lista_id_consolidado, lista_consumo_consolidado))
-            dict_twm = dict(zip(lista_id_twm, lista_consumo_twm))
-            dict_fornecedor = dict(zip(lista_id_fornecedor, lista_fornecedor))
-            
-            # print(dict_consolidado)
-            # print(dict_twm)
-            
-            count = 0
-            certo = 0
-            check_consumo = []
-
-            # Encontrando consumos errados
-            for key in dict_twm.keys():
-                try:
-                    consumo_twm = round(load_arquivos.num_float(self, dict_twm[key][0]),2)
-                    consumo_consolidado = round(dict_consolidado[key][0], 2)
-                    # print(consumo_twm, ' : ', consumo_consolidado)
-                    
-                    if consumo_twm == consumo_consolidado:
-                        certo += 1
-                        
-                    if consumo_twm != consumo_consolidado:
-                        check_consumo.append(dict_fornecedor[key][0], key, dict_twm[key][0], dict_consolidado[key][0])
-                        # print(f'{key} - Fornecedor: {dict_fornecedor[key]} - TWM: {dict_twm[key]} - Consolidado: {dict_consolidado[key][0]}')
-                        count += 1
-                    else:
-                        pass #print(consumo_twm,' == ', consumo_consolidado)
-                except:
-                    check_consumo.append([dict_fornecedor[key][0], key, dict_twm[key][0], dict_consolidado[key][0]])
-                    # print(f'{key} - Fornecedor: {dict_fornecedor[key]} - Não encontrado')
-                    count += 1
-            
-            check_consumo.sort()
-            print(f'{certo} faturas com consumo correto\n')
-            print('Verificar as seguintes faturas: ')
-            for i in check_consumo:
-                print(f'{i[0]} - {i[1]} - TWM [{i[2]}] - Consolidado [{i[3]}]')
-            
-            print(f'{count} faturas para verificar\n')
-            
-            os.remove('CONSOLIDADO_Consumo' + self.banco + '.xlsx')
-            os.remove('_____TWM_'+self.banco+'.xlsx')
-            
-            print(f'Total consolidado [{valor_servico:.2f}] : Total TWM [{valor_twm:.2f}]')
-
+                            
 lista_banco_twm = ['twm_accorhotels', 'twm_segurpro', 'twm_ambev', 'twm_teste_igor', 'twm_nvivara', 'twm_vivaracsc', 'twm_mrscsc', 'twm_diego', 'twm_prosegurti', 'twm_paguemenoscsc', 'twm_fleury', 'twm_leroymerlin', 'twm_jflrealty', 'twm_kpmg', 'twm_saulo_teste', 'twm_igor_teste', 'twm_cloudkitchens', 'twm_clarke', 'twm_agibankcsc', 'twm_cpflcsc', 'twm_diagroupcsc', 'twm_deodecsc', 'twm_prosegurtaxas', 'twm_adami', 'twm_alinc', 'twm_localizaservicos', 'twm_fortlevcsc', 'twm_wilsonsons', 'twm_petrobras', 'twm_alliedshopping', 'twm_bloominbrands', 'twm_ibmsantander', 'twm_optycsc', 'twm_saintgobaincsc', 'twm_vilavitoria', 'twm_valevitoria', 'twm_gpa', 'twm_agroamazonia', 'twm_piracanjuba', 'twm_prossegurtaxas', 'twm_mrv', 'twm_demonstracao', 'twm_demo_controle', 'twm_testes_cypress', 'twm_demonstracao_homologacao', 'twm_jmalucelliti', 'twm_fca', 'twm_agiplan', 'twm_gafisa', 'twm_whirlpool', 'twm_azul', 'twm_infoglobo', 'twm_prosegurtelecom', 'twm_whirlpool_argentina', 'twm_pucminas', None, 'twm_csc', 'twm_optum', 'twm_kroton', 'comercial_twm', 'twm_cofco', 'twm_banco_modelo_validacao_backup', 'twm_rip', 'twm_comau', 'twm_servopa', 'twm_unipar', 'twm_teste_localidade', 'twm_stonefixa', 'twm_shoulder', 'twm_ale', 'twm_nimbi', 'twm_sascarm2m', None, 'twm_sulamerica', None, 'twm_zelo', 'twm_schneider', 'twm_assai', None, 'twm_brhc', 'twm_dma', 'twm_grupomarquise', 'twm_raiadrogasil', 'twm_energisa', None, 'twm_facilities_fca', 'twm_sherwin_poc', None, None, 'twm_normatel', 'twm_ligasolidaria', 'twm_voxeldigital', None, None, None, 'twm_telemont', 'twm_mrs', 'twm_amil', 'twm_jca', 'twm_preventsenior', 'twm_jmalucelli', 'twm_cnhi', 'twm_precon_engenharia', 'twm_demonstracao_cliente', None, None, 'twm_bayer', 'twm_veritas', 'twm_saintgobain', 'twm_metrorio', 'twm_zema', 'twm_fundep', 'twm_odebrecht', 'twm_carioca', 'twm_cmoc', 'twm_gross', 'twm_centralunimed', 'twm_grupo_sao_francisco', 'twm_hermes_pardini', None, 'twm_homologacao', 'twm_dhl', 'twm_embraco', 'twm_facilities_homologacao_mrv', 'twm_guiando', 'twm_boticario_escrituracao', 'twm_demo_facilities', 'twm_anglo_poc', 'twm_banco_carrefour', 'twm_integrada', 'twm_cotrijal', 'twm_hydro', 'twm_jmsegs', 'twm_duratex', 'twm_hypera', 'twm_klabin', 'twm_acsc', 'twm_leste', 'twm_alianca_homologacao', 'twm_grupo_simec', 'twm_mitsubishi', None, 'twm_ams', None, 'twm_accenture', 'twm_biolab', 'twm_rioquenteresorts', 'twm_verdecampo', None, None, 'twm_dentsuaegis', 'twm_grupo_crm', 'twm_arcosdorados', 'twm_arconic', 'twm_araujo', 'twm_facilities_homologacao_multas', 'twm_facilities_weg', 'twm_facilities_sul_america', 'twm_facilities_demonstracao', 'twm_facilities_agiplan', 'twm_facilities', 'twm_banco_modelo', None, 'twm_itatiaia', 'twm_unimedbh', 'twm_andritz_hydro', 'twm_renova', 'twm_ceabs', 'twm_chevron', 'twm_bonsucesso', 'twm_contactcenter', 'twm_continental', 'twm_csa', 'twm_dufry', 'twm_elogroup', 'twm_embrasil', 'twm_eurofarma', 'twm_expressa', 'twm_fiat', 'twm_fiesc', 'twm_fumec', 'twm_globalcob', 'twm_invepar2', 'twm_irbbrasil', 'twm_lideraviacao', 'twm_guanabara', 'twm_fenosa', None, 'twm_amc', 'twm_carrefour', 'twm_ccp', 'twm_aec', 'twm_tecnisa', 'twm_roveri', 'twm_gruposaga', 'twm_prosegur', 'twm_jsl', 'twm_dasa', 'twm_arcelor', 'twm_vitacon', 'twm_burgerkingcsc', 'twm_dpaschoal', 'twm_boticariocsc', 'twm_jll', 'twm_grpcom', 'twm_bild', 'twm_canopus', 'twm_alliedcsc', 'twm_fcaargentina', 'twm_anima', 'twm_rodobens', 'twm_direcional', 'twm_solar', 'twm_housi', 'twm_ibm', 'twm_hughes', 'twm_localiza', 'twm_localizam2m', 'twm_burgerking', 'twm_alianca', 'twm_boticario', 'twm_oillinois', 'twm_tegma', 'twm_indra', 'twm_sesc', 'twm_mipengenharia', 'twm_plenaalimentos', 'twm_terraverde', 'twm_bbm', 'twm_allied', 'twm_grupo_indigo', 'twm_magnetimarelli', 'twm_opty', 'twm_alvarezandmarsal', 'twm_fiep', 'twm_jallesmachado', 'twm_dpsp', 'twm_uniaoquimica', 'twm_hermespardini', 'twm_hirota', 'twm_linx', 'twm_stellantis', 'twm_intralot', 'twm_facilities_medgrupo', 'twm_facilities_anglo', 'twm_fortlev', 'twm_samarco', 'twm_servier', 'twm_biorad', 'twm_ebd', 'twm_bnpp', 'twm_brasilplural', 'twm_andritz', 'twm_servimed', 'twm_orguel', 'twm_alcoa', 'twm_biosev', 'twm_fmc', 'twm_gavilon', 'twm_gefco', 'twm_grupo_sada', 'twm_stone', 'twm_ache', 'twm_raizen', 'twm_michelin', 'twm_sascar', 'twm_bmg', 'twm_loreal', 'twm_sherwin', 'twm_pesa', 'twm_unimed_fortaleza', 'twm_emporiosaude', 'twm_levorin', 'twm_fiagril', 'twm_norteenergia', 'twm_gruposoma', 'twm_daki', 'twm_ribercred', 'twm_mundotelecom', 'twm_grupopetropolis', 'twm_grupoaldo', 'twm_atacadao', 'twm_aramis', 'twm_yuca', 'twm_riachuelo', 'twm_natura', 'twm_nadirfigueiredo', 'twm_unimed_sp', 'twm_vivara', 'twm_animaalunos', 'twm_mercadolivre', 'twm_parebem', 'twm_ball', 'twm_loft', 'twm_grupobmg', 'twm_grupozelo', 'twm_techint', 'twm_oncoclinicas']
 lista_clientes = ['PUC', 'LOCALIZA', 'RIACHUELO', 'FLEURY', 'DAKI', 'PAGUE_MENOS', 'GRPCOM', 'DPSP']
 lista_central_twm = ['twm_pucminas', 'twm_localiza', 'twm_riachuelo', 'twm_fleury', 'twm_daki', 'twm_paguemenoscsc', 'twm_grpcom', 'twm_dpsp_SEM_ATUALIZADOR']
 
 app = QtWidgets.QApplication([])
-tela = uic.loadUi("./assets/Interface_SAM2.ui")
+tela = uic.loadUi("./assets/Interface_Juntar.ui")
 
 tela.show()
 

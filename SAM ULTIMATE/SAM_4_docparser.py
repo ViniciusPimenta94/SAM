@@ -43,7 +43,7 @@ class Parseamento_docparser():
             id = self.parser.upload_file_by_path(path, fornecedor) #args: file to upload, the name of the parser
             list_id.append(id)
 
-        print('\nAguarda processamento no Parser...\n')
+        print('\nAguarde processamento no Parser...\n')
         
         for _ in tqdm(range(270)):
             sleep(1)

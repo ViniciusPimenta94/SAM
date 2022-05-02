@@ -1,11 +1,13 @@
 import openpyxl
 from SAM_3 import consolidando_arquivos
+from pathlib import Path
 
 class verificação():
-    def __init__(self, arquivo_fornecedor, palavra_chave, cliente):
+    def __init__(self, arquivo_fornecedor, palavra_chave, cliente, inicio):
         self.arquivo_fornecedor = arquivo_fornecedor
         self.palavra_chave = palavra_chave
         self.cliente = cliente
+        self.inicio = inicio
         # print('palavra_chave', palavra_chave)
     
     def criar_new_sheet(self):
@@ -78,6 +80,10 @@ class verificação():
         self.count_col_new_ws = count_col_new_ws      
           
     def tabela_dinâmica_new_sheet(self):
+        myfile = Path(f"./Consolidados/{self.cliente}/Erros {self.cliente}.txt")
+        myfile.touch(exist_ok=True)
+        f = open(f"./Consolidados/{self.cliente}/Erros {self.cliente}.txt", 'a+')
+
         list_identificador = []
         list_valor_total = []
         list_valor_auditoria = []
@@ -246,8 +252,9 @@ class verificação():
             else:
                 print('errado', list_identificador[i])
                 print('layout errado = ', list_layout[i])
+                f.writelines(f'\nerrado {list_identificador[i]}')
+                f.writelines(f'\nlayout errado = {list_layout[i]}')
                 count_id_errado += 1
-                
         try:
             total_id = len(list_identificador)
             self.razao_errados = (1-(count_id_errado/total_id))*100
@@ -256,8 +263,13 @@ class verificação():
         
         self.soma_faturados_data = float(sum(list_valor_auditoria))
         self.soma_total_data = float(sum(list_valor_total))
-        
+        f.close()
+                
     def comparar_valores(self):
+        myfile = Path(f"./Consolidados/{self.cliente}/Erros {self.cliente}.txt")
+        myfile.touch(exist_ok=True)
+        f = open(f"./Consolidados/{self.cliente}/Erros {self.cliente}.txt", 'a+')
+
         i=2   
         while i<=self.count_row_new_ws-1:
             c = (self.ws_new_fornecedor.cell(row = i, column = 1)).value                                      
@@ -273,12 +285,15 @@ class verificação():
                 print()
                 print('-'*50)
                 print('\nSoma_total', self.soma_total_data)
+                # f.write(f'\n\nSoma_total {self.soma_total_data}')
                 print('Soma_total_faturado', self.soma_faturados_data)
+                # f.write(f'\nSoma_total_faturado {self.soma_faturados_data}\n')
                 print()
                 print('% de faturas certas: 100%')
+                # f.write('\n% de faturas certas: 100%')
                 print(self.analise)
-                
-                chama_SAM3 = consolidando_arquivos (self.wb_fornecedor, self.cliente, self.palavra_chave)
+                                
+                chama_SAM3 = consolidando_arquivos (self.wb_fornecedor, self.cliente, self.palavra_chave, self.inicio)
                 chama_SAM3.ler_arquivo_consolidado()
                 chama_SAM3.ler_arquivo_linkado()
                 chama_SAM3.load_wb_Consolidado()
@@ -292,13 +307,17 @@ class verificação():
         else:
                 self.analise = "\n Precisa verificar!!!"
                 print(self.analise)
-                print('Soma_total_data', self.soma_total_data)
-                print('Soma_total_faturado', self.soma_faturados_data)
+                print('Soma_total_data:', self.soma_total_data)
+                f.write(f'\n\nSoma_total: {self.soma_total_data}')
+                print('Soma_total_faturado:', self.soma_faturados_data)
+                f.write(f'\nSoma_total_faturado: {self.soma_faturados_data}\n')
                 print()
                 print('% de faturas certas:', f'{self.razao_errados:.2f}', '%')
+                f.write(f'\n% de faturas certas: {self.razao_errados:.2f} %\n')
+                f.write('-'*75)
                 # print('NO Save file fornecedor!!')
-                
-                chama_SAM3 = consolidando_arquivos (self.wb_fornecedor, self.cliente, self.palavra_chave)
+                                
+                chama_SAM3 = consolidando_arquivos (self.wb_fornecedor, self.cliente, self.palavra_chave, self.inicio)
                 chama_SAM3.ler_arquivo_consolidado()
                 chama_SAM3.ler_arquivo_linkado()
                 chama_SAM3.load_wb_Consolidado()
@@ -308,4 +327,6 @@ class verificação():
                 chama_SAM3.copia_dados()
                 chama_SAM3.exportar_twm_categoria_localidade()
                 # self.wb_fornecedor.save(self.arquivo_fornecedor)
-                # print('Save file fornecedor!!')   
+                # print('Save file fornecedor!!')
+        f.write('\n')
+        f.close()
